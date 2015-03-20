@@ -59,9 +59,10 @@
 
 
 
-
-
+    </div> <!-- .container -->
+</div> <!-- #viewport -->
 
 <?php wp_footer(); ?>
+
 </body>
 </html>
