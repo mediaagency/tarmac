@@ -1,7 +1,7 @@
 <?php
 add_action('init', 'ma_tarmac_product_feauters_custom');
-function ma_tarmac_product_feauters() {
-	registrer_post_type( 'ma_tarmac_product_feauters', array( 
+function ma_tarmac_product_feauters_custom() {
+	register_post_type( 'ma_tarmac_product_f', array( 
 		'label' 			=> __('Product Feauters', 'ma_ls'),
 		'singular_label'	=> __('Product Feauters', 'ma_ls'),
 		'public'			=> true,
@@ -16,5 +16,6 @@ function ma_tarmac_product_feauters() {
 		'supports'			=> array('title', 'editor')
 
 	) );
+	flush_rewrite_rules();
 }
 ?>
