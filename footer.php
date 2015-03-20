@@ -58,9 +58,16 @@
 </div> <!-- #footer-outer -->
 
 
-
+        </div> <!-- #main -->
     </div> <!-- .container -->
 </div> <!-- #viewport -->
+
+
+<script type="text/javascript">
+    
+    $(document).animateScroll();  
+
+</script>
 
 <?php wp_footer(); ?>
 

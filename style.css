@@ -31,7 +31,16 @@ body {
   background-repeat: no-repeat;
   background-position: center top;
   background-size: cover;
-  background-image: url("img/background-image.jpg"); }
+  background-image: url("dev-files/goodwp.com_30328.jpg"); }
+
+#top-spacer {
+  float: left;
+  width: 100%;
+  height: 60px; }
+
+#main {
+  background-color: #ffffff;
+  float: left; }
 
 p {
   margin-bottom: 1.3em;
@@ -448,15 +457,21 @@ img.size-large,
 .reprint-section-header {
   float: left;
   width: 100%;
-  padding-bottom: 60px; }
+  padding: 0px 15px 60px 0px; }
 
-.section-heading {
+.reprint-section-heading {
+  float: left;
+  width: 100%;
   text-align: center;
+  font-family: 'amaticbold';
   font-size: 2.441em;
-  font-weight: 500; }
+  letter-spacing: 0.04em; }
 
-.section-description {
-  text-align: center; }
+.reprint-section-description {
+  float: left;
+  width: 100%;
+  text-align: center;
+  font-family: 'robotolight'; }
 
 .reprint-icon-list {
   margin: 0px;
