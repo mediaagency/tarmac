@@ -18,13 +18,15 @@ function ma_add_resources_front() {
 
 	/* Javascript
 	************/
+    //Bottstrap javascript
+    new wp_enqueue_assets( 'ma_theme_bootstrap_JS', 'js/lib/bootstrap.min.js', 'theme', '', 'script' );
 
 	/* CSS
 	************/
-
+    //bootstrap CSS
+    new wp_enqueue_assets( 'ma_theme_bootstrap_css', 'css/bootstrap.css', 'theme', '', 'style' );
     //Load all fonts
     new wp_enqueue_assets( 'ma_theme_fonts_css', 'fonts/fonts.css', 'theme', '', 'style' );
-
 	//main CSS file 
 	new wp_enqueue_assets( 'ma_main_theme_css', 'style.css', 'theme', '', 'style' );
 
