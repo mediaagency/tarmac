@@ -15,14 +15,14 @@ require_once( 'includes/navigation/wp_bootstrap_navwalker.php' );
 //front-end
 function ma_add_resources_front() {
 
-/* Javascript
-************/
+	/* Javascript
+	************/
 
-/* CSS
-************/
+	/* CSS
+	************/
 
-//main CSS file 
-new wp_enqueue_assets( 'ma_main_theme_css', 'style.css', 'theme', '', 'style' );
+	//main CSS file 
+	new wp_enqueue_assets( 'ma_main_theme_css', 'style.css', 'theme', '', 'style' );
 
 }
 add_action( 'wp_enqueue_scripts', 'ma_add_resources_front' );
@@ -157,4 +157,7 @@ add_action( 'widgets_init', 'ma_add_sidebar_widget' );
 *
 ******************/
 
+
+//Post product
+//require_once( 'includes/custompost/post_product.class.php' );
 ?>
