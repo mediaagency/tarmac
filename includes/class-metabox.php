@@ -296,14 +296,25 @@ class ma_create_metabox  {
           $query_posts = new WP_Query('post');
           // The Loop
           if ( $query_posts->have_posts() ) {
-            echo '<ul>';
+            ?>
+            <p>
+              <label><b><?php echo $title?></b></label>
+              <select name="<?php echo $input_name;?>" class="widefat">
+            <?php
             while ( $query_posts->have_posts() ) {
                 $query_posts->the_post();
                 if( get_post_meta($post->ID, 'ma_tarmac_post_type', true) == 'on' ){
-                  echo '<li>' . get_the_title() . '</li>';  
+                  if( $post->ID == get_post_meta($post->ID, $input_name, true) ){
+                    echo '<option value="'.$post->ID.'" selected>'.get_the_title().'</option>';
+                  }else {
+                    echo '<option value="'.$post->ID.'">'.get_the_title().'</option>';
+                  }
                 }              
             }
-            echo '</ul>';
+            ?>
+            </select>
+            </p>
+            <?php
           } else {
             // no posts found
           }
