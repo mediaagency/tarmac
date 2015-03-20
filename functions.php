@@ -1,5 +1,4 @@
 <?php
-require_once( 'includes/class-metabox.php' );
 require_once( 'includes/wp_enqueue_assets.class.php' );
 require_once( 'includes/navigation/wp_bootstrap_navwalker.php' );
 
