@@ -21,6 +21,9 @@ function ma_add_resources_front() {
 	/* CSS
 	************/
 
+    //Load all fonts
+    new wp_enqueue_assets( 'ma_theme_fonts_css', 'fonts/fonts.css', 'theme', '', 'style' );
+
 	//main CSS file 
 	new wp_enqueue_assets( 'ma_main_theme_css', 'style.css', 'theme', '', 'style' );
 
