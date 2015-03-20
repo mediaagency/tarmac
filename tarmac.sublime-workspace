@@ -179,7 +179,23 @@
 			"file": "front-page.php",
 			"settings":
 			{
-				"buffer_size": 5179,
+				"buffer_size": 111,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "_style_general.scss",
+			"settings":
+			{
+				"buffer_size": 21965,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "style.scss",
+			"settings":
+			{
+				"buffer_size": 1150,
 				"line_ending": "Unix"
 			}
 		}
@@ -274,6 +290,10 @@
 		"side_bar_visible": false,
 		"status_bar_visible": false
 	},
+	"expanded_folders":
+	[
+		"/Users/MediaAgency/public_html/besteffekt/wp-content/themes/tarmac"
+	],
 	"file_history":
 	[
 		"/Users/MediaAgency/public_html/besteffekt/wp-content/themes/tarmac/js/animate-scroll-master/animate-scroll.js",
@@ -330,7 +350,7 @@
 	],
 	"find":
 	{
-		"height": 23.0
+		"height": 35.0
 	},
 	"find_in_files":
 	{
@@ -344,6 +364,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"url('",
 			"150",
 			"150%",
 			"100",
@@ -397,6 +418,7 @@
 		"regex": false,
 		"replace_history":
 		[
+			"url('fonts/",
 			"120",
 			"100%",
 			"150",
@@ -428,19 +450,20 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 5179,
+						"buffer_size": 111,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								111,
+								111
 							]
 						],
 						"settings":
 						{
+							"auto_complete": false,
 							"auto_complete_triggers":
 							[
 								{
@@ -460,6 +483,86 @@
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "_style_general.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 21965,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								718,
+								718
+							]
+						],
+						"settings":
+						{
+							"auto_complete_triggers":
+							[
+								{
+									"characters": "<",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								}
+							],
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "style.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1150,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								438,
+								438
+							]
+						],
+						"settings":
+						{
+							"auto_complete_triggers":
+							[
+								{
+									"characters": "<",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								}
+							],
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
 					"type": "text"
 				}
 			]
@@ -507,7 +610,7 @@
 	"project": "tarmac.sublime-project",
 	"replace":
 	{
-		"height": 42.0
+		"height": 64.0
 	},
 	"save_all_on_build": true,
 	"select_file":
