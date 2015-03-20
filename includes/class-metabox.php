@@ -291,6 +291,26 @@ class ma_create_metabox  {
           <?php
         }
 
+        if($input == "posts") {
+          // The Query
+          $query_posts = new WP_Query('post');
+          // The Loop
+          if ( $query_posts->have_posts() ) {
+            echo '<ul>';
+            while ( $query_posts->have_posts() ) {
+                $query_posts->the_post();
+                if( get_post_meta($post->ID, 'ma_tarmac_post_type', true) == 'on' ){
+                  echo '<li>' . get_the_title() . '</li>';  
+                }              
+            }
+            echo '</ul>';
+          } else {
+            // no posts found
+          }
+          /* Restore original Post Data */
+          wp_reset_postdata();
+        }
+
 
 
 			}

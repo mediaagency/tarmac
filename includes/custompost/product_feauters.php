@@ -18,4 +18,32 @@ function ma_tarmac_product_feauters_custom() {
 	) );
 	flush_rewrite_rules();
 }
+
+//metabox content
+$meta_content = array (
+	'Link to product' => 'ma_tarmac_link_post',
+);
+
+$meta_type = array ( 
+	'Link to product' => 'posts'
+);
+
+$meta_type_select = array (
+
+);
+
+new ma_create_metabox(
+	'ma_tarmac_product_f',
+	'ma_tarmac_post_link_slug',
+	'Parrent product',
+	'ma_ls',
+	'normal',
+	'low',
+	'ma_tarmac_link_nonce_slug',
+	'ma_tarmac_link_nonce_name',
+	$meta_content,
+	$meta_type,
+	$meta_type_select
+);
+
 ?>
