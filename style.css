@@ -17,18 +17,31 @@ html {
   font-size: 1em; }
 
 body {
-  font-family: 'amaticbold';
   font-weight: 400;
   line-height: 1.45;
   font-size: 15px; }
 
 p {
   margin-bottom: 1.3em;
-  font-weight: 300;
-  font-family: 'amatic_regular'; }
+  font-weight: 300; }
+
+#font_1 {
+  font-family: 'robotoregular';
+  margin-bottom: 15px; }
+
+#font_2 {
+  font-family: 'robotolight';
+  margin-bottom: 15px; }
+
+#font_3 {
+  font-family: 'amaticbold';
+  margin-bottom: 15px; }
+
+#font_4 {
+  font-family: 'amaticregular';
+  margin-bottom: 15px; }
 
 h1, h2, h3, h4 {
-  font-family: 'amatic_bold';
   margin: 1.414em 0 0.5em;
   font-weight: 500;
   line-height: 1.2; }

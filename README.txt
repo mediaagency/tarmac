@@ -28,27 +28,21 @@ Author http://getbootstrap.com/
 License: Licensed under MIT
 GIT URI: https://github.com/twbs/bootstrap
 
+
 FONTS
 ---------
 
-AMATIC BOLD
+AMATIC SC REGULAR & AMATIC SC BOLD
 ----------------------------------------------------------------------------
-Author: Jason Lusk
-Author URI: http://JasonLusk.com
-License: MIT
-GIT URI: https://github.com/mpalpha/animate-scroll/
+Designed by: Vernon Adams
+License: http://www.fontsquirrel.com/faq
+URI: http://www.fontsquirrel.com/fonts/amatic
 
+
+ROBOTO LIGHT & ROBOTO REGULAR
 ----------------------------------------------------------------------------
-GSAP (GREENSOCK ANIMATION PLATFORM)
-TWEENMAX.JS 1.10.2+, TIMELINEMAX.JS V1.10.2+, EASEPACK.JS 
-----------------------------------------------------------------------------
-Author: Greensock
-Author URI: http://greensock.com/
-License: GreenSock’s standard “No Charge” license.
-GIT URI: https://github.com/greensock/GreenSock-JS/
+Designed by: Christian Robertson
+License: http://www.apache.org/licenses/LICENSE-2.0.html
+URI: www.google.com/fonts/specimen/Roboto
 
 
-
-Amatic SC Regular | 381 Glyphs
-
-Amatic SC Bold | 0 Glyphs
