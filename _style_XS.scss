@@ -1,0 +1,166 @@
+// _style_XS.scss
+
+@media (max-width: 767px) {
+
+body {
+  font-size: 14px;
+}
+
+#main {
+
+}
+
+.push-down-for-header {
+  float: left;
+  width: 100%;
+  height: 77px;
+}
+
+.mb-s {
+  margin-bottom: 15px;
+}
+
+.mb-m {
+  margin-bottom: 25px;
+}
+
+.mb-xl {
+  margin-bottom: 50px;
+}
+
+
+
+
+/**
+ * Header 
+ * ----------------------------------------------------------------------------
+ */
+
+
+#logo {
+	
+	img {
+	float: left;
+	display: block;
+	width: auto;
+	height: 44px;
+  margin: 6px 0px 6px 0px;
+	}
+
+}
+
+#logo {
+
+  h1 {
+    font-size: 1.44em;
+    line-height: 1em;
+    padding: 18px 10px 15px 10px;
+    margin: 0px;
+    }
+}
+
+
+.top-nav-collapse {
+
+  #logo {
+  
+    img {
+    float: left;
+    display: block;
+    width: auto;
+    height: 30px;
+    margin: 10px 0px 10px 0px;
+    }
+  
+    h1 {
+      padding: 14px 10px 5px 10px;
+    }
+
+  }
+
+  .navbar-toggle  {
+    padding: 5px 0px 5px 10px;
+  }
+
+}
+
+/**
+ * Header - Call to Action 
+ * ----------------------------------------------------------------------------
+ */
+
+
+.split-right {
+
+  .reprint-section-header {
+    float: left;
+    width: 100%;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-bottom: 30px;
+  }
+
+  .reprint-section-content {
+    float: left;
+    width: 100%;
+  }
+
+}
+
+.split-left {
+
+  .reprint-section-header {
+    float: left;
+    width: 100%;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-bottom: 30px;
+  }
+
+  .reprint-section-content {
+    float: left;
+    width: 100%;
+  }
+
+}
+
+.vertical-posts {
+
+  .reprint-visual {
+    float: left;
+    width: 100%;
+    padding: 0px;
+
+  }
+
+  .reprint-content {
+    float: left;
+    width: 100%;
+    padding-left: 0px;
+    padding-right: 0px;  
+  }
+
+}
+/**
+ * Slider 
+ * ----------------------------------------------------------------------------
+ */
+
+.slider-content {
+
+}
+
+.bxslider .slider-content {
+  margin-top: 17%;
+}
+  
+.bxslider .slider-content .slider-heading {
+    font-size: 1.4em;
+}
+
+.bxslider .slider-content .slider-text {
+  font-size: 0.9em;
+}
+
+
+} // End @media 

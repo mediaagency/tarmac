@@ -1,0 +1,104 @@
+// _style_SM.scss
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+body {
+  font-size: 14px;
+}
+
+#main {
+
+}
+
+.push-down-for-header {
+  float: left;
+  width: 100%;
+  height: 77px;
+}
+
+.mb-s {
+  margin-bottom: 20px;
+}
+
+.mb-m {
+  margin-bottom: 30px;
+}
+
+.mb-xl {
+ margin-bottom: 30px;
+}
+
+
+
+/**
+ * Header 
+ * ----------------------------------------------------------------------------
+ */
+
+#menu-max-width {
+   width: 750px;
+   margin: auto; 
+}
+
+#logo {
+	
+	img {
+	float: left;
+	display: block;
+	width: auto;
+	height: 44px;
+  margin: 6px 0px 6px 0px;
+	}
+
+}
+
+#logo {
+
+  h1 {
+    font-size: 1.44em;
+    line-height: 1em;
+    padding: 18px 10px 15px 10px;
+    margin: 0px;
+    }
+}
+
+.top-nav-collapse {
+
+  #logo {
+  
+    img {
+    float: left;
+    display: block;
+    width: auto;
+    height: 30px;
+    margin: 10px 0px 10px 0px;
+    }
+
+    h1 {
+      padding: 14px 10px 13px 10px;
+    }
+
+}
+
+  .navbar-toggle  {
+    padding: 5px 0px 5px 10px;
+  }
+
+
+
+}
+
+/**
+ * Header - Call to Action 
+ * ----------------------------------------------------------------------------
+ */
+
+
+
+
+
+
+
+} // End @media 
+
+

@@ -1,0 +1,43 @@
+/*
+Theme Name: Tarmac
+Theme URI: http://www.newvalley.co
+Author: NewValley
+Author URI: http://www.newvalley.co
+Description: Landing page for few products
+Version: 1.0
+License: Copyright NewValley
+License URI: http://www.newvalley.co
+Tags: two-columns, left-sidebar, responsive-layout, custom-background, custom-colors, custom-header, custom-menu, editor-style, featured-images, threaded-comments, translation-ready
+Text Domain: ma_ls
+*///
+
+
+/****************************************
+        General styles
+/****************************************/
+
+@import 'style_general.scss'; 
+
+/****************************************
+        LG -  Large devices 
+/****************************************/
+
+@import 'style_LG.scss'; 
+
+/****************************************
+        MD - Medium devices
+/****************************************/
+
+@import 'style_MD.scss'; 
+
+/****************************************
+        SM - Small devices 
+/****************************************/
+
+@import 'style_SM.scss'; 
+
+/****************************************
+        XS - Extra small devices
+/****************************************/
+
+@import 'style_XS.scss'; 

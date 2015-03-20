@@ -1,0 +1,562 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"font",
+				"font-weight"
+			],
+			[
+				"lett",
+				"letter-spacing"
+			],
+			[
+				"u",
+				"uppercase"
+			],
+			[
+				"border-t",
+				"border-top-width"
+			],
+			[
+				"border-b",
+				"border-bottom-width"
+			],
+			[
+				"rel",
+				"relative"
+			],
+			[
+				"pad",
+				"padding_bottom"
+			],
+			[
+				"bac",
+				"background-color"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"fff",
+				"ffffff"
+			],
+			[
+				"border",
+				"border"
+			],
+			[
+				"he",
+				"height"
+			],
+			[
+				"bo",
+				"bottom"
+			],
+			[
+				"over",
+				"overflow"
+			],
+			[
+				"fix",
+				"fixed"
+			],
+			[
+				"op",
+				"opacity"
+			],
+			[
+				"no",
+				"none"
+			],
+			[
+				"border-r",
+				"border-radius"
+			],
+			[
+				"pad-",
+				"padding-bottom"
+			],
+			[
+				"but",
+				"button"
+			],
+			[
+				"mar",
+				"margin"
+			],
+			[
+				"line",
+				"line-height"
+			],
+			[
+				"BACK",
+				"background-color"
+			],
+			[
+				"margin",
+				"margin-bottom"
+			],
+			[
+				"in",
+				"inline"
+			],
+			[
+				"pos",
+				"position"
+			],
+			[
+				"col",
+				"color"
+			],
+			[
+				"blo",
+				"block"
+			],
+			[
+				"padd",
+				"padding-bottom"
+			],
+			[
+				"padi",
+				"padding-bottom"
+			],
+			[
+				"abo",
+				"absolute"
+			],
+			[
+				"z",
+				"z-index"
+			],
+			[
+				"ccc",
+				"cccccc"
+			],
+			[
+				"font-s",
+				"font-size"
+			],
+			[
+				"max",
+				"max-width"
+			],
+			[
+				"max-",
+				"max-height"
+			],
+			[
+				"tex",
+				"text-align"
+			],
+			[
+				"font-",
+				"font-weight"
+			],
+			[
+				"min-",
+				"min-height"
+			],
+			[
+				"co",
+				"color"
+			],
+			[
+				"fl",
+				"float"
+			],
+			[
+				"wid",
+				"width"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "front-page.php",
+			"settings":
+			{
+				"buffer_size": 5179,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 127.0,
+		"selected_items":
+		[
+			[
+				"javas",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"java",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"syntax css",
+				"Set Syntax: CSS"
+			],
+			[
+				"css",
+				"CSS Completions: Delete Cache"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"html",
+				"Set Syntax: HTML"
+			],
+			[
+				"sass",
+				"Set Syntax: Sass"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"php",
+				"Set Syntax: PHP"
+			],
+			[
+				"ftop",
+				"FTPSync: Setup FTPSync in this folder"
+			],
+			[
+				"ftp",
+				"FTPSync: Browse"
+			],
+			[
+				"php	",
+				"Set Syntax: PHP"
+			],
+			[
+				"sideb",
+				"View: Toggle Open Files in Side Bar"
+			],
+			[
+				"sideba",
+				"View: Toggle Open Files in Side Bar"
+			],
+			[
+				"sid",
+				"View: Toggle Side Bar"
+			],
+			[
+				"sidebar",
+				"View: Toggle Side Bar"
+			]
+		],
+		"width": 467.0
+	},
+	"console":
+	{
+		"height": 375.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/MediaAgency/public_html/besteffekt/wp-content/themes/tarmac/js/animate-scroll-master/animate-scroll.js",
+		"/Users/MediaAgency/public_html/dyr/animals.js",
+		"/Users/MediaAgency/Downloads/README",
+		"/Users/MediaAgency/Dropbox (MediaAgency)/Interne filer/Base/rapport for søkeresultat/rapport_for_sokeresultat.js",
+		"/Users/MediaAgency/Downloads/contentscript.js",
+		"/Users/MediaAgency/Downloads/manifest.json",
+		"/Users/MediaAgency/public_html/page-one/wp-content/themes/alfatrykk/css/bootstrap.css",
+		"/Users/MediaAgency/Library/Caches/Cleanup At Startup/Transmit/BDDB0617-C6EF-41FC-A2EB-1BDD10F8C0C5/functions.php",
+		"/Users/MediaAgency/Downloads/CreativeButtons/css/component.css",
+		"/Users/MediaAgency/public_html/page-one/wp-content/themes/alfatrykk/style.scss",
+		"/Users/MediaAgency/public_html/page-one/wp-content/themes/alfatrykk/_style_general.scss",
+		"/Users/MediaAgency/public_html/page-one/wp-content/themes/alfatrykk/functions.php",
+		"/Users/MediaAgency/public_html/page-one/wp-content/themes/alfatrykk/includes/class-reprintv2.php",
+		"/Users/MediaAgency/public_html/page-one/wp-content/themes/alfatrykk/category.php",
+		"/Users/MediaAgency/public_html/page-one/wp-content/themes/alfatrykk/content-slider-markup.php",
+		"/Users/MediaAgency/public_html/page-one/wp-content/themes/alfatrykk/page.php",
+		"/Users/MediaAgency/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/MediaAgency/public_html/page-one/wp-content/themes/alfatrykk/content-four-circles.php",
+		"/Users/MediaAgency/public_html/page-one/wp-content/themes/alfatrykk/page - forside.php",
+		"/Users/MediaAgency/public_html/page-one/wp-content/themes/alfatrykk/js/jquery.bxslider.js",
+		"/Users/MediaAgency/public_html/page-one/wp-content/themes/alfatrykk/css/bxslider.css",
+		"/Users/MediaAgency/public_html/page-one/wp-content/themes/alfatrykk/header.php",
+		"/Users/MediaAgency/public_html/fastcredit/wp-content/themes/FastCredit/css/font-awesome/less/bordered-pulled.less",
+		"/Users/MediaAgency/public_html/fastcredit/wp-content/themes/FastCredit/css/bootstrap.css",
+		"/Users/MediaAgency/public_html/fastcredit/wp-content/themes/FastCredit/forside.php",
+		"/Users/MediaAgency/public_html/fastcredit/wp-content/themes/FastCredit/style.scss",
+		"/Users/MediaAgency/public_html/fastcredit/wp-content/themes/FastCredit/header.php",
+		"/Users/MediaAgency/public_html/fastcredit/wp-content/themes/FastCredit/index.php",
+		"/Users/MediaAgency/public_html/fastcredit/wp-content/themes/FastCredit/page.php",
+		"/Users/MediaAgency/public_html/fastcredit/wp-content/themes/FastCredit/page - items markup.php",
+		"/Users/MediaAgency/public_html/fastcredit/wp-content/themes/FastCredit/css/font-awesome/css/font-awesome.css",
+		"/Users/MediaAgency/public_html/fastcredit/wp-content/themes/FastCredit/css/font-awesome/less/core.less",
+		"/Users/MediaAgency/public_html/fastcredit/wp-content/themes/FastCredit/style_SM.scss",
+		"/Users/MediaAgency/public_html/fastcredit/wp-content/themes/FastCredit/style.css",
+		"/Users/MediaAgency/public_html/fastcredit/wp-content/themes/FastCredit/css/font-awesome/less/spinning.less",
+		"/Users/MediaAgency/public_html/dandelion/newsletter_check.php",
+		"/Users/MediaAgency/public_html/dandelion/newsletter_form.php",
+		"/Users/MediaAgency/public_html/dandelion/sidebar",
+		"/Users/MediaAgency/public_html/cookie/header.php",
+		"/Users/MediaAgency/public_html/dandelion/header.php",
+		"/Users/MediaAgency/public_html/cookie/birthday.php",
+		"/Users/MediaAgency/Downloads/index.php",
+		"/Users/MediaAgency/Dropbox (MediaAgency)/Interne prosjekter/tanumsapotek/index.php",
+		"/Users/MediaAgency/public_html/cookie/newsletter_check.php",
+		"/Users/MediaAgency/public_html/cookie/newsletter_form.php",
+		"/Users/MediaAgency/public_html/Countdown/index.php",
+		"/Users/MediaAgency/public_html/responsive-preview/preview.php",
+		"/Users/MediaAgency/web/css/style.css",
+		"/Users/MediaAgency/web/index.html",
+		"/Users/MediaAgency/public_html/responsive-preview/preview.html",
+		"/Users/MediaAgency/Library/Application Support/Sublime Text 3/Packages/Package Control/Package Control.sublime-settings"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"150",
+			"150%",
+			"100",
+			"1",
+			"11",
+			"slider",
+			".bx-wrapper",
+			".bxslider",
+			"navbar",
+			"ul",
+			"trans",
+			"hidden",
+			"menu-hovedmeny",
+			"hidden",
+			"focus",
+			"fa",
+			"repl",
+			"9999",
+			"nav",
+			"thumbn",
+			"section_heading",
+			"prev",
+			"images/",
+			".bx-controls-direction",
+			".bx-controls-direction ",
+			"icons",
+			".reprint-section-header",
+			"reprint-section-header",
+			"thumbna",
+			"img",
+			"list",
+			"item-container",
+			"logo",
+			"<div class=\"col-sm-6",
+			"col-sm-6 item-singel-title",
+			"bg",
+			"button",
+			"container",
+			"item-singe-but",
+			"item-singe",
+			"col-sm-5",
+			"<div class=\"col-sm-5",
+			"item-singel-container-bg col-sm-6",
+			"<div class=\"col-sm-5",
+			"<div class=\"col-sm-6",
+			"item-singel-container-bg col-sm-6"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"120",
+			"100%",
+			"150",
+			"../img/",
+			"<div class=\"col-xs-6",
+			"col-xs-6 item-singel-title",
+			"col-sm-6",
+			"<div class=\"col-sm-6",
+			"item-singel-container-bg col-sm-5",
+			"<div class=\"col-sm-6",
+			"<div class=\"col-sm-5",
+			"item-singel-container-bg col-sm-6 mb-s"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "front-page.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5179,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"auto_complete_triggers":
+							[
+								{
+									"characters": "<",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								}
+							],
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.CSS Extended Completions":
+	{
+		"height": 0.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "tarmac.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"in",
+				"~/web/index.html"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"lekseh",
+				"~/public_html/testserver/wp-content/themes/leksehjelp/roy-leksehjelp.sublime-workspace"
+			],
+			[
+				"",
+				"~/public_html/fastcredit/wp-content/themes/FastCredit/fastcredit.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 346.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
