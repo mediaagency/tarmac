@@ -44,7 +44,7 @@
     */
 
     //picking up costume styles 
-    require_once('includes/ma_costume_styles.php');
+    //require_once('includes/ma_costume_styles.php');
 
 ?>
 
