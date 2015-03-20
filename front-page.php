@@ -9,17 +9,12 @@
 
 
 <?php
-
-<<<<<<< Updated upstream
 echo "<h1>Test</h1>";
-=======
 
 echo "<h1>Test</h1> ";
 
 echo "<p>Test asdas d</p>";
 
 ?>
->>>>>>> Stashed changes
-
 </body>
 </html>
