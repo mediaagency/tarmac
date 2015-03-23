@@ -48,18 +48,6 @@
 
 ?>
 
-
-<!-- Can be removed when Ole fix the script enqueue 
-<script src="<?php echo get_template_directory_uri(); ?>/js/jquery/jquery-2.1.3.min.js" type="text/javascript"></script>
-<script src="<?php echo get_template_directory_uri(); ?>/js/bootstrap/bootstrap.min.js" type="text/javascript"></script>
-<script src="<?php echo get_template_directory_uri(); ?>/js/greensock/TweenMax.min.js" type="text/javascript"></script>
-<script src="<?php echo get_template_directory_uri(); ?>/js/greensock/EasePack.min.js" type="text/javascript"></script>
-<script src="<?php echo get_template_directory_uri(); ?>/js/animate-scroll/animate-scroll.js" type="text/javascript"></script>
---> 
-
-
-
-
 </head>   
 
 <!-- Push down the menu, when user is logged inn -->    
