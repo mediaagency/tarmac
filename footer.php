@@ -65,7 +65,7 @@
 
 <script type="text/javascript">
     
-    $(document).animateScroll();  
+    jQuery(document).animateScroll();  
 
 </script>
 

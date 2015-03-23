@@ -20,16 +20,16 @@ function ma_add_resources_front() {
 	************/
 
     //Bottstrap javascript
-    new wp_enqueue_assets( 'ma_theme_bootstrap_JS', 'js/bootstrap/bootstrap.min.js', 'theme', '', 'script' );
+    new wp_enqueue_assets( 'ma_theme_bootstrap_JS', 'js/bootstrap/bootstrap.min.js', 'theme', 'jquery', 'script' );
 
     //Animation - Greensock TweenMax
-    new wp_enqueue_assets( 'ma_theme_tween_max', 'js/greensock/TweenMax.min.js', 'theme', '', 'script' );
+    new wp_enqueue_assets( 'ma_theme_tween_max', 'js/greensock/TweenMax.min.js', 'theme', 'jquery', 'script' );
 
     //Animation - Greensock EasePack
-    new wp_enqueue_assets( 'ma_theme_ease_pack', 'js/greensock/EasePack.min.js', 'theme', '', 'script' );
+    new wp_enqueue_assets( 'ma_theme_ease_pack', 'js/greensock/EasePack.min.js', 'theme', 'jquery', 'script' );
 
     //Animation - Animate Scroll
-    new wp_enqueue_assets( 'ma_theme_animate_scroll', 'js/animate-scroll/animate-scroll.js', 'theme', '', 'script' );
+    new wp_enqueue_assets( 'ma_theme_animate_scroll', 'js/animate-scroll/animate-scroll.js', 'theme', 'jquery', 'script' );
 
 
 	/* CSS
