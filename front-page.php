@@ -3,10 +3,6 @@ get_header();
 
 ?>
 
-<?php
-
-?>
-
 <div class="reprint-section">
 	
 	<div class="reprint-section-header">
@@ -19,6 +15,19 @@ get_header();
 
 </div>
 
+
+<!--Product section-->
+<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
+	<?php if( get_post_meta( $post->ID, 'ma_tarmac_post_type', true ) == 'on' ):?>
+		<h1>Get product posts.</h1>
+		<?php the_title()?>
+		<?php the_content()?>
+	<?php endif;?> 
+<?php endwhile; else : ?>
+	<p><?php _e( 'Sorry, no posts matched your criteria.', 'ma_ls' ); ?></p>
+<?php endif; ?>
+
+<!--END Product section-->
 
 <p data-animate-scroll='{  
       "scaleX": "1.5",  

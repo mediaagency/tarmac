@@ -256,7 +256,7 @@ class ma_create_metabox  {
           return '<p>
           <lable><b>'.$title.'</b></lable></br>
           <input type="text" class="'.$input_name.'" name="'.$input_name.'" value="'.get_post_meta($post->ID, $input_name, true).'" data-default-color="#fff "/>
-          </p>';
+          </p>';  
         }
 
         if( $input == "checkbox" ) {
