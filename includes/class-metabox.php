@@ -291,8 +291,11 @@ class ma_create_metabox  {
           <?php
         }
 
+
+        //Product post page, shows result if checked, only for TARMAC. 
         if($input == "posts") {
           // The Query
+          $CPID = $post->ID;
           $query_posts = new WP_Query('post');
           // The Loop
           if ( $query_posts->have_posts() ) {
@@ -304,10 +307,10 @@ class ma_create_metabox  {
             while ( $query_posts->have_posts() ) {
                 $query_posts->the_post();
                 if( get_post_meta($post->ID, 'ma_tarmac_post_type', true) == 'on' ){
-                  if( $post->ID == get_post_meta($post->ID, $input_name, true) ){
+                  if( $post->ID == get_post_meta($CPID, $input_name, true) ){
                     echo '<option value="'.$post->ID.'" selected>'.get_the_title().'</option>';
                   }else {
-                    echo '<option value="'.$post->ID.'">'.get_the_title().'</option>';
+                    echo '<option value="'.$post->ID.'">'.get_the_title().'</option>';  
                   }
                 }              
             }
