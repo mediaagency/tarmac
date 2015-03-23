@@ -176,8 +176,4 @@ add_action( 'widgets_init', 'ma_add_sidebar_widget' );
 
 //Post product
 require_once( 'includes/custompost/post_product.class.php' );
-
-//Product feauters 
-require_once( 'includes/custompost/product_feauters.php' );
-
 ?>
