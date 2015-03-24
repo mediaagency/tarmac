@@ -67,37 +67,54 @@
             $add_scroll_class = '';
         }
         ?>
+
+
+       <div class="logo-bar-top">
+            <div class="logo-container">
+                <div class="top-logo">
+                    <a href="<?php echo home_url() ?>">
+                    <img src="<?php echo get_stylesheet_directory_uri().'/img/logo3.png' ?>">
+                    </a>
+                </div>
+            </div>
+        </div>
         <div id="header">
         <!-- Navigation -->
+            
+
+        
         <nav id="<?php if(isset($add_collpase)){echo $add_collpase;}?>"class="navbar navbar-custom navbar-fixed-top" role="navigation">
+           
             <div class="container">
                 <div class="navbar-header">
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
-                        <i class="fa fa-bars"></i>
-                    </button>
-                    <div id="branding" class="branding-padding">
-                            <div id="logo" class="<?php if(isset($active_top_scroll)) {echo $active_top_scroll;}?>">
-                                <a href="<?php echo home_url() ?>">
-                                <?php
-                                $get_theme_logo = get_option('ma_ls_options_theme')['ma_ls_img_logo_theme'];
 
-                                if($get_theme_logo != "") {
-                                     echo '<img src="'.$get_theme_logo.'" />';
-                                }else {
-                                    echo '<h1>' . get_bloginfo('name') . '</h1>';  
-                                }
-                                ?>
-                                </a>
-                            </div> 
-                            
-                    </div> 
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+                        <span class="nav-togggle-stroke"></span>
+                        <span class="nav-togggle-stroke"></span> 
+                        <span class="nav-togggle-stroke"></span> 
+                    </button>
+
+
                 </div>
                 
-             
+        
                     <?php
                     wp_nav_menu( array(
-                        'menu'             => 'primary',
-                        'theme_location'    => 'primary',
+                        'menu'             => 'main_left',
+                        'theme_location'    => 'main_left',
+                        'depth' => 2,
+                        'container' => 'div',  
+                        'container_class' => 'collapse navbar-collapse navbar-left navbar-main-collapse',
+                        'menu_class' => $add_scroll_class . 'nav navbar-nav',
+                        'fallback_cb' => 'wp_bootstrap_navwalker::fallback',
+                        //Process nav menu using our custom nav walker
+                        'walker' => new wp_bootstrap_navwalker())
+                    );
+                    ?>
+                        <?php
+                    wp_nav_menu( array(
+                        'menu'             => 'main_right',
+                        'theme_location'    => 'main_right',
                         'depth' => 2,
                         'container' => 'div',  
                         'container_class' => 'collapse navbar-collapse navbar-right navbar-main-collapse',
@@ -106,11 +123,11 @@
                         //Process nav menu using our custom nav walker
                         'walker' => new wp_bootstrap_navwalker())
                     );
-                    ?>
-               
+                    ?>          
             </div>
          
         </nav>
+        
     </div> <!--#header -->
     <div id="<?php if(isset($add_logo_id_scrol)) {echo $add_logo_id_scrol; }?>"></div>
 
@@ -120,10 +137,15 @@
 
 <div id="viewport">
     <div class="container">
+        
         <div id="top-spacer"></div>
-        <div id="main">
-            
 
+            <?php get_template_part( 'template', 'hero-image' ); ?> 
+
+        <div id="main">
+        <div id="main-padding">
+            
+    
         
         
 

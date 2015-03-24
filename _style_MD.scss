@@ -38,147 +38,46 @@ body {
 	 margin: auto; 
 }
 
+#top-spacer {
+  float: left;
+  width: 100%;  
+  height: 50px;
+}
 
-#logo {
-	
+.top-logo {
+  
 	img {
-	float: left;
-	display: block;
-	width: auto;
-	height: 50px;
-	margin: 5px 0px 5px 0px;
-	}
+		height: 120px;
+		width: auto;
+		margin-top: 0px;
+		}
+		
+}
 
+.top-logo-collapse {
+
+	img {
+		height: 120px;
+		width: auto;
+		margin:0px;
+		margin-top: -55px;
+		}
 }
 
 .nav>li>a {
-	padding: 20px 10px 20px 10px;
+	font-size: 12px;
+	line-height: 1em;
+	padding: 19px 10px 19px 10px;
 }
-
-#logo {
-
-	h1 {
-    font-size: 1.44em;
-    line-height: 1em;
-   	padding: 20px 10px 20px 10px;
-    margin: 0px;
-  	}
-}
-
 
 .top-nav-collapse {
 
-	#logo {
-	
-		img {
-		float: left;
-		display: block;
-		width: auto;
-		height: 30px;
-		margin: 11px 0px 5px 0px;
-		}
-
-		h1 {
-	    padding: 14px 10px 13px 10px;
-	    }
-
-	}
-	
-
 	.nav>li>a {
-	padding: 14px 10px 16px 10px;
-
-}
-
-}
-
-/**
- * singel-post-box 
- * ----------------------------------------------------------------------------
- */
-
- .singel-post-box-visual {
-	float: left;
-	padding: 0px 55px 15px 55px;
-}
-
-.singel-post-box-info-list {
-	padding: 0px 45px 45px 45px;
-	text-align: center;
-}
-
-.singel-post-box-thumbnail-link {
-	
-	img {
-	border-radius: 50%;
-	overflow: hidden;
+	font-size: 12px;
+	line-height: 1em;
+	padding: 19px 10px 19px 10px;
 	}
-}
 
-.singel-post-box-info {
-	float: left;
-	width: 100%;
-}
-
-.singel-post-box-info-list {
-		float: left;
-		width: 100%;
-}
-
-.singel-post-box-excerpt-link h2 {
-	padding-top: 5px;
-}
-
-
-
-/**
- * Header - Call to Action 
- * ----------------------------------------------------------------------------
- */
-
-
-#call-to-action-header {
-	position: absolute;
-	background-color: black;
-	right: 30px;
-	top: 61px;
-	border-bottom-right-radius: 10px;
-	border-bottom-left-radius: 10px;
-	overflow: hidden;
-}
-
-.call-to-action-header-link {
-	float: left;
-	width: 100%;
-	display: block;
-	background-color: #529639;
-	color: #ffffff;
-	text-decoration: none;
-}
-
-.call-to-action-header-link:hover {
-	background-color: #000000;
-	text-decoration: none;
-	color: #ffffff;
-}
-
-.call-to-action-header-icon {
-	float: left;
-	width: 22px;
-
-	img {
-		margin: 10px;
-		float: left;
-		display: block;
-		width: 100%;
-		height: auto;
-	}
-}
-
-.call-to-action-header-text { 
-	float: left;
-	margin: 12px 20px 10px 15px;
-	font-size: 0.9em;
 }
 
 

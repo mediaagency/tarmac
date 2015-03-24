@@ -57,15 +57,17 @@
 	</div> <!-- #footer-inner -->
 </div> <!-- #footer-outer -->
 
-
+        </div> <!-- #main-padding -->
         </div> <!-- #main -->
     </div> <!-- .container -->
+</div></div></div></div>
 </div> <!-- #viewport -->
 
 
 <script type="text/javascript">
     
     jQuery(document).animateScroll();  
+    jQuery('#font_1').trigger('reverse');
 
 </script>
 

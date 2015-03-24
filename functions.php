@@ -22,14 +22,17 @@ function ma_add_resources_front() {
     //Bottstrap javascript
     new wp_enqueue_assets( 'ma_theme_bootstrap_JS', 'js/bootstrap/bootstrap.min.js', 'theme', 'jquery', 'script' );
 
+    //Bottstrap javascript
+    new wp_enqueue_assets( 'ma_theme_javascript', 'js/functions.js', 'theme', 'jquery', 'script' );
+
     //Animation - Greensock TweenMax
-    new wp_enqueue_assets( 'ma_theme_tween_max', 'js/greensock/TweenMax.min.js', 'theme', 'jquery', 'script' );
+    //new wp_enqueue_assets( 'ma_theme_tween_max', 'js/greensock/TweenMax.min.js', 'theme', 'jquery', 'script' );
 
     //Animation - Greensock EasePack
-    new wp_enqueue_assets( 'ma_theme_ease_pack', 'js/greensock/EasePack.min.js', 'theme', 'jquery', 'script' );
+    //new wp_enqueue_assets( 'ma_theme_ease_pack', 'js/greensock/EasePack.min.js', 'theme', 'jquery', 'script' );
 
     //Animation - Animate Scroll
-    new wp_enqueue_assets( 'ma_theme_animate_scroll', 'js/animate-scroll/animate-scroll.js', 'theme', 'jquery', 'script' );
+    //new wp_enqueue_assets( 'ma_theme_animate_scroll', 'js/animate-scroll/animate-scroll.js', 'theme', 'jquery', 'script' );
 
 
 	/* CSS
@@ -60,9 +63,15 @@ add_action( 'after_setup_theme', 'ma_wpt_setup' );
 if( ! function_exists( 'wpt_setup' ) ):
         function ma_wpt_setup() {
         	//Registrer nav-menu
-        	register_nav_menu( 'primary', __( 'Primary navigation', 'wptuts' ) );
+        	register_nav_menu( 'main_left', __( 'Header - Left', 'wptuts' ) );
+                register_nav_menu( 'main_right', __( 'Header - Right', 'wptuts' ) );
+            //Allowing post-thumbnails
+            add_theme_support( 'post-thumbnails' );
+        	
+            //Setup custom thumbnail size 
+            add_image_size( 'header', 970, 720, true ); 
+            add_image_size( 'fp_article', 410, 290, true ); 
 
-        	//Setup custom image size 
 
         	//Load text domaion
         	load_theme_textdomain('ma_ls', get_template_directory() . '/languages');

@@ -46,3 +46,11 @@ License: http://www.apache.org/licenses/LICENSE-2.0.html
 URI: www.google.com/fonts/specimen/Roboto
 
 
+PLUGIN
+---------
+
+Simple Full Screen Background Image
+----------------------------------------------------------------------------
+Author: Pippin Williamson 
+URI: https://wordpress.org/plugins/simple-full-screen-background-image/
+
