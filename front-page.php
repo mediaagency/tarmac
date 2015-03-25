@@ -34,7 +34,7 @@ get_header();
 
 
 			<div class="frontpage-product-button-container">
-				<a class="frontpage-product-button" href="">
+				<a class="frontpage-product-button" href="<?php echo site_url(); ?>/chlorella/">
 					Les mer
 				</a>	
 								<a class="frontpage-product-button" href="">
@@ -62,7 +62,7 @@ get_header();
 			<p>Spirulina inneholder næringstoffer<br/>som kan hjelpe kroppen.<p>
 
 			<div class="frontpage-product-button-container">
-				<a class="frontpage-product-button" href="">
+				<a class="frontpage-product-button" href="<?php echo site_url(); ?>/spirulina/">
 					Les mer
 				</a>	
 								<a class="frontpage-product-button" href="">
@@ -195,6 +195,9 @@ get_header();
 	</div>
 </div>
 
+<div id="kjop-supermat">
+	<a name="kjop-supermat"></a>
+</div>
 
 <div class="reprint-section reprint-section-padding">
 	
