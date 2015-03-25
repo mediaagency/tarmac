@@ -16,27 +16,42 @@ get_header();
 	<div class="reprint-product-container">
 		
 		<div class="frontpage-product-single col-xs-12 col-sm-6">
+			<div class="frontpage-product-single-color"> 
 
 			<a href="" class="frontpage-product-thumbnail-link">
-				<img src="<?php echo get_stylesheet_directory_uri().'/img/product_1.jpg' ?>">
+				<img src="<?php echo get_stylesheet_directory_uri().'/img/product_small_chlorella.jpg' ?>">
+			</a>
+			<a href="" class="frontpage-product-logo-link">
+				<img src="<?php echo get_stylesheet_directory_uri().'/img/logo_chlorella.png' ?>">
 			</a>
 			
 
 			<a href="" class="frontpage-product-title-link">
-				<h2>Reparasjon</h2>
+				<h2>Energi</h2>
 			</a>
+
+			<p>Chlorella er tettpakket med energi <br/>og viktige næringstoffer<p>
+
 
 			<div class="frontpage-product-button-container">
 				<a class="frontpage-product-button" href="">
-					Kjøp Chlorella
+					Les mer
+				</a>	
+								<a class="frontpage-product-button" href="">
+					Kjøp
 				</a>	
 			</div>
+			</div> <!-- .frontpage-product-single-color -->
 		</div> <!-- .frontpage-product-single -->
 
 		<div class="frontpage-product-single col-xs-12 col-sm-6">
+			<div class="frontpage-product-single-color"> 
 
 			<a href="" class="frontpage-product-thumbnail-link">
-				<img src="<?php echo get_stylesheet_directory_uri().'/img/product_1.jpg' ?>">
+				<img src="<?php echo get_stylesheet_directory_uri().'/img/product_small_spirulina.jpg' ?>">
+			</a>
+			<a href="" class="frontpage-product-logo-link">
+				<img src="<?php echo get_stylesheet_directory_uri().'/img/logo_spirulina.png' ?>">
 			</a>
 			
 
@@ -44,11 +59,17 @@ get_header();
 				<h2>Reparasjon</h2>
 			</a>
 
+			<p>Spirulina inneholder næringstoffer<br/>som kan hjelpe kroppen.<p>
+
 			<div class="frontpage-product-button-container">
 				<a class="frontpage-product-button" href="">
-					Kjøp Chlorella
+					Les mer
+				</a>	
+								<a class="frontpage-product-button" href="">
+					Kjøp
 				</a>	
 			</div>
+		</div> <!-- .frontpage-product-single-color -->
 		</div> <!-- .frontpage-product-single -->
 
 	</div>
@@ -63,7 +84,7 @@ get_header();
 		
 	</div>
 
-	<div class="frontpage-benefit-container col-xs-12 col-md-push-1 col-md-10">
+	<div class="frontpage-benefit-container col-xs-12 col-sm-12 col-md-push-1 col-md-10">
 		<div class="benefit-single">
 			<a href="" class="benefit-thumbnail-link">
 				<img class="benefit-thumbnail" src="<?php echo get_stylesheet_directory_uri().'/img/fruit.jpg' ?>">
@@ -178,36 +199,18 @@ get_header();
 <div class="reprint-section reprint-section-padding">
 	
 	<div class="reprint-section-header">
-		<h1 class="reprint-section-heading">Kjøp supermat</h1>
-		<p class="reprint-section-description">Nullam fermentum egestas tortor, et lobortis ex porttitor eget</p>
+		<h1 class="reprint-section-heading">Velg din supermat</h1>
+		<p class="reprint-section-description">Klikk på den supermaten som du ønsker å kjøpe</p>
 		
 	</div>
 
-	<div class="frontpage-buy-section">
-		
-	 <ul class='tabs'>
-    <li><a href='#tab1'>Tab 1</a></li>
-    <li><a href='#tab2'>Tab 2</a></li>
-    <li><a href='#tab3'>Tab 3</a></li>
-    <li><a href='#tab4'>Tab 3</a></li>
-  </ul>
-  <div id='tab1'>
-    <p>Hi, this is the first tab.</p>
-  </div>
-  <div id='tab2'>
-    <p>This is the 2nd tab.</p>
-  </div>
-  <div id='tab3'>
-    <p>And this is the 3rd tab.</p>
-  </div>
- <div id='tab4'>
-    <p>And this is the 4rd tab.</p>
-  </div>
-	</div>
+	
+	<?php get_template_part( 'template', 'full-width-form' ); ?> 
+
 
 </div>	<!-- .reprint-section -->
 
-</div></div></div>
+</div></div>
 
 
 

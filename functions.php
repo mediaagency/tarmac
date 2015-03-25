@@ -142,6 +142,31 @@ function ma_add_sidebar_widget() {
         ));
 
         register_sidebar(array(
+            'name' => 'Chlorella',
+            'id'   => 'chlorella',
+            'description'   => 'Appears in the sidbar and bottom form',
+            'before_widget' => '<div class="mb-m"><div id="%1$s" class="singel-widget %2$s">',
+            'after_widget'  => '</div></div>',
+            'before_title'  => '<div class="widget-title-container mb-s">
+                                <div class="widget-title-stroke">
+                                <h4  class="widget-title-text-color widget-title-text-bg widget-title-size">',
+            'after_title'   => '</h4></div></div>'
+        ));
+
+
+        register_sidebar(array(
+            'name' => 'Spirulina',
+            'id'   => 'spirulina',
+            'description'   => 'Appears in the sidbar and bottom form',
+            'before_widget' => '<div class="mb-m"><div id="%1$s" class="singel-widget %2$s">',
+            'after_widget'  => '</div></div>',
+            'before_title'  => '<div class="widget-title-container mb-s">
+                                <div class="widget-title-stroke">
+                                <h4  class="widget-title-text-color widget-title-text-bg widget-title-size">',
+            'after_title'   => '</h4></div></div>'
+        ));
+
+        register_sidebar(array(
             'name' => 'Footer Left',
             'id'   => 'footer-left',
             'description'   => 'Appears in the left side of the footer.',

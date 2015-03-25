@@ -363,14 +363,31 @@ img.size-large,
 }
 
 
+/**
+ * Frontpage - Product section 
+ * ----------------------------------------------------------------------------
+ */
+
+
+.frontpage-product-single-color {
+  float: left;
+  width: 100%;
+  background-color: #F4F4F4;
+  padding-bottom: 30px;
+}
+
+
+
+
 .frontpage-product-thumbnail-link {
   float: left; 
+  position: relative;
   display: block;
   width: 100%;
   text-decoration: none;
   overflow:hidden;
   background-color: #000000;
-  margin-bottom: 45px;
+  margin-bottom: 20px;
 
     img {
     float: left; 
@@ -395,6 +412,32 @@ img.size-large,
 
 }
 
+.frontpage-product-logo-link {
+  float: left; 
+  position: absolute;
+  top: 170px;
+  display: block;
+  width: auto;
+  background-color: #000000;
+
+  img {
+    float: left;
+    display: block;
+    height: 50px;
+    width: auto;
+    margin: 10px 20px 10px 20px;
+  }
+
+}
+
+.frontpage-product-logo-link:hover {
+  background-color: #2D8311;
+    -webkit-transition: all 0.6s ease-in-out;
+    -moz-transition: all 0.6s ease-in-out;
+    -o-transition: all 0.6s  ease-in-out;
+    transition: all 0.6s  ease-in-out;
+}
+
 .frontpage-product-title-link {  
       float: left;
       width: 100%;
@@ -412,10 +455,23 @@ img.size-large,
       line-height: 1em;
       margin: 0px;
       padding: 0px;
-      font-size: 2.4em;
-      margin-bottom: 45px;
+      font-size: 4em;
+      margin-bottom: 15px;
     }
 } 
+
+.frontpage-product-single {
+
+  p {
+    float: none;
+    margin: auto;
+    width: 240px;
+    padding: 0px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+
+}
 
 .frontpage-product-title-link:hover {
       text-decoration: none;
@@ -428,47 +484,55 @@ img.size-large,
 
 
 .frontpage-product-button-container {
-      float: left;
-      width: 100%;
-      margin: 0px;
+      float: none;
+      width: 248px;
+      margin: auto;
       padding: 0px; 
 }
 
 .frontpage-product-button {
-  float: none;
-  display: block;
-      font-size: 0.9em;
+    float: left; 
+    display: block;
+      font-size: 0.8em;
       text-transform: uppercase;
       text-align: center;
-      padding: 15px 20px 15px 20px;
+      padding: 15px 10px 15px 10px;
       text-decoration: none;
-      margin: auto;
-      width: 160px;
+      margin: 0px 7px 0px 7px;
+      width: 110px;
       color: #2D8311;
-      border: 2px solid #2D8311;
       line-height: 1em;
       text-decoration: none;
-      background-color: transparent;
+      background-color: #2D8311;
+      color: #ffffff;
+      
 
 }
 
 .frontpage-product-button:hover {
       text-decoration: none;
       color: #ffffff;
-      background-color: #2D8311;
+      background-color: #000000;
       -webkit-transition: all 0.3s ease-in-out;
       -moz-transition: all 0.3s ease-in-out;
       -o-transition: all 0.3s  ease-in-out;
       transition: all 0.3s  ease-in-out;
 }
 
+
+/**
+ * Frontpage - Benefit Section
+ * ----------------------------------------------------------------------------
+ */
+
 .frontpage-benefit-container {
   float: left;
+  width: 83.33333333%;
 }
 
 .benefit-single {
   float: left;
-  width: 100%;
+  width: auto;
   margin-bottom: 30px;
 }
 
@@ -499,9 +563,6 @@ img.size-large,
     transition: all 0.6s  ease-in-out;
 }
 
-
-.benefit-thumbnail
-
 .benefit-single-content {
   float: none;
   width: auto;
@@ -510,6 +571,8 @@ img.size-large,
 }
 
 .benefit-single-heading-link {
+  float: none;
+  width: auto;
   color: #000000;
   text-decoration: none;
 }
@@ -524,9 +587,19 @@ img.size-large,
 }
 
 .benefit-single-text-link {
+   float: none;
+  display: inline;
+  width: auto;
   color: #000000;
   text-decoration: none;
 }
+
+.benefit-single-text {
+   float: none;
+  display: inline;
+  width: auto;
+}
+
 
 .benefit-single-text-link:hover {
   color: #999999;
@@ -538,6 +611,7 @@ img.size-large,
 }
 
 .benefit-single-heading {
+   float: none;
   line-height: 1em;
   font-family: 'amaticbold';
   font-size: 2.5em;
@@ -545,13 +619,18 @@ img.size-large,
   margin: 0px 0px 15px 0px;
 }
 
+/**
+ * Frontpage - Article section 
+ * ----------------------------------------------------------------------------
+ */
+
 .article-single-thumbnail-link {
   float: left;
   width: 100%;
   display: block;
   overflow:hidden;
   background-color: #000000;
-  margin-bottom: 15px;
+  margin-bottom: 20px;
 
 }
 
@@ -571,8 +650,8 @@ img.size-large,
       line-height: 1em;
       margin: 0px;
       padding: 0px;
-      font-size: 1.8em;
-      margin-bottom: 10px;
+      font-size: 2.1em;
+      margin-bottom: 15px;
     }
 } 
 
@@ -954,8 +1033,8 @@ img.size-large,
 
 
 .reprint-section-padding {
-  padding-top: 100px;
-  padding-bottom: 100px;  
+  padding-top: 60px;
+  padding-bottom: 60px;  
 }
 
 .padding-top-small {
@@ -999,7 +1078,7 @@ img.size-large,
 .reprint-section-header {
   float: left;
   width: 100%;
-  padding: 0px 15px 60px 0px;  
+  padding: 0px 15px 60px 15px;  
 }
 
 .reprint-section-heading {
@@ -1048,5 +1127,196 @@ img.size-large,
 .reprint-icon-list-header {
   margin-top: 0px;
   padding-top: 0px;
+}
+
+
+
+/**
+ * Frontpage - Form section 
+ * ----------------------------------------------------------------------------
+ */
+
+.fp-form-section {
+  float: left;
+  width: 100%;
+}
+
+.fp-form-header {
+  float: left;
+  width: 100%; 
+  background-color: #cccccc;
+
+  ul {
+    float: left;
+    width: 100%; 
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+  }
+
+  li {
+    float: left;
+    width: 50%; 
+  }
+
+  a {
+    float: left;
+    width: 100%;   
+    display: block;
+    text-align: center;
+  }
+
+  img {
+    display: block;
+    height: 50px;
+    width: auto;
+    margin: 15px auto 15px auto;
+
+  }
+
+  .tab {
+    opacity: 0.5;
+  }
+
+  .active {
+    opacity: 1;
+    background-color: #000000;
+  }
+
+}
+
+.fp-form-tabs-container {
+  float: left;
+  width: 100%;
+  height: 100%;
+  background-color: #F4F4F4;  
+}
+
+.fp-form-container-left {
+  float: left;
+  width: 50%;
+}
+
+.fp-form-container-right {
+  float: right;
+  width: 50%;
+}
+
+.form-min-height {
+  min-height: 620px;
+}
+
+.fp-form-tab-content {
+  float: left;
+  width: 100%; 
+}
+
+.fp-form-sign-up-container {
+  background-color: #F4F4F4; 
+  padding: 30px;
+}
+
+.fp-form-product {
+  float: left;
+  width: 100%;
+  height: 100%;
+  background-position: center bottom;
+}
+
+.fp-form-product-text {
+  width: 100%;
+  font-size: 1.6em;
+  float: none;
+  margin: 0px auto 0px auto;
+  padding: 60px 120px 60px 120px;
+  color: #ffffff;
+}
+
+.fp-form-sign-up-container h4 {
+  padding: 0px;
+  margin: 0px;
+  line-height: 1em;
+  font-size: 1.4em;
+}
+
+.fp-form-sign-up-container .wpcf7 .wpcf7-form {
+  float: left;
+  width: 100%;
+  padding-bottom: 30px;
+
+  .wpcf7-submit {
+    background-color: #2D8311;
+    border: none;
+    color: #ffffff;
+    padding: 10px 15px 10px 15px;
+    margin-top: 10px;
+  }
+
+  .wpcf7-submit:hover {
+    background-color: #000000;
+    color: #ffffff;
+  }
+
+  .wpcf7-response-output {
+    float: left;
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0px 0px 0px;
+    font-size: 0.9em;
+    
+  }
+
+  .wpcf7-validation-errors, .wpcf7-display-none, .wpcf7-response-output{
+    display: none !important; 
+  }
+
+  .wpcf7-not-valid-tip {
+    font-size: 0.8em;
+  }
+
+  .form-row {
+    float: left;
+    width: 100%;
+    padding-bottom: 10px;
+  }
+
+  .form-half-row {
+    float: left;
+    width: 48%;    
+  } 
+
+  .form-devider-row {
+    float: left;
+    width: 4%;    
+  }
+
+  .form-legal-text {
+    float: left; 
+    width: 100%;
+    font-size: 0.8em;
+
+    a {
+      display: inline-block;
+      color: #75886f;
+    }
+    a:hover {
+      color: #000000;
+    }
+
+  }
+
+  input {
+    float: left;
+    width: 100%;
+    border: 1px solid #cccccc;
+    color: #000000;
+    padding: 4px;
+    line-height: 1em;
+  } 
+  
+  p {
+    margin-bottom: 3px;
+  }
+
 }
 

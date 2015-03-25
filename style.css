@@ -290,14 +290,25 @@ img.size-large,
       display: block;
       margin: 0em 0.3em 0.2em 0em; }
 
+/**
+ * Frontpage - Product section 
+ * ----------------------------------------------------------------------------
+ */
+.frontpage-product-single-color {
+  float: left;
+  width: 100%;
+  background-color: #F4F4F4;
+  padding-bottom: 30px; }
+
 .frontpage-product-thumbnail-link {
   float: left;
+  position: relative;
   display: block;
   width: 100%;
   text-decoration: none;
   overflow: hidden;
   background-color: #000000;
-  margin-bottom: 45px; }
+  margin-bottom: 20px; }
   .frontpage-product-thumbnail-link img {
     float: left;
     display: block;
@@ -318,6 +329,27 @@ img.size-large,
     -o-transition: all 0.6s  ease-in-out;
     transition: all 0.6s  ease-in-out; }
 
+.frontpage-product-logo-link {
+  float: left;
+  position: absolute;
+  top: 170px;
+  display: block;
+  width: auto;
+  background-color: #000000; }
+  .frontpage-product-logo-link img {
+    float: left;
+    display: block;
+    height: 50px;
+    width: auto;
+    margin: 10px 20px 10px 20px; }
+
+.frontpage-product-logo-link:hover {
+  background-color: #2D8311;
+  -webkit-transition: all 0.6s ease-in-out;
+  -moz-transition: all 0.6s ease-in-out;
+  -o-transition: all 0.6s  ease-in-out;
+  transition: all 0.6s  ease-in-out; }
+
 .frontpage-product-title-link {
   float: left;
   width: 100%;
@@ -333,8 +365,16 @@ img.size-large,
     line-height: 1em;
     margin: 0px;
     padding: 0px;
-    font-size: 2.4em;
-    margin-bottom: 45px; }
+    font-size: 4em;
+    margin-bottom: 15px; }
+
+.frontpage-product-single p {
+  float: none;
+  margin: auto;
+  width: 240px;
+  padding: 0px;
+  margin-bottom: 20px;
+  text-align: center; }
 
 .frontpage-product-title-link:hover {
   text-decoration: none;
@@ -345,42 +385,47 @@ img.size-large,
   transition: all 0.3s  ease-in-out; }
 
 .frontpage-product-button-container {
-  float: left;
-  width: 100%;
-  margin: 0px;
+  float: none;
+  width: 248px;
+  margin: auto;
   padding: 0px; }
 
 .frontpage-product-button {
-  float: none;
+  float: left;
   display: block;
-  font-size: 0.9em;
+  font-size: 0.8em;
   text-transform: uppercase;
   text-align: center;
-  padding: 15px 20px 15px 20px;
+  padding: 15px 10px 15px 10px;
   text-decoration: none;
-  margin: auto;
-  width: 160px;
+  margin: 0px 7px 0px 7px;
+  width: 110px;
   color: #2D8311;
-  border: 2px solid #2D8311;
   line-height: 1em;
   text-decoration: none;
-  background-color: transparent; }
+  background-color: #2D8311;
+  color: #ffffff; }
 
 .frontpage-product-button:hover {
   text-decoration: none;
   color: #ffffff;
-  background-color: #2D8311;
+  background-color: #000000;
   -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
   -o-transition: all 0.3s  ease-in-out;
   transition: all 0.3s  ease-in-out; }
 
+/**
+ * Frontpage - Benefit Section
+ * ----------------------------------------------------------------------------
+ */
 .frontpage-benefit-container {
-  float: left; }
+  float: left;
+  width: 83.33333333%; }
 
 .benefit-single {
   float: left;
-  width: 100%;
+  width: auto;
   margin-bottom: 30px; }
 
 .benefit-thumbnail-link {
@@ -410,7 +455,6 @@ img.size-large,
   -o-transition: all 0.6s  ease-in-out;
   transition: all 0.6s  ease-in-out; }
 
-.benefit-thumbnail
 .benefit-single-content {
   float: none;
   width: auto;
@@ -418,6 +462,8 @@ img.size-large,
   display: block; }
 
 .benefit-single-heading-link {
+  float: none;
+  width: auto;
   color: #000000;
   text-decoration: none; }
 
@@ -430,8 +476,16 @@ img.size-large,
   transition: all 0.3s  ease-in-out; }
 
 .benefit-single-text-link {
+  float: none;
+  display: inline;
+  width: auto;
   color: #000000;
   text-decoration: none; }
+
+.benefit-single-text {
+  float: none;
+  display: inline;
+  width: auto; }
 
 .benefit-single-text-link:hover {
   color: #999999;
@@ -442,19 +496,24 @@ img.size-large,
   transition: all 0.3s  ease-in-out; }
 
 .benefit-single-heading {
+  float: none;
   line-height: 1em;
   font-family: 'amaticbold';
   font-size: 2.5em;
   padding: 0px;
   margin: 0px 0px 15px 0px; }
 
+/**
+ * Frontpage - Article section 
+ * ----------------------------------------------------------------------------
+ */
 .article-single-thumbnail-link {
   float: left;
   width: 100%;
   display: block;
   overflow: hidden;
   background-color: #000000;
-  margin-bottom: 15px; }
+  margin-bottom: 20px; }
 
 .article-single-heading-link {
   float: left;
@@ -470,8 +529,8 @@ img.size-large,
     line-height: 1em;
     margin: 0px;
     padding: 0px;
-    font-size: 1.8em;
-    margin-bottom: 10px; }
+    font-size: 2.1em;
+    margin-bottom: 15px; }
 
 .article-single-heading-link:hover {
   text-decoration: none;
@@ -749,8 +808,8 @@ img.size-large,
   border-bottom: 1px #cccccc dashed; }
 
 .reprint-section-padding {
-  padding-top: 100px;
-  padding-bottom: 100px; }
+  padding-top: 60px;
+  padding-bottom: 60px; }
 
 .padding-top-small {
   padding-top: 50px; }
@@ -785,7 +844,7 @@ img.size-large,
 .reprint-section-header {
   float: left;
   width: 100%;
-  padding: 0px 15px 60px 0px; }
+  padding: 0px 15px 60px 15px; }
 
 .reprint-section-heading {
   float: left;
@@ -823,6 +882,140 @@ img.size-large,
 .reprint-icon-list-header {
   margin-top: 0px;
   padding-top: 0px; }
+
+/**
+ * Frontpage - Form section 
+ * ----------------------------------------------------------------------------
+ */
+.fp-form-section {
+  float: left;
+  width: 100%; }
+
+.fp-form-header {
+  float: left;
+  width: 100%;
+  background-color: #cccccc; }
+  .fp-form-header ul {
+    float: left;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    list-style: none; }
+  .fp-form-header li {
+    float: left;
+    width: 50%; }
+  .fp-form-header a {
+    float: left;
+    width: 100%;
+    display: block;
+    text-align: center; }
+  .fp-form-header img {
+    display: block;
+    height: 50px;
+    width: auto;
+    margin: 15px auto 15px auto; }
+  .fp-form-header .tab {
+    opacity: 0.5; }
+  .fp-form-header .active {
+    opacity: 1;
+    background-color: #000000; }
+
+.fp-form-tabs-container {
+  float: left;
+  width: 100%;
+  height: 100%;
+  background-color: #F4F4F4; }
+
+.fp-form-container-left {
+  float: left;
+  width: 50%; }
+
+.fp-form-container-right {
+  float: right;
+  width: 50%; }
+
+.form-min-height {
+  min-height: 620px; }
+
+.fp-form-tab-content {
+  float: left;
+  width: 100%; }
+
+.fp-form-sign-up-container {
+  background-color: #F4F4F4;
+  padding: 30px; }
+
+.fp-form-product {
+  float: left;
+  width: 100%;
+  height: 100%;
+  background-position: center bottom; }
+
+.fp-form-product-text {
+  width: 100%;
+  font-size: 1.6em;
+  float: none;
+  margin: 0px auto 0px auto;
+  padding: 60px 120px 60px 120px;
+  color: #ffffff; }
+
+.fp-form-sign-up-container h4 {
+  padding: 0px;
+  margin: 0px;
+  line-height: 1em;
+  font-size: 1.4em; }
+
+.fp-form-sign-up-container .wpcf7 .wpcf7-form {
+  float: left;
+  width: 100%;
+  padding-bottom: 30px; }
+  .fp-form-sign-up-container .wpcf7 .wpcf7-form .wpcf7-submit {
+    background-color: #2D8311;
+    border: none;
+    color: #ffffff;
+    padding: 10px 15px 10px 15px;
+    margin-top: 10px; }
+  .fp-form-sign-up-container .wpcf7 .wpcf7-form .wpcf7-submit:hover {
+    background-color: #000000;
+    color: #ffffff; }
+  .fp-form-sign-up-container .wpcf7 .wpcf7-form .wpcf7-response-output {
+    float: left;
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0px 0px 0px;
+    font-size: 0.9em; }
+  .fp-form-sign-up-container .wpcf7 .wpcf7-form .wpcf7-validation-errors, .fp-form-sign-up-container .wpcf7 .wpcf7-form .wpcf7-display-none, .fp-form-sign-up-container .wpcf7 .wpcf7-form .wpcf7-response-output {
+    display: none !important; }
+  .fp-form-sign-up-container .wpcf7 .wpcf7-form .wpcf7-not-valid-tip {
+    font-size: 0.8em; }
+  .fp-form-sign-up-container .wpcf7 .wpcf7-form .form-row {
+    float: left;
+    width: 100%;
+    padding-bottom: 10px; }
+  .fp-form-sign-up-container .wpcf7 .wpcf7-form .form-half-row {
+    float: left;
+    width: 48%; }
+  .fp-form-sign-up-container .wpcf7 .wpcf7-form .form-devider-row {
+    float: left;
+    width: 4%; }
+  .fp-form-sign-up-container .wpcf7 .wpcf7-form .form-legal-text {
+    float: left;
+    width: 100%;
+    font-size: 0.8em; }
+    .fp-form-sign-up-container .wpcf7 .wpcf7-form .form-legal-text a {
+      display: inline-block;
+      color: #75886f; }
+    .fp-form-sign-up-container .wpcf7 .wpcf7-form .form-legal-text a:hover {
+      color: #000000; }
+  .fp-form-sign-up-container .wpcf7 .wpcf7-form input {
+    float: left;
+    width: 100%;
+    border: 1px solid #cccccc;
+    color: #000000;
+    padding: 4px;
+    line-height: 1em; }
+  .fp-form-sign-up-container .wpcf7 .wpcf7-form p {
+    margin-bottom: 3px; }
 
 /****************************************
         LG -  Large devices 
@@ -931,7 +1124,21 @@ img.size-large,
   .top-nav-collapse .nav > li > a {
     font-size: 12px;
     line-height: 1em;
-    padding: 19px 10px 19px 10px; } }
+    padding: 19px 10px 19px 10px; }
+
+  /**
+   * Frontpage - Product section 
+   * ----------------------------------------------------------------------------
+   */
+  .frontpage-product-logo-link {
+    top: 120px; }
+
+  /**
+   * Frontpage - Form section 
+   * ----------------------------------------------------------------------------
+   */
+  .fp-form-product-text {
+    padding: 60px 60px 30px 60px; } }
 /****************************************
         SM - Small devices 
 /****************************************/
@@ -959,13 +1166,81 @@ img.size-large,
    */
   #menu-max-width {
     width: 750px;
-    margin: auto; } }
+    margin: auto; }
+
+  #top-spacer {
+    float: left;
+    width: 100%;
+    height: 50px; }
+
+  .top-logo img {
+    height: 90px;
+    width: auto;
+    margin-top: 0px; }
+
+  .top-logo-collapse img {
+    height: 120px;
+    width: auto;
+    margin: 0px;
+    margin-top: -58px; }
+
+  .nav > li > a {
+    font-size: 12px;
+    line-height: 1em;
+    padding: 15px 10px 15px 10px; }
+
+  .top-nav-collapse .nav > li > a {
+    font-size: 12px;
+    line-height: 1em;
+    padding: 15px 10px 15px 10px; }
+
+  /**
+   * Frontpage - Product section 
+   * ----------------------------------------------------------------------------
+   */
+  .frontpage-product-logo-link {
+    float: left;
+    position: absolute;
+    top: 105px;
+    display: block;
+    width: auto;
+    background-color: #000000; }
+    .frontpage-product-logo-link img {
+      float: left;
+      display: block;
+      height: 25px;
+      width: auto;
+      margin: 10px 20px 10px 20px; }
+
+  /**
+   * Frontpage - Benefit section
+   * ----------------------------------------------------------------------------
+   */
+  .frontpage-benefit-container {
+    float: left;
+    width: 100%; }
+
+  /**
+   * Frontpage - Form section 
+   * ----------------------------------------------------------------------------
+   */
+  .fp-form-product-text {
+    padding: 30px 30px 30px 30px; }
+
+  .fp-form-product {
+    background-size: cover; } }
 /****************************************
         XS - Extra small devices
 /****************************************/
 @media (max-width: 767px) {
   body {
     font-size: 14px; }
+
+  #main-padding {
+    padding: 30px 15px 30px 15px; }
+
+  #fullwidth-mobile {
+    padding: 0px; }
 
   .push-down-for-header {
     float: left;
@@ -980,6 +1255,11 @@ img.size-large,
 
   .mb-xl {
     margin-bottom: 50px; }
+
+  .reprint-section-header {
+    float: left;
+    width: 100%;
+    padding: 0px 15px 15px 15px; }
 
   /**
    * Header 
@@ -999,7 +1279,7 @@ img.size-large,
     height: 120px;
     width: auto;
     margin: 0px;
-    margin-top: -55px; }
+    margin-top: -58px; }
 
   .nav > li > a {
     font-size: 12px;
@@ -1009,4 +1289,90 @@ img.size-large,
   .top-nav-collapse .nav > li > a {
     font-size: 12px;
     line-height: 1em;
-    padding: 15px 10px 15px 10px; } }
+    padding: 15px 10px 15px 10px; }
+
+  /**
+   * Frontpage - Product section 
+   * ----------------------------------------------------------------------------
+   */
+  .frontpage-product-single {
+    padding-bottom: 30px; }
+
+  .frontpage-product-logo-link {
+    float: left;
+    position: absolute;
+    top: 115px;
+    display: block;
+    width: auto;
+    background-color: #000000; }
+    .frontpage-product-logo-link img {
+      float: left;
+      display: block;
+      height: 25px;
+      width: auto;
+      margin: 10px 20px 10px 20px; }
+
+  /**
+   * Frontpage - Benefit Section
+   * ----------------------------------------------------------------------------
+   */
+  .frontpage-benefit-container {
+    float: left;
+    width: 100%; }
+
+  .benefit-thumbnail-link {
+    float: left;
+    width: 100%;
+    display: block;
+    overflow: hidden;
+    margin-right: 0px;
+    margin-bottom: 15px;
+    background-color: #000000; }
+
+  .benefit-single-content {
+    float: left;
+    width: 100%;
+    overflow: hidden;
+    display: block; }
+
+  /**
+   * Frontpage - Form section 
+   * ----------------------------------------------------------------------------
+   */
+  .fp-form-header img {
+    display: block;
+    height: 25px;
+    width: auto;
+    margin: 10px auto 10px auto; }
+
+  .fp-form-tabs-container {
+    position: relative; }
+
+  .fp-form-container-left {
+    float: left;
+    width: 100%; }
+
+  .fp-form-container-right {
+    float: left;
+    width: 100%; }
+
+  .fp-form-container-force-top {
+    position: absolute;
+    top: 0px;
+    height: 200px; }
+
+  .fp-form-container-force-bottom {
+    float: left;
+    margin-top: 200px; }
+
+  .fp-form-product {
+    float: left;
+    height: 200px;
+    background-position: cover;
+    background-size: cover; }
+
+  .form-min-height {
+    min-height: 0px; }
+
+  .fp-form-product-text {
+    padding: 30px 30px 30px 30px; } }

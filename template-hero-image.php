@@ -3,7 +3,7 @@
 
 
 
-<div id="hero-image" style="background-image: url('http://192.168.0.60//besteffekt/wp-content/themes/tarmac/img/spirulina-shake2.jpg');"/>
+<div id="hero-image" style="background-image: url('http://192.168.0.62//besteffekt/wp-content/themes/tarmac/img/spirulina-shake2.jpg');"/>
 
 <div class="hero-image-header">
 	<div class="hero-image-heading">

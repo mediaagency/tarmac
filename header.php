@@ -136,7 +136,7 @@
 
 
 <div id="viewport">
-    <div class="container">
+    <div id="fullwidth-mobile" class="container" >
         
         <div id="top-spacer"></div>
 
