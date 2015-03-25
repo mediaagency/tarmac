@@ -1,0 +1,202 @@
+// _style_XS.scss
+
+@media (max-width: 767px) {
+
+body {
+  font-size: 14px;
+}
+
+#main-padding{
+  padding: 30px 15px 30px 15px;
+}
+
+#fullwidth-mobile {
+  padding: 0px;
+}
+
+.push-down-for-header {
+  float: left;
+  width: 100%;
+  height: 77px;
+}
+
+.mb-s {
+  margin-bottom: 15px;
+}
+
+.mb-m {
+  margin-bottom: 25px;
+}
+
+.mb-xl {
+  margin-bottom: 50px;
+}
+
+.reprint-section-header {
+  float: left;
+  width: 100%;
+  padding: 0px 15px 15px 15px;  
+}
+
+/**
+ * Header 
+ * ----------------------------------------------------------------------------
+ */
+#top-spacer {
+  float: left;
+  width: 100%;  
+  height: 50px;
+}
+
+.top-logo {
+  
+  img {
+    height: 90px;
+    width: auto;
+    margin-top: 0px;
+    }
+    
+}
+
+.top-logo-collapse {
+
+  img {
+    height: 120px;
+    width: auto;
+    margin:0px;
+    margin-top: -58px;
+    }
+}
+
+.nav>li>a {
+  font-size: 12px;
+  line-height: 1em;
+  padding: 15px 10px 15px 10px;
+}
+
+.top-nav-collapse {
+
+  .nav>li>a {
+  font-size: 12px;
+  line-height: 1em;
+  padding: 15px 10px 15px 10px;
+  }
+
+}
+
+
+/**
+ * Frontpage - Product section 
+ * ----------------------------------------------------------------------------
+ */
+
+ .frontpage-product-single {
+  padding-bottom: 30px;
+ }
+
+.frontpage-product-logo-link {
+  float: left; 
+  position: absolute;
+  top: 115px;
+  display: block;
+  width: auto;
+  background-color: #000000;
+
+  img {
+    float: left;
+    display: block;
+    height: 25px;
+    width: auto;
+    margin: 10px 20px 10px 20px;
+  }
+}
+
+/**
+ * Frontpage - Benefit Section
+ * ----------------------------------------------------------------------------
+ */
+
+ .frontpage-benefit-container {
+  float: left;
+  width: 100%;
+}
+
+.benefit-thumbnail-link {
+  float: left;
+  width: 100%;
+  display: block;
+  overflow:hidden;
+  margin-right: 0px;
+  margin-bottom: 15px;
+  background-color: #000000;
+}
+
+.benefit-single-content {
+  float: left;
+  width: 100%;
+  overflow: hidden;
+  display: block;
+}
+
+
+/**
+ * Frontpage - Form section 
+ * ----------------------------------------------------------------------------
+ */
+
+
+.fp-form-header {
+
+  img {
+    display: block;
+    height: 25px;
+    width: auto;
+    margin: 10px auto 10px auto;
+    }
+  
+}
+
+.fp-form-tabs-container {
+  position: relative;
+}
+
+.fp-form-container-left {
+  float: left;
+  width: 100%;
+}
+
+.fp-form-container-right {
+  float: left;
+  width: 100%;
+}
+
+.fp-form-container-force-top {
+    position: absolute;
+    top: 0px;
+    height: 200px;
+}
+
+.fp-form-container-force-bottom {
+  float: left;
+  margin-top: 200px;
+
+}
+
+.fp-form-product {
+  float: left;
+  height: 200px;
+  background-position: cover;
+  background-size: cover;
+}
+
+.form-min-height {
+  min-height: 0px;
+}
+
+.fp-form-product-text {
+  padding: 30px 30px 30px 30px;
+}
+
+
+
+} // End @media 
