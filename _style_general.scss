@@ -7,6 +7,7 @@ body {
   font-size: 15px;
   margin: 0px;
   padding: 0px;
+  background-color: #cccccc;
 }
 
 #viewport {
@@ -683,7 +684,7 @@ img.size-large,
 #hero-image {
   float: left;
   width: 100%;
-  background-color:red;
+  background-color:#F4F4F4;
   background-repeat: no-repeat;
   background-position: center top;
   background-size:cover;
@@ -1317,6 +1318,110 @@ img.size-large,
   p {
     margin-bottom: 3px;
   }
+
+}
+
+/**
+ * Frontpage - Form section 
+ * ----------------------------------------------------------------------------
+ */
+
+#page-header{
+  float: left;
+  width: 100%;
+  background-color:#F4F4F4;
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size:cover;
+  height: 500px;
+
+  h1 {
+    float: left;
+    width: 100%;
+    font-size: 5.21em;
+    text-align: center;
+    padding-top: 190px;
+    color: #ffffff;
+    font-family: 'amaticbold', sans-serif;
+  }
+
+
+}
+
+/**
+ * Plugin / Shortcodes - Accordions
+ * ----------------------------------------------------------------------------
+ */
+
+.accordions-container {
+  float: left;
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+  color: black;
+
+.responsive-accordion-head {
+  font-family: 'amaticregular';
+  font-size: 38px;
+}
+
+.responsive-accordion-default.responsive-accordion li .responsive-accordion-panel {
+  padding: 0px 15px 0px 15px;
+}
+
+.responsive-accordion li .responsive-accordion-head.active {
+  font-weight: normal;
+}
+
+.responsive-accordion  
+
+  img {
+  float: left; 
+  display: block;
+  max-width: 100%;
+  height: auto;
+  }
+
+table {
+  float: left;
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+table, th, td {
+border: none;
+border-collapse: collapse;
+line-height: 1em;
+}
+th, td {
+text-align: tr-left;
+padding: 10px 10px 10px 10px;
+
+}
+
+.tr-heading {
+background-color: #ffffff;
+border-bottom: solid 1px #cccccc;
+margin-bottom: 10px;
+}
+
+.tr-light {
+background-color: #ffffff;
+
+}
+
+.tr-dark {
+background-color: #f8f8f8;
+}
+
+.tr-left {
+text-align: left;
+}
+
+.tr-right {
+text-align: right;
+}
+
 
 }
 

@@ -1,24 +1,15 @@
 
 
 
+<?php $url = wp_get_attachment_url( get_post_thumbnail_id($post->ID )); // Get bg-image url ?> 
 
+<div id="page-header" class="fluid-container" style="background-image: url('<?php echo $url; ?>');">
+	
+	<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 
-<div id="hero-image" style="background-image: url('http://192.168.0.62//besteffekt/wp-content/themes/tarmac/img/spirulina-shake2.jpg');"/>
+		<h1><?php the_title(); ?></h1>
 
-<div class="hero-image-header">
-	<div class="hero-image-heading">
-		Supermat direkte <br> i postkassen
-	</div>
-
-			<div class="hero-image-button-container">
-				<a class="hero-image-button" href="<?php echo site_url(); ?>/#kjop-supermat">
-					Kjøp
-				</a>
-			</div>
+	<?php endwhile;	endif; ?>
 
 </div>
 
-
-
-
-</div> <!-- #hero-image -->

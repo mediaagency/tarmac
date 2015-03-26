@@ -71,6 +71,7 @@ if( ! function_exists( 'wpt_setup' ) ):
             //Setup custom thumbnail size 
             add_image_size( 'header', 970, 720, true ); 
             add_image_size( 'fp_article', 410, 290, true ); 
+            add_image_size( 'image_wide', 1140, 500, true ); 
 
 
         	//Load text domaion
@@ -207,5 +208,5 @@ add_action( 'widgets_init', 'ma_add_sidebar_widget' );
 ******************/
 
 //Post product
-require_once( 'includes/custompost/post_product.class.php' );
+
 ?>

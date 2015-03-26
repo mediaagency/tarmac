@@ -3,7 +3,10 @@ get_header();
 
 ?>
 
+<?php get_template_part( 'template', 'hero-image' ); ?> 
 
+<div id="main">
+    <div id="main-padding">
 
 
 <div class="reprint-section reprint-section-padding">
@@ -140,7 +143,7 @@ get_header();
 
 	<div class="frontpage-articles-container">
 
-		<div class="article-single col-xs-12 col-sm-6- col-md-3">
+		<div class="article-single col-xs-12 col-sm-6 col-md-3">
 			<a href="" class="article-single-thumbnail-link">
 				<img class="benefit-thumbnail" src="<?php echo get_stylesheet_directory_uri().'/img/milk.jpg' ?>">
 			</a>
@@ -153,7 +156,7 @@ get_header();
 				<p> Vivamus vitae semper tellus. Ut non elit quis justo accumsan pellentesque. Pellentesque sollicitudin vehicula volutpat. Vestibulum euismod gravida enim, nec maximus nibh pulvinar nec. Proin ullamcorper volutpat ex, vel ultrices turpis.</p>
 			</a>
 		</div> <!-- .article-single -->
-		<div class="article-single col-xs-12 col-sm-6- col-md-3">
+		<div class="article-single col-xs-12 col-sm-6 col-md-3">
 			<a href="" class="article-single-thumbnail-link">
 				<img class="benefit-thumbnail" src="<?php echo get_stylesheet_directory_uri().'/img/milk.jpg' ?>">
 			</a>
@@ -166,26 +169,26 @@ get_header();
 				<p> Vivamus vitae semper tellus. Ut non elit quis justo accumsan pellentesque. Pellentesque sollicitudin vehicula volutpat. Vestibulum euismod gravida enim, nec maximus nibh pulvinar nec. Proin ullamcorper volutpat ex, vel ultrices turpis.</p>
 			</a>
 		</div> <!-- .article-single -->
-		<div class="article-single col-xs-12 col-sm-6- col-md-3">
+		<div class="article-single col-xs-12 col-sm-6 col-md-3">
 			<a href="" class="article-single-thumbnail-link">
 				<img class="benefit-thumbnail" src="<?php echo get_stylesheet_directory_uri().'/img/milk.jpg' ?>">
 			</a>
 
 			<a href="" class="article-single-heading-link">
-				<h2>Nullam fermentum egestas tortor, et lobortis ex porttit</h2>
+				<h2>Kalsium</h2>
 			</a>
 
 			<a href="" class="article-single-text-link">
 				<p> Vivamus vitae semper tellus. Ut non elit quis justo accumsan pellentesque. Pellentesque sollicitudin vehicula volutpat. Vestibulum euismod gravida enim, nec maximus nibh pulvinar nec. Proin ullamcorper volutpat ex, vel ultrices turpis.</p>
 			</a>
 		</div> <!-- .article-single -->
-		<div class="article-single col-xs-12 col-sm-6- col-md-3">
+		<div class="article-single col-xs-12 col-sm-6 col-md-3">
 			<a href="" class="article-single-thumbnail-link">
 				<img class="benefit-thumbnail" src="<?php echo get_stylesheet_directory_uri().'/img/milk.jpg' ?>">
 			</a>
 
 			<a href="" class="article-single-heading-link">
-				<h2>Nullam fermentum egestas tortor, et lobortis ex porttit</h2>
+				<h2>Sink</h2>
 			</a>
 
 			<a href="" class="article-single-text-link">

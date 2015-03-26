@@ -2,17 +2,22 @@
 get_header();
 ?>
 
-	<div class="entry-content">
-		<article class="mb-xl">
-			<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
-			<div <?php post_class(); ?> >
-			<h1><?php the_title(); ?></h1>
-			<?php the_content(); ?>
+<?php get_template_part( 'template', 'page-header' ); ?> 
 
-			</div>
+<div id="main">
+    <div id="main-padding">
 
-			<?php  	endwhile;	endif;	?>
-		</article>
+	
+	<div class="col-xs-12 col-sm-12 col-md-8 col-xs-8">
+
+		<?php get_template_part( 'template', 'content' ); ?> 
+
+	</div>
+
+	<div id="sidebar" class="col-xs-12 col-sm-12 col-md-4 col-xs-4">
+		<?php // get_template_part( 'template', 'full-width-form' ); ?> 
+	</div>
+
 	
 	</div>
 	</div></div>
