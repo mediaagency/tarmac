@@ -19,9 +19,8 @@ get_header();
 	<div class="col-xs-12 col-sm-12 col-md-4 col-xs-4">
 	
 	<div id="sidebar">
-		<div class="sticky-side-container">
-		<h1>sidebar</h1>
-		</div> <!-- .sticky-side-container -->
+	
+		<?php get_sidebar( 'side-form' ); ?>
 
 	</div> <!-- #sidebar -->
 	 
@@ -29,7 +28,8 @@ get_header();
 	</div>
 
 </div>
-	</div>
+
+</div>
 <?php
 get_footer();
 ?>

@@ -191,12 +191,13 @@ get_header();
 	</div>
 
 	
-	<?php get_template_part( 'template', 'full-width-form' ); ?> 
+
+	<?php get_sidebar( 'bottom-form' ); ?>
 
 
 </div>	<!-- .reprint-section -->
 
-</div></div>
+</div></div></div>
 
 
 

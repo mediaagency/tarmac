@@ -20,7 +20,7 @@ get_header();
 	
 	<div id="sidebar">
 
-		<?php get_sidebar( 'form' ); ?>
+		<?php get_sidebar( 'side-form' ); ?>
 
 	</div> <!-- #sidebar -->
 	 

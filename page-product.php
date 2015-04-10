@@ -83,7 +83,7 @@ get_header();
 
 <div class="product-section">
 
-<?php get_template_part( 'template', 'full-width-form' ); ?> 	
+<?php get_sidebar( 'bottom-form' ); ?>	
 
 </div> <!-- .product-section -->	
 
