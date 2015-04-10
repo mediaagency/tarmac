@@ -46,7 +46,7 @@ get_header();
 	</div>
 	
 	<div class="fb-share-button-container">
-			<?php $share_url = site_url() . '/'. strtolower($product_name) . '-fb2/'; ?>	
+			<?php $share_url = site_url() . '/'. strtolower($product_name) . '-fb/'; ?>	
 			
 			
 			<a class="fb-share-button" href="<?php echo $share_url ?>" 
@@ -65,23 +65,20 @@ get_header();
 			
 	</div> <!-- .fb-share-button-container -->
 
-
-	<hr>
 </div>
 
 
 <div class="success-related-container">
 
 	<div class="reprint-section-header">
-		<h2 class="reprint-section-heading">Mer informasjon</h2>
-		<p class="reprint-section-description">Les mer om våre 
-		Finn ut mer om våre produkter!</p>
+		<h2 class="reprint-section-heading">Relevante artikler</h2>
+		<p class="reprint-section-description">Les mer om våre produkter!</p>
 	</div>
 
 	<?php get_template_part( 'template/content', 'latest-posts' ); ?> 
 </div>
 
-	</div></div>
+	</div></div></div>
 <?php
 get_footer();
 ?>
