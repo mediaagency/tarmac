@@ -2,7 +2,6 @@
 
 
 <div class="sb-form-section">
-
 	  <div class="sb-form-header">
 		   <ul class='tabs'>
 			    <li>

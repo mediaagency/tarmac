@@ -263,6 +263,12 @@ add_action( 'widgets_init', 'ma_add_sidebar_widget' );
 
 require_once('includes/class-metabox.php');
 
+
+/**
+ * Metabox on page 
+ * ----------------------------------------------------------------------------
+ */
+
 $meta_content_q6 = array(
     'Product Name' => 'ma_product_name', //Target id
 );
@@ -292,8 +298,42 @@ new ma_create_metabox(
             $meta_type_q6, //Meta type input and how many input fields
             $meta_type_select_q6 //meta type select box. 
 );
-    
 
+
+/**
+ * Metabox on posts 
+ * ----------------------------------------------------------------------------
+ */
+    
+$meta_content_q7 = array(
+    'Product Name' => 'ma_product_post_name', //Target id
+);
+
+// Type of input field
+$meta_type_q7 = array(  
+    'Product Name'      => 'text',
+);
+
+//if there is a select field add this 
+
+$meta_type_select_q7 = array(
+
+);
+
+//Create metabox
+new ma_create_metabox(
+            'post', //Post type
+            'ma_ls_product_post', // Meta Slug
+            'Type name of product', //Meta Title
+            'ma_ls', //ma Language slug
+            'normal', //Placement
+            'low', // Priority
+            'ma_ls_product_post_nonce_slug', //Nonce 1
+            'ma_ls_product_post_section_nonce_name', //nonce 2
+            $meta_content_q7, //Content
+            $meta_type_q7, //Meta type input and how many input fields
+            $meta_type_select_q7 //meta type select box. 
+);
 
 
 ?>

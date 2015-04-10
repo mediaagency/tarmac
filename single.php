@@ -19,9 +19,8 @@ get_header();
 	<div class="col-xs-12 col-sm-12 col-md-4 col-xs-4">
 	
 	<div id="sidebar">
-		<div class="sticky-side-container">
-		<?php  get_template_part( 'template', 'sidebar-form' ); ?> 
-		</div> <!-- .sticky-side-container -->
+
+		<?php get_sidebar( 'form' ); ?>
 
 	</div> <!-- #sidebar -->
 	 
