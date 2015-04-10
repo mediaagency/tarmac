@@ -77,7 +77,7 @@ Example:
                                 .trigger(animateScroll.check($this));
                         }, 250);
                     } else {
-                        // trigger animation event
+                        // trigger animation eventn 
                         $this
                             .trigger(animateScroll.check($this));
                     }
