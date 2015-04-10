@@ -12,12 +12,14 @@ get_header();
 <div id="main">
     <div id="main-padding">
 
+	<?php $product_name = strtolower(get_post_meta($post->ID, 'ma_product_name', true))  ?>
+
 
 <div class="product-section product-top-section">
 
 	<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
 		<p class="product-excerpt">
-		Chlorella er en éncellet ferskvannsalge som vokser best under 27 graders stabil varme, og kalles ofte “pakket solenergi.” Den har høyere konsentrasjon av essensielle næringsemner enn noe annet, kjent matemne. </p>
+		<?php echo $product_name ?>er en éncellet ferskvannsalge som vokser best under 27 graders stabil varme, og kalles ofte “pakket solenergi.” Den har høyere konsentrasjon av essensielle næringsemner enn noe annet, kjent matemne. </p>
 	</div>		
 
 	<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
@@ -31,7 +33,7 @@ get_header();
 <div class="product-section">
 
 	<div class="col-xs-12 col-sm-12 col-md-push-6 col-md-6 col-lg-push-6 col-lg-6">
-		<h2>Hva gjør Spirulina?</h2>
+		<h2>Hva gjør <?php echo $product_name ?>?</h2>
 
 		<ul class="product-benefit-list">
 			<li>Kan opprettholde normal funksjon i muskler og ledd</li>
@@ -43,10 +45,10 @@ get_header();
 			<li>Kan bidra til normal blodlevring</li>
 		</ul>
 		
-	</div>		
+	</div>			
 
 	<div class="col-xs-12 col-sm-12 col-md-pull-6 col-md-6 col-lg-pull-6 col-lg-6 ">
-		<img class="product-image" src="<?php echo get_stylesheet_directory_uri() ?>/img/produkt_tabletter_spirulina.jpg">
+		<img class="product-image" src="<?php echo get_stylesheet_directory_uri() ?>/img/produkt_tabletter_<?php echo $product_name ?>.jpg">
 	</div>
 
 	
@@ -58,7 +60,9 @@ get_header();
 		<img class="product-image-info" src="<?php echo get_stylesheet_directory_uri() ?>/img/prod-info.jpg">
 	</div>
 	<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-		<h2>Kort om produktet</h2>
+
+		
+		<h2>Kort om <?php echo $product_name ?></h2>
 		Chlorella er en éncellet ferskvannsalge som vokser best under 27 graders stabil varme, og kalles ofte “pakket solenergi.” Den har høyere konsentrasjon av essensielle næringsemner enn noe annet, kjent matemne. 
 		<?php the_slug(); ?>
 		

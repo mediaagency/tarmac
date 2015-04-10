@@ -20,6 +20,10 @@ function pickSidebarForm($product) {
 		get_template_part( 'template/content', 'form-bottom-chlorella' );
 	}
 
+	else if ($product == 'blank') {
+		// do nothing
+	}
+
 	else {
 
 		$random = rand(0,1);

@@ -25,13 +25,14 @@
 	  		<div class="sb-form-container-top">
 	  			<div class="sb-form-product " style="background-image: url(' <?php echo get_stylesheet_directory_uri() ?>/img/product_small_spirulina.jpg');">
 					<div class="sb-form-product-text">
-						JA TAKK! Jeg vil prøve <br>90 dager med Spirulina <br>for kun kr 199!
+						JA TAKK! Jeg vil prøve <br>90 dager med Spirulina <br>for kun kr <?php echo get_theme_mod( 'price_spirulina' ); ?>!<br>
+
 					</div>	  				
 	  			</div>
 			</div>
 			<div class="sb-form-container-bottom">
 				<div class="sb-form-sign-up-container ">
-					<?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar('sidebar_chlorella') ) : 
+					<?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar('sidebar_spirulina') ) : 
 					endif; ?>
 				</div>
 			</div>
@@ -43,7 +44,7 @@
 	  		<div class="sb-form-container-top">
 	  			<div class="sb-form-product " style="background-image: url(' <?php echo get_stylesheet_directory_uri() ?>/img/product_small_chlorella.jpg');">
 					<div class="sb-form-product-text">
-						JA TAKK! Jeg vil prøve <br>90 dager med Chlorella <br>for kun kr 199!
+						JA TAKK! Jeg vil prøve <br>90 dager med Chlorella <br>for kun kr <?php echo get_theme_mod( 'price_chlorella' ); ?>!
 					</div>	  				
 	  			</div>
 			</div>

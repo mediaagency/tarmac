@@ -16,8 +16,12 @@ function pickSidebarForm($product) {
 		get_template_part( 'template/content', 'form-side-spirulina' );
 	}
 
-	else if ($product == 'chlorella') {
+	elseif ($product == 'chlorella') {
 		get_template_part( 'template/content', 'form-side-chlorella' );
+	}
+
+	elseif ($product == 'blank') {
+		// do nothing
 	}
 
 	else {

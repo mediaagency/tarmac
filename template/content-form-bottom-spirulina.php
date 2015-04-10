@@ -24,14 +24,14 @@
 			<div class="tab-content">
 				<div class="fp-form-container-left fp-form-container-force-bottom">
 					<div class="fp-form-sign-up-container form-min-height">
-						<?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar('chlorella') ) : 
+						<?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar('spirulina') ) : 
 						endif; ?>
 					</div>
 				</div>
 				<div class="fp-form-container-right fp-form-container-force-top">
 					<div class="fp-form-product form-min-height" style="background-image: url(' <?php echo get_stylesheet_directory_uri() ?>/img/product_spirulina.jpg');">
 						<div class="fp-form-product-text">
-							JA TAKK! Jeg vil prøve <br>90 dager med Spirulina <br>for kun kr 199!
+							JA TAKK! Jeg vil prøve <br>90 dager med Spirulina <br>for kun kr <?php echo get_theme_mod( 'price_spirulina' ); ?>!
 						</div>	  				
 					</div>
 				</div>
@@ -44,7 +44,7 @@
 				<div class="fp-form-container-left">
 					<div class="fp-form-product form-min-height" style="background-image: url(' <?php echo get_stylesheet_directory_uri() ?>/img/product_chlorella.jpg');">
 						<div class="fp-form-product-text">
-							JA TAKK! Jeg vil prøve <br>90 dager med Chlorella <br>for kun kr 199!
+							JA TAKK! Jeg vil prøve <br>90 dager med Chlorella <br>for kun kr <?php echo get_theme_mod( 'price_chlorella' ); ?>!
 						</div>	  				
 					</div>
 				</div>
