@@ -13,7 +13,7 @@ get_header();
 	
 	<div class="reprint-section-header">
 		<h1 class="reprint-section-heading">Vår supermat</h1>
-		<p class="reprint-section-description">Nullam fermentum egestas tortor, et lobortis ex porttitor eget</p>
+		<p class="reprint-section-description">Finn ut mer om vår Chlorella og Spirulina.</p>
 	</div>
 
 	<div class="reprint-product-container">
@@ -21,10 +21,10 @@ get_header();
 		<div class="frontpage-product-single col-xs-12 col-sm-6">
 			<div class="frontpage-product-single-color"> 
 
-			<a href="" class="frontpage-product-thumbnail-link">
+			<a href="<?php echo site_url(); ?>/chlorella" class="frontpage-product-thumbnail-link">
 				<img src="<?php echo get_stylesheet_directory_uri().'/img/product_small_chlorella.jpg' ?>">
 			</a>
-			<a href="" class="frontpage-product-logo-link">
+			<a href="<?php echo site_url(); ?>/chlorella" class="frontpage-product-logo-link">
 				<img src="<?php echo get_stylesheet_directory_uri().'/img/logo_chlorella.png' ?>">
 			</a>
 			
@@ -33,14 +33,14 @@ get_header();
 				<h2>Energi</h2>
 			</a>
 
-			<p>Chlorella er tettpakket med energi <br/>og viktige næringstoffer<p>
+			<p>Chlorella er tettpakket med energi <br/>og viktige næringstoffer.<p>
 
 
 			<div class="frontpage-product-button-container">
-				<a class="frontpage-product-button" href="<?php echo site_url(); ?>/chlorella/">
+				<a class="frontpage-product-button" href="<?php echo site_url(); ?>/chlorella">
 					Les mer
 				</a>	
-								<a class="frontpage-product-button" href="">
+				<a class="frontpage-product-button" href="<?php echo site_url(); ?>/#kjop_supermat">
 					Kjøp
 				</a>	
 			</div>
@@ -50,10 +50,10 @@ get_header();
 		<div class="frontpage-product-single col-xs-12 col-sm-6">
 			<div class="frontpage-product-single-color"> 
 
-			<a href="" class="frontpage-product-thumbnail-link">
+			<a href="<?php echo site_url(); ?>/spirulina" class="frontpage-product-thumbnail-link">
 				<img src="<?php echo get_stylesheet_directory_uri().'/img/product_small_spirulina.jpg' ?>">
 			</a>
-			<a href="" class="frontpage-product-logo-link">
+			<a href="<?php echo site_url(); ?>/spirulina" class="frontpage-product-logo-link">
 				<img src="<?php echo get_stylesheet_directory_uri().'/img/logo_spirulina.png' ?>">
 			</a>
 			
@@ -65,10 +65,10 @@ get_header();
 			<p>Spirulina inneholder næringstoffer<br/>som kan hjelpe kroppen.<p>
 
 			<div class="frontpage-product-button-container">
-				<a class="frontpage-product-button" href="<?php echo site_url(); ?>/spirulina/">
+				<a class="frontpage-product-button" href="<?php echo site_url(); ?>/spirulina">
 					Les mer
 				</a>	
-								<a class="frontpage-product-button" href="">
+				<a class="frontpage-product-button" href="<?php echo site_url(); ?>/#kjop_supermat">
 					Kjøp
 				</a>	
 			</div>
@@ -79,11 +79,13 @@ get_header();
 </div>
 
 
+
+
 <div class="reprint-section reprint-section-padding">
 	
 	<div class="reprint-section-header">
 		<h1 class="reprint-section-heading">Fordeler med supermat</h1>
-		<p class="reprint-section-description">Nullam fermentum egestas tortor, et lobortis ex porttitor eget</p>
+		<p class="reprint-section-description">Les mer om fordelen med å spise supermat</p>
 		
 	</div>
 
@@ -138,71 +140,49 @@ get_header();
 	
 	<div class="reprint-section-header">
 		<h1 class="reprint-section-heading">Næringstoffer</h1>
-		<p class="reprint-section-description">Nullam fermentum egestas tortor, et lobortis ex porttitor eget</p>
+		<p class="reprint-section-description">Få mer informasjon om næringstoffene i vår supermat.</p>
 	</div>
 
 	<div class="frontpage-articles-container">
 
-		<div class="article-single col-xs-12 col-sm-6 col-md-3">
-			<a href="" class="article-single-thumbnail-link">
-				<img class="benefit-thumbnail" src="<?php echo get_stylesheet_directory_uri().'/img/milk.jpg' ?>">
-			</a>
 
-			<a href="" class="article-single-heading-link">
-				<h2>Jern</h2>
-			</a>
+	<?php get_template_part( 'template', 'fp-articles' ); ?> 	
 
-			<a href="" class="article-single-text-link">
-				<p> Vivamus vitae semper tellus. Ut non elit quis justo accumsan pellentesque. Pellentesque sollicitudin vehicula volutpat. Vestibulum euismod gravida enim, nec maximus nibh pulvinar nec. Proin ullamcorper volutpat ex, vel ultrices turpis.</p>
-			</a>
-		</div> <!-- .article-single -->
-		<div class="article-single col-xs-12 col-sm-6 col-md-3">
-			<a href="" class="article-single-thumbnail-link">
-				<img class="benefit-thumbnail" src="<?php echo get_stylesheet_directory_uri().'/img/milk.jpg' ?>">
-			</a>
+	<div class="frontpage-button-container frontpage-button-container-margin">
+		<a href="<?php echo site_url(); ?>/category/naeringsstoffer" class="frontpage-button">
+			Les mer
+		</a>
+	</div> <!-- .frontpage-button-container  -->
 
-			<a href="" class="article-single-heading-link">
-				<h2>Magnesium</h2>
-			</a>
-
-			<a href="" class="article-single-text-link">
-				<p> Vivamus vitae semper tellus. Ut non elit quis justo accumsan pellentesque. Pellentesque sollicitudin vehicula volutpat. Vestibulum euismod gravida enim, nec maximus nibh pulvinar nec. Proin ullamcorper volutpat ex, vel ultrices turpis.</p>
-			</a>
-		</div> <!-- .article-single -->
-		<div class="article-single col-xs-12 col-sm-6 col-md-3">
-			<a href="" class="article-single-thumbnail-link">
-				<img class="benefit-thumbnail" src="<?php echo get_stylesheet_directory_uri().'/img/milk.jpg' ?>">
-			</a>
-
-			<a href="" class="article-single-heading-link">
-				<h2>Kalsium</h2>
-			</a>
-
-			<a href="" class="article-single-text-link">
-				<p> Vivamus vitae semper tellus. Ut non elit quis justo accumsan pellentesque. Pellentesque sollicitudin vehicula volutpat. Vestibulum euismod gravida enim, nec maximus nibh pulvinar nec. Proin ullamcorper volutpat ex, vel ultrices turpis.</p>
-			</a>
-		</div> <!-- .article-single -->
-		<div class="article-single col-xs-12 col-sm-6 col-md-3">
-			<a href="" class="article-single-thumbnail-link">
-				<img class="benefit-thumbnail" src="<?php echo get_stylesheet_directory_uri().'/img/milk.jpg' ?>">
-			</a>
-
-			<a href="" class="article-single-heading-link">
-				<h2>Sink</h2>
-			</a>
-
-			<a href="" class="article-single-text-link">
-				<p> Vivamus vitae semper tellus. Ut non elit quis justo accumsan pellentesque. Pellentesque sollicitudin vehicula volutpat. Vestibulum euismod gravida enim, nec maximus nibh pulvinar nec. Proin ullamcorper volutpat ex, vel ultrices turpis.</p>
-			</a>
-		</div> <!-- .article-single -->
-	</div>
-</div>
-
-<div id="kjop-supermat">
-	<a name="kjop-supermat"></a>
+	</div> <!-- .frontpage-articles-container -->
 </div>
 
 <div class="reprint-section reprint-section-padding">
+	
+	<div class="reprint-section-header">
+		<h1 class="reprint-section-heading">Kundehistorier</h1>
+		<p class="reprint-section-description">Lær om våre kunders erfaring med supermat.</p>
+		
+	</div>
+
+	<?php get_template_part( 'template/content', 'product-stories' ); ?>
+
+	<div class="frontpage-button-container frontpage-button-container-margin">
+		<a href="<?php echo site_url(); ?>/category/kundehistorier" class="frontpage-button">
+			Les mer
+		</a>
+	</div> <!-- .frontpage-button-container  -->
+
+
+
+</div> <!-- .reprint-section -->
+
+<div id="buy_super_food">
+	<a name="kjop_supermat"></a>
+</div>
+
+
+<div class="reprint-section reprint-section-padding no-border">
 	
 	<div class="reprint-section-header">
 		<h1 class="reprint-section-heading">Velg din supermat</h1>

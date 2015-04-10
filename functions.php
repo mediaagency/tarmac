@@ -72,12 +72,26 @@ if( ! function_exists( 'wpt_setup' ) ):
             add_image_size( 'header', 970, 720, true ); 
             add_image_size( 'fp_article', 410, 290, true ); 
             add_image_size( 'image_wide', 1140, 500, true ); 
+            add_image_size( 'single_post', 800, 500, true );
+            add_image_size( 'square', 400, 400, true ); 
 
 
         	//Load text domaion
         	load_theme_textdomain('ma_ls', get_template_directory() . '/languages');
         }
 endif;
+
+
+function the_post_thumbnail_caption() {
+  global $post;
+
+  $thumbnail_id    = get_post_thumbnail_id($post->ID);
+  $thumbnail_image = get_posts(array('p' => $thumbnail_id, 'post_type' => 'attachment'));
+
+  if ($thumbnail_image && isset($thumbnail_image[0])) {
+    echo '<span>'.$thumbnail_image[0]->post_excerpt.'</span>';
+  }
+}
 
 /**
  * 3.0 Push down Navigation 
@@ -107,6 +121,16 @@ function ma_wp_head(){
     echo 'body.logged-in .navbar-fixed-top{ top: 28px !important; }'.PHP_EOL;
     echo '</style>'.PHP_EOL;
 }
+
+function the_slug($echo=true){
+  $slug = basename(get_permalink());
+  do_action('before_slug', $slug);
+  $slug = apply_filters('slug_filter', $slug);
+  if( $echo ) echo $slug;
+  do_action('after_slug', $slug);
+  return $slug;
+}
+
 
 /**
  * 4.0 Widgets 
@@ -168,6 +192,31 @@ function ma_add_sidebar_widget() {
         ));
 
         register_sidebar(array(
+            'name' => 'Sidebar - Chlorella',
+            'id'   => 'sidebar_chlorella',
+            'description'   => 'Appears in the sidbar and bottom form',
+            'before_widget' => '<div class="mb-m"><div id="%1$s" class="singel-widget %2$s">',
+            'after_widget'  => '</div></div>',
+            'before_title'  => '<div class="widget-title-container mb-s">
+                                <div class="widget-title-stroke">
+                                <h4  class="widget-title-text-color widget-title-text-bg widget-title-size">',
+            'after_title'   => '</h4></div></div>'
+        ));
+
+
+        register_sidebar(array(
+            'name' => 'Sidebar - Spirulina',
+            'id'   => 'sidebar_spirulina',
+            'description'   => 'Appears in the sidbar and bottom form',
+            'before_widget' => '<div class="mb-m"><div id="%1$s" class="singel-widget %2$s">',
+            'after_widget'  => '</div></div>',
+            'before_title'  => '<div class="widget-title-container mb-s">
+                                <div class="widget-title-stroke">
+                                <h4  class="widget-title-text-color widget-title-text-bg widget-title-size">',
+            'after_title'   => '</h4></div></div>'
+        ));
+
+        register_sidebar(array(
             'name' => 'Footer Left',
             'id'   => 'footer-left',
             'description'   => 'Appears in the left side of the footer.',
@@ -207,6 +256,44 @@ add_action( 'widgets_init', 'ma_add_sidebar_widget' );
 *
 ******************/
 
-//Post product
+/**
+ * Metabox - Pages 
+ * ----------------------------------------------------------------------------
+ */
+
+require_once('includes/class-metabox.php');
+
+$meta_content_q6 = array(
+    'Product Name' => 'ma_product_name', //Target id
+);
+
+// Type of input field
+$meta_type_q6 = array(  
+    'Product Name'      => 'text',
+);
+
+//if there is a select field add this 
+
+$meta_type_select_q6 = array(
+
+);
+
+//Create metabox
+new ma_create_metabox(
+            'page', //Post type
+            'ma_ls_feauter_post', // Meta Slug
+            'Type name of product', //Meta Title
+            'ma_ls', //ma Language slug
+            'normal', //Placement
+            'low', // Priority
+            'ma_ls_product_nonce_slug', //Nonce 1
+            'ma_ls_product_section_nonce_name', //nonce 2
+            $meta_content_q6, //Content
+            $meta_type_q6, //Meta type input and how many input fields
+            $meta_type_select_q6 //meta type select box. 
+);
+    
+
+
 
 ?>

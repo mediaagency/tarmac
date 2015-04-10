@@ -2,20 +2,34 @@
 get_header();
 ?>
 
-	<div class="entry-content">
-		<article class="mb-xl">
-			<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
-			<div <?php post_class(); ?> >
-			<h1><?php the_title(); ?></h1>
-			<?php the_content(); ?>
+<div id="main">
+<div id="main-padding">
 
-			</div>
-
-			<?php  	endwhile;	endif;	?>
-		</article>
 	
+	<div class="col-xs-12 col-sm-12 col-md-8 col-lg-8">
+
+	
+	<?php get_template_part( 'template/content', 'post-image' ); ?>		
+	
+	<?php get_template_part( 'template/content', 'content' ); ?>	
+	
+
 	</div>
-	</div></div></div></div></div></div>
+
+	<div class="col-xs-12 col-sm-12 col-md-4 col-xs-4">
+	
+	<div id="sidebar">
+		<div class="sticky-side-container">
+		<?php  get_template_part( 'template', 'sidebar-form' ); ?> 
+		</div> <!-- .sticky-side-container -->
+
+	</div> <!-- #sidebar -->
+	 
+		
+	</div>
+
+</div>
+	</div>
 <?php
 get_footer();
 ?>

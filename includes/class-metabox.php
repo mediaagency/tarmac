@@ -1,10 +1,5 @@
 <?php 
 class ma_create_metabox  {
-
-
-	/*
-	* Fifty shades of crap!
-	*/
 	
 	/**
 	* DECLARE VARIABLES 

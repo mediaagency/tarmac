@@ -44,10 +44,7 @@
     </div>
 
     <div id="footer-copyright" class="col-xs-12" style="text-align: center">
-        <?php 
-        $footer_copyright = get_option('ma_ls_options_theme_footer_display')['ma_ls_footer_copyright'];
-        ?>
-        <p><?php echo $footer_copyright?></p>
+        
     </div>
 
 </div> <!-- .row -->
