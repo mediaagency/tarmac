@@ -13,7 +13,6 @@ get_header();
 	
 	<?php get_template_part( 'template/content', 'content' ); ?>	
 	
-
 	</div>
 
 	<div class="col-xs-12 col-sm-12 col-md-4 col-xs-4">
@@ -21,7 +20,6 @@ get_header();
 	<div id="sidebar">
 
 		<?php get_sidebar( 'side-form' ); ?>
-
 	</div> <!-- #sidebar -->
 	 
 		
