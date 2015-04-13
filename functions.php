@@ -41,6 +41,9 @@ function ma_add_resources_front() {
     new wp_enqueue_assets( 'ma_theme_bootstrap_css', 'css/bootstrap.css', 'theme', '', 'style' );
     //Load all fonts
     new wp_enqueue_assets( 'ma_theme_fonts_css', 'fonts/fonts.css', 'theme', '', 'style' );
+
+    //Load font Awesome
+    new wp_enqueue_assets( 'ma_font_awesome_css', 'includes/icons/font-awesome-4.3.0/css/font-awesome.min.css', 'theme', '', 'style' );
 	//main CSS file 
 	new wp_enqueue_assets( 'ma_main_theme_css', 'style.css', 'theme', '', 'style' );
 
