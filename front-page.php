@@ -89,48 +89,17 @@ get_header();
 		
 	</div>
 
-	<div class="frontpage-benefit-container col-xs-12 col-sm-12 col-md-push-1 col-md-10">
-		<div class="benefit-single">
-			<a href="" class="benefit-thumbnail-link">
-				<img class="benefit-thumbnail" src="<?php echo get_stylesheet_directory_uri().'/img/fruit.jpg' ?>">
-			</a>
-			<span class="benefit-single-content">
-				<a href="" class="benefit-single-heading-link">
-					<h2 class="benefit-single-heading">Full av viktige næringstoffer</h2>
-				</a>
-				<a href="" class="benefit-single-text-link">
-					<p class="benefit-single-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam fermentum egestas tortor, et lobortis ex porttitor eget. Etiam semper aliquet ex, sed dapibus nisl mattis in. Duis accumsan pulvinar lorem, vel euismod quam gravida vitae. Nulla luctus nunc tristique, suscipit eros ut, convallis lectus. Nullam vitae risus at mauris facilisis auctor at eget massa. </p>
-				</a>
-			</span>
-		</div>
-		<div class="benefit-single">
-			<a href="" class="benefit-thumbnail-link">
-				<img class="benefit-thumbnail" src="<?php echo get_stylesheet_directory_uri().'/img/fruit.jpg' ?>">
-			</a>
-			<span class="benefit-single-content">
-				<a href="" class="benefit-single-heading-link">
-					<h2 class="benefit-single-heading">Full av viktige næringstoffer</h2>
-				</a>
-				<a href="" class="benefit-single-text-link">
-					<p class="benefit-single-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam fermentum egestas tortor, et lobortis ex porttitor eget. Etiam semper aliquet ex, sed dapibus nisl mattis in. Duis accumsan pulvinar lorem, vel euismod quam gravida vitae. Nulla luctus nunc tristique, suscipit eros ut, convallis lectus. Nullam vitae risus at mauris facilisis auctor at eget massa. </p>
-				</a>
-			</span>
-		</div>
-		<div class="benefit-single">
-			<a href="" class="benefit-thumbnail-link">
-				<img class="benefit-thumbnail" src="<?php echo get_stylesheet_directory_uri().'/img/fruit.jpg' ?>">
-			</a>
-			<span class="benefit-single-content">
-				<a href="" class="benefit-single-heading-link">
-					<h2 class="benefit-single-heading">Full av viktige næringstoffer</h2>
-				</a>
-				<a href="" class="benefit-single-text-link">
-					<p class="benefit-single-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam fermentum egestas tortor, et lobortis ex porttitor eget. Etiam semper aliquet ex, sed dapibus nisl mattis in. Duis accumsan pulvinar lorem, vel euismod quam gravida vitae. Nulla luctus nunc tristique, suscipit eros ut, convallis lectus. Nullam vitae risus at mauris facilisis auctor at eget massa. </p>
-				</a>
-			</span>
-		</div>	
+	<div class="frontpage-benefit-container">
+		
+		<?php get_template_part( 'template/content', 'product-info' ); ?>
 
-	</div>
+	</div> <!-- .frontpage-benefit-container  -->
+
+	<div class="frontpage-button-container frontpage-button-container-margin">
+		<a href="<?php echo site_url(); ?>/category/informasjon" class="frontpage-button">
+			Les mer
+		</a>
+	</div> <!-- .frontpage-button-container  -->
 
 </div> <!-- .reprint-section -->
 
@@ -197,7 +166,7 @@ get_header();
 
 </div>	<!-- .reprint-section -->
 
-</div></div></div>
+</div></div>
 
 
 
