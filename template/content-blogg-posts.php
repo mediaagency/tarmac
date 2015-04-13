@@ -20,7 +20,7 @@
 		</div>
 
 	</div> <!-- #post-image -->
-
+	
 	<div class="post-image-caption">
 		<?php the_post_thumbnail_caption(); ?>
 	</div> <!-- .post-image-caption -->
