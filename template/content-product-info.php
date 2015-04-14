@@ -27,3 +27,4 @@
 	<?php endwhile; else: endif; ?>
 
 </div> <!-- .costumer-stories-container-->
+
