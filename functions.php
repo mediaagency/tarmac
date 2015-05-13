@@ -225,8 +225,8 @@ function ma_add_sidebar_widget() {
             'description'   => 'Appears in the left side of the footer.',
             'before_widget' => '<div id="%1$s" class="footer-widget %2$s">',
             'after_widget'  => '</div>',
-            'before_title'  => '<div class="mb-s"><div class="footer-widget-title section-title mb-s"><h4 class="section-title-bg">',
-            'after_title'   => '</h4></div></div>'
+            'before_title'  => '',
+            'after_title'   => ''
         ));
 
         register_sidebar(array(
@@ -235,8 +235,8 @@ function ma_add_sidebar_widget() {
             'description'   => 'Appears in the middle of the footer.',
             'before_widget' => '<div id="%1$s" class="footer-widget %2$s">',
             'after_widget'  => '</div>',
-            'before_title'  => '<div class="mb-s"><div class="footer-widget-title section-title mb-s"><h4 class="section-title-bg">',
-            'after_title'   => '</h4></div></div>'
+            'before_title'  => '',
+            'after_title'   => ''
         ));
 
         register_sidebar(array(
@@ -245,8 +245,8 @@ function ma_add_sidebar_widget() {
             'description'   => 'Appears in the right side of the footer.',
             'before_widget' => '<div id="%1$s" class="footer-widget %2$s">',
             'after_widget'  => '</div>',
-            'before_title'  => '<div class="mb-s"><div class="footer-widget-title section-title mb-s"><h4 class="section-title-bg">',
-            'after_title'   => '</h4></div></div>'
+            'before_title'  => '',
+            'after_title'   => ''
         ));
     }
 }

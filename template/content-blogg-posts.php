@@ -5,7 +5,7 @@
 <div id="post-image-container">
 
 
-	<?php query_posts('category_name=blogg');?>
+	<?php query_posts('category_name=Blogg');?>
 	<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
 
 	

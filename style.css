@@ -45,6 +45,11 @@ body {
   padding: 30px;
   background-color: #ffffff; }
 
+#no-border-bottom {
+  border-bottom: none;
+  padding-bottom: 30px;
+  margin-bottom: 0px; }
+
 #main {
   background-color: #ffffff;
   float: left;
@@ -806,7 +811,7 @@ img.size-large,
   color: #CCC; }
 
 #footer-spacing {
-  margin-top: 45px;
+  margin-top: 35px;
   margin-bottom: 45px; }
 
 .footer-bg {
@@ -814,6 +819,15 @@ img.size-large,
 
 .footer-link-box-bg {
   background-color: #333; }
+
+.footer-widget {
+  padding-top: 15px; }
+
+.footer-widget a {
+  color: #2D8311; }
+.footer-widget a:hover {
+  color: #ffffff;
+  text-decoration: underline; }
 
 .footer-widget-title {
   border-bottom: 2px solid #444; }

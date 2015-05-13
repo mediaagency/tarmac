@@ -36,7 +36,7 @@ get_header();
 		<h2>Hva gjør <?php echo $product_name ?>?</h2>
 
 		<ul class="product-benefit-list">
-			<li>Kan opprettholde normal funksjon i muskler og ledd</li>
+			<li>Dyrket 100% økologisk.</li>
 			<li>Kan motvirke kroniske betennelser</li>
 			<li>Kan beskytte cellene i kroppen mot oksidativt stress</li>
 			<li>Kan virke smertestillende på såre muskler og ledd</li>
@@ -85,13 +85,13 @@ get_header();
 </div> <!-- .product-section -->
 
 
-<div class="product-section">
+<div id="no-border-bottom"  class="product-section">
 
 <?php get_sidebar( 'bottom-form' ); ?>	
 
 </div> <!-- .product-section -->	
 
-	</div></div>
+	</div></div></div>
 <?php
 get_footer();
 ?>

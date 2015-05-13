@@ -6,7 +6,7 @@
 		
 
 	
-	<div id="footer-spacing" class="row">
+	<div id="footer-spacing" >
 
 
 

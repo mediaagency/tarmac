@@ -151,7 +151,7 @@ get_header();
 </div>
 
 
-<div class="reprint-section reprint-section-padding no-border">
+<div id="no-border-bottom" class="reprint-section reprint-section-padding no-border">
 	
 	<div class="reprint-section-header">
 		<h1 class="reprint-section-heading">Velg din supermat</h1>
@@ -166,7 +166,7 @@ get_header();
 
 </div>	<!-- .reprint-section -->
 
-</div></div>
+</div></div></div>
 
 
 

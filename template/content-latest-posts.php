@@ -28,7 +28,7 @@ $args = array(
 	</a>
 
 	<a href="" class="article-single-text-link">
-		<p> Vivamus vitae semper tellus. Ut non elit quis justo accumsan pellentesque. Pellentesque sollicitudin vehicula volutpat. Vestibulum euismod gravida enim, nec maximus nibh pulvinar nec. Proin ullamcorper volutpat ex, vel ultrices turpis.</p>
+    <?php echo the_excerpt(); ?>
 	</a>
 </div> <!-- .article-single -->
 

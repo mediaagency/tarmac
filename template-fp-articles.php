@@ -7,7 +7,7 @@
 
 <div class="article-single col-xs-12 col-sm-6 col-md-3">
 	<a href="<?php the_permalink() ?>" class="article-single-thumbnail-link">
-		<?php the_post_thumbnail('fp_article') ?>
+		<?php the_post_thumbnail('fp_article'); ?>
 	</a>
 
 	<a href="<?php the_permalink() ?>" class="article-single-heading-link">
@@ -15,7 +15,7 @@
 	</a>
 
 	<a href="" class="article-single-text-link">
-		<p> Vivamus vitae semper tellus. Ut non elit quis justo accumsan pellentesque. Pellentesque sollicitudin vehicula volutpat. Vestibulum euismod gravida enim, nec maximus nibh pulvinar nec. Proin ullamcorper volutpat ex, vel ultrices turpis.</p>
+		<?php echo the_excerpt(); ?>
 	</a>
 </div> <!-- .article-single -->
 

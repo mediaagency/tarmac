@@ -5,7 +5,7 @@ get_header();
 <div id="main">
     <div id="main-padding">
 
-<div class="reprint-section reprint-section-padding">
+<div id="no-border-bottom" class="reprint-section reprint-section-padding">
 	
 	<div class="reprint-section-header">
 		<h1 class="reprint-section-heading"><?php single_cat_title(); ?></h1>

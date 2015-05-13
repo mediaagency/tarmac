@@ -40,6 +40,17 @@
 <!-- Push down the menu, when user is logged inn -->    
 <?php echo '<body class="'.join(' ', get_body_class()).'">'.PHP_EOL; ?>
 
+    <!-- Facebook start  -->    
+    <div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/nb_NO/sdk.js#xfbml=1&version=v2.3";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+<!-- Facebook End  -->    
+
 
     <div id="page" class="hfeed site" data-role="page">
 

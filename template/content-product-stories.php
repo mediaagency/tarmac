@@ -5,8 +5,22 @@
 
 <div class="costumer-stories-container col-xs-12 col-sm-12 col-md-push-1 col-md-10">
 
-	<?php query_posts('category_name=kundehistorier&post_status=publish,future');?>
-	<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
+
+<?php 
+
+$args = array(
+    'posts_per_page' => 4,
+    'offset' => 0,
+    'category_name' => 'kundehistorier',
+    'orderby' => 'post_date',
+    'order' => 'DESC',
+    'post_type' => 'post',
+    'post_status' => 'publish',
+    'suppress_filters' => true );
+
+  $the_query = new WP_Query( $args ); ?>
+
+  <?php while ($the_query -> have_posts()) : $the_query -> the_post(); ?>
 
 	<div class="costumer-stories-single">
 		<div class="cs-visual">
@@ -25,6 +39,8 @@
 		</div> <!-- .cs-content -->
 	
 	</div> <!-- .costumer-stories-single -->
-	<?php endwhile; else: endif; ?>
+
+  <?php endwhile; ?>
+  <?php wp_reset_query(); ?>
 
 </div> <!-- .costumer-stories-container-->
