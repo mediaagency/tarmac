@@ -1817,9 +1817,34 @@ line-height: 1.45em;
  * ----------------------------------------------------------------------------
  */
 
+
+.disclaimer-container {
+    float: left;
+    width: 100%;
+    padding: 10px;
+    margin: 0px 0px 0px 0px;
+    font-size: 0.9em;
+    color: #9a9a9a;
+    padding: 0px 30px 0px 30px;
+
+    a {
+      color: #2D8311;
+    }
+
+}
+
+.form-argument {
+  float: left;
+  width: 100%;
+}
+
+
+
+
 .fp-form-section {
   float: left;
   width: 100%;
+  background-color: #F4F4F4;
 }
 
 .fp-form-header {

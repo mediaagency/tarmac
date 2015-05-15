@@ -30,11 +30,10 @@ get_header();
 			
 
 			<a href="" class="frontpage-product-title-link">
-				<h2>Energi</h2>
+				<h2>Reparasjon</h2>
 			</a>
 
-			<p>Chlorella er tettpakket med energi <br/>og viktige næringstoffer.<p>
-
+			<p>Chlorella er inneholder næringstoffer<br/>som kan hjelpe kroppen.<p>
 
 			<div class="frontpage-product-button-container">
 				<a class="frontpage-product-button" href="<?php echo site_url(); ?>/chlorella">
@@ -56,13 +55,13 @@ get_header();
 			<a href="<?php echo site_url(); ?>/spirulina" class="frontpage-product-logo-link">
 				<img src="<?php echo get_stylesheet_directory_uri().'/img/logo_spirulina.png' ?>">
 			</a>
-			
 
 			<a href="" class="frontpage-product-title-link">
-				<h2>Reparasjon</h2>
+				<h2>Energi</h2>
 			</a>
 
-			<p>Spirulina inneholder næringstoffer<br/>som kan hjelpe kroppen.<p>
+			<p>Spirulina er tettpakket med energi <br/>og viktige næringstoffer.<p>
+			
 
 			<div class="frontpage-product-button-container">
 				<a class="frontpage-product-button" href="<?php echo site_url(); ?>/spirulina">
