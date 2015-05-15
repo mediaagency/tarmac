@@ -25,7 +25,16 @@
 	  		<div class="sb-form-container-top">
 	  			<div class="sb-form-product " style="background-image: url(' <?php echo get_stylesheet_directory_uri() ?>/img/product_small_chlorella.jpg');">
 					<div class="sb-form-product-text">
-						JA TAKK! Jeg vil prøve <br>90 dager med Chlorella <br>for kun kr <?php echo get_theme_mod( 'price_chlorella' ); ?>!
+							<span class="form-argument argument-1">
+								<?php echo get_theme_mod( 'theme_custom_form_selling_text1_1' ); ?>
+							</span>
+							<span class="form-argument argument-2">
+								<?php echo get_theme_mod( 'theme_custom_form_selling_text2_1' ); ?>
+							</span>
+							<span class="form-argument argument-3">
+								<?php echo get_theme_mod( 'theme_custom_form_selling_text3_1' ); ?>
+								<?php echo get_theme_mod( 'price_chlorella' ); ?>!
+							</span>
 					</div>	  				
 	  			</div>
 			</div>
@@ -33,6 +42,14 @@
 				<div class="sb-form-sign-up-container ">
 					<?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar('sidebar_chlorella') ) : 
 					endif; ?>
+						<div class="disclaimer-container">
+							<p class="disclaimer-info">
+								<?php echo get_theme_mod( 'theme_custom_form_disclaimer_1' ); ?>
+								<a href="<?php echo get_theme_mod( 'theme_custom_form_disclaimer_link_1' ); ?>">
+									<?php echo get_theme_mod( 'theme_custom_form_disclaimer_link_text_1' ); ?>
+								</a>		
+							</p>
+						</div> <!-- .disclaimer-container -->
 				</div>
 			</div>
 	  	</div>
@@ -43,7 +60,16 @@
 	  		<div class="sb-form-container-top">
 	  			<div class="sb-form-product " style="background-image: url(' <?php echo get_stylesheet_directory_uri() ?>/img/product_small_spirulina.jpg');">
 					<div class="sb-form-product-text">
-						JA TAKK! Jeg vil prøve <br>90 dager med Spirulina <br>for kun kr <?php echo get_theme_mod( 'price_spirulina' ); ?>!
+							<span class="form-argument argument-1">
+								<?php echo get_theme_mod( 'theme_custom_form_selling_text1_2' ); ?>
+							</span>
+							<span class="form-argument argument-2">
+								<?php echo get_theme_mod( 'theme_custom_form_selling_text2_2' ); ?>
+							</span>
+							<span class="form-argument argument-3">
+								<?php echo get_theme_mod( 'theme_custom_form_selling_text3_2' ); ?>
+								<?php echo get_theme_mod( 'price_chlorella' ); ?>!
+							</span>
 					</div>	  				
 	  			</div>
 			</div>
@@ -51,6 +77,14 @@
 				<div class="sb-form-sign-up-container ">
 					<?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar('sidebar_spirulina') ) : 
 					endif; ?>
+						<div class="disclaimer-container">
+							<p class="disclaimer-info">
+								<?php echo get_theme_mod( 'theme_custom_form_disclaimer_2' ); ?>
+								<a href="<?php echo get_theme_mod( 'theme_custom_form_disclaimer_link_2' ); ?>">
+									<?php echo get_theme_mod( 'theme_custom_form_disclaimer_link_text_2' ); ?>
+								</a>		
+							</p>
+						</div> <!-- .disclaimer-container -->
 				</div>
 			</div>
 	  	</div>

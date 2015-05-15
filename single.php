@@ -15,7 +15,7 @@ get_header();
 	
 	</div>
 
-	<div class="col-xs-12 col-sm-12 col-md-4 col-xs-4">
+	<div class="col-xs-12 col-sm-12 col-md-4">
 	
 	<div id="sidebar">
 
