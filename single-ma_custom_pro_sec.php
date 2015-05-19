@@ -13,10 +13,6 @@ get_header();
     <div id="main-padding">
 
 	<?php $product_name = strtolower(get_post_meta($post->ID, 'ma_product_name', true))  ?>
-<?php
-	$args = array( 'post_type' => 'ma_custom_pro_sec', 'posts_per_page' => 100 );
-	$loop = new WP_Query( $args );
-	while ($loop->have_posts()) : $loop->the_post(); ?>
 <div class="product-section product-top-section">
 
 	<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
@@ -97,7 +93,6 @@ get_header();
 
 	
 </div> <!-- .product-section -->
-<?php endwhile; ?>
 
 <div id="no-border-bottom"  class="product-section">
 
