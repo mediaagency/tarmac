@@ -11,7 +11,7 @@
 $args = array(
     'posts_per_page' => 3,
     'offset' => 0,
-    'category_name' => 'informasjon',
+    'category_name' => get_theme_mod( 'costum_fp_section_btn_link_2'),
     'orderby' => 'post_date',
     'order' => 'DESC',
     'post_type' => 'post',
