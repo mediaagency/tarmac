@@ -1,8 +1,6 @@
 <?php
 
-/*
-Template Name: Page - Product (Chlorella)
-*/
+
 
 get_header();
 ?>
@@ -39,20 +37,10 @@ get_header();
 	<div class="col-xs-12 col-sm-12 col-md-push-6 col-md-6 col-lg-push-6 col-lg-6">
 		<h2><?php echo get_post_meta( $post->ID, 'ma_ta_section_two_title', true )?><!--Hva kan Chlorella gjøre?--></h2>
 
-		<ul class="product-benefit-list">
+
 		<?php echo get_post_meta( $post->ID, 'ma_ta_section_two_content', true ); ?>
-		<!--
-			<li>Få sår og småskader til å gror raskere</li>
-			<li>Styrker immunforsvaret</li>
-			<li>Styrker leverfunksjonen, og hjelper kroppen med å fjerne giftstoffer</li>
-			<li>Hjelper kroppen å ta opp næring</li>
-			<li>Styrker hud, hår og negler</li>
-			<li>Normalisere blodtrykk</li>
-			<li>Redusere stress</li>
-			<li>Er eneste, kjente plantekilde til vitamin B-12 (kobalamin)</li>
-			<li>Dekker behovene for «5 om dagen»</li>
-		-->
-		</ul>
+
+
 
 	</div>			
 

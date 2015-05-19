@@ -357,9 +357,11 @@ function ma_custom_product(){
         'menu_icon' => 'dashicons-cart',
         'capability_type' => 'post',
         'hierarchical' => false,
-        'rewrite' => array("slug" => "ma_custom_pro_sec"), // Permalinks format
+        'rewrite' => array("slug" => "products"), // Permalinks format
         'supports' => array('title', 'thumbnail')
     )); 
+
+    flush_rewrite_rules();
 }
 
 
