@@ -37,7 +37,7 @@ get_header();
 <div class="product-section">
 
 	<div class="col-xs-12 col-sm-12 col-md-push-6 col-md-6 col-lg-push-6 col-lg-6">
-		<h2>Hva gjør <?php echo $product_name ?>?</h2>
+		<h2>Hva gjør Spirulina?</h2>
 
 		<ul class="product-benefit-list">
 			<li>Dyrket 100% økologisk.</li>
@@ -66,13 +66,13 @@ get_header();
 	<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
 
 		
-		<h2>Kort om <?php echo $product_name ?></h2>
+		<h2>Kort om Spirulina</h2>
 		Spirulina (platensis) er en blågrønn alge som forekommer naturlig i alkaliske ferskvann, og en av de rikeste og mest mangfoldige næringskildene man kjenner.
 		
 		<h3>Ønsker du å vite mer?</h3>
 
 		<p>
-		Hvis du ønsker å vite mer om innholdsstoffene i <?php the_slug(); ?> kan du <a href="<?php echo site_url(); ?>/fakta-om-spirulina">lese på vår faktaside</a> 
+		Hvis du ønsker å vite mer om innholdsstoffene i Spirulina kan du <a href="<?php echo site_url(); ?>/fakta-om-spirulina">lese på vår faktaside</a> 
 
 
 		</p>

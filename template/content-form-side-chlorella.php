@@ -40,6 +40,9 @@
 			</div>
 			<div class="sb-form-container-bottom">
 				<div class="sb-form-sign-up-container ">
+						<h4 class="widget-title-text-color widget-title-text-bg widget-title-size">
+							<?php echo get_theme_mod( 'theme_custom_form_heading_1' ); ?>
+						</h4>
 					<?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar('sidebar_chlorella') ) : 
 					endif; ?>
 						<div class="disclaimer-container">
@@ -68,13 +71,16 @@
 							</span>
 							<span class="form-argument argument-3">
 								<?php echo get_theme_mod( 'theme_custom_form_selling_text3_2' ); ?>
-								<?php echo get_theme_mod( 'price_chlorella' ); ?>!
+								<?php echo get_theme_mod( 'price_spirulina' ); ?>!
 							</span>
 					</div>	  				
 	  			</div>
 			</div>
 			<div class="sb-form-container-bottom">
 				<div class="sb-form-sign-up-container ">
+						<h4 class="widget-title-text-color widget-title-text-bg widget-title-size">
+							<?php echo get_theme_mod( 'theme_custom_form_heading_2' ); ?>
+						</h4>
 					<?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar('sidebar_spirulina') ) : 
 					endif; ?>
 						<div class="disclaimer-container">

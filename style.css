@@ -1492,7 +1492,7 @@ img.size-large,
   color: #ffffff; }
 
 .fp-form-sign-up-container h4 {
-  padding: 0px;
+  padding: 0px 0px 15px 0px;
   margin: 0px;
   line-height: 1em;
   font-size: 1.4em; }
@@ -1795,7 +1795,7 @@ img.size-large,
     height: 120px;
     width: auto;
     margin: 0px;
-    margin-top: -55px; }
+    margin-top: -57px; }
 
   .nav > li > a {
     font-size: 12px;
@@ -1849,7 +1849,7 @@ img.size-large,
     height: 120px;
     width: auto;
     margin: 0px;
-    margin-top: -55px; }
+    margin-top: -56px; }
 
   .nav > li > a {
     font-size: 12px;

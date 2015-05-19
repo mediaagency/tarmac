@@ -36,7 +36,7 @@ get_header();
 <div class="product-section">
 
 	<div class="col-xs-12 col-sm-12 col-md-push-6 col-md-6 col-lg-push-6 col-lg-6">
-		<h2>Hva kan <?php echo $product_name ?> gjøre?</h2>
+		<h2>Hva kan Chlorella gjøre?</h2>
 
 		<ul class="product-benefit-list">
 			<li>Få sår og småskader til å gror raskere</li>
@@ -67,16 +67,13 @@ get_header();
 	<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
 
 		
-		<h2>Kort om <?php echo $product_name ?></h2>
-		Chlorella er en éncellet ferskvannsalge som vokser best under 27 graders stabil varme, og kalles ofte “pakket solenergi.” Den har høyere konsentrasjon av essensielle næringsemner enn noe annet, kjent matemne. 
-		<?php the_slug(); ?>
+		<h2>Kort om Chlorella</h2>
+		Chlorella er en éncellet ferskvannsalge som vokser best under 27 graders stabil varme, og kalles ofte “pakket solenergi.” Den har høyere konsentrasjon av essensielle næringsemner enn noe annet, kjent matemne.
 		
 		<h3>Ønsker du å vite mer?</h3>
 
 		<p>
-		Hvis du ønsker å vite mer om innholdsstoffene i <?php the_slug(); ?> kan du <a href="<?php echo site_url(); ?>/fakta-om-chlorella">lese på vår faktaside</a> 
-
-
+		Hvis du ønsker å vite mer om innholdsstoffene i Chlorella kan du <a href="<?php echo site_url(); ?>/fakta-om-chlorella">lese på vår faktaside</a> 
 		</p>
 
 		

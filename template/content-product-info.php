@@ -9,7 +9,7 @@
 <?php 
 
 $args = array(
-    'posts_per_page' => 4,
+    'posts_per_page' => 3,
     'offset' => 0,
     'category_name' => 'informasjon',
     'orderby' => 'post_date',
