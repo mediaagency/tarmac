@@ -99,12 +99,18 @@ class ma_create_metabox  {
         /* OK, its safe for us to save the data now. */
 
         foreach ($this->meta_content_render as $key => $value) {
-        	//sanetaize the input
-        	if(isset($value)){
-            //Push the updated value to db. 
-            update_post_meta( $post_id, $value, sanitize_text_field( $_POST[$value] ));  
+
+          foreach ($this->meta_input_type as $key => $value2) {
+            if( isset($value) == 'tinymc' ) {
+              update_post_meta( $post_id, $value, ($_POST[$value]) );
+            } else {
+              //sanetaize the input
+              if(isset($value)){
+                //Push the updated value to db.
+                update_post_meta( $post_id, $value, sanitize_text_field( $_POST[$value] ));  
+              }
+            }
           }
-        	
         }
 
     }
@@ -284,6 +290,18 @@ class ma_create_metabox  {
           ?>
           </p>
           <?php
+        }
+
+        if( $input == "tinymc" ) {
+
+            wp_editor(get_post_meta( $post->ID, $input_name, true ), $input_name, array(
+              'wpautop'       =>      true,
+              'media_buttons' =>      false,
+              'textarea_name' =>      $input_name,
+              'textarea_rows' =>      10, 
+              'teeny'         =>      true
+            ));
+          
         }
 
 

@@ -54,7 +54,7 @@ add_action( 'wp_enqueue_scripts', 'ma_add_resources_front' );
 
 //Back-end 
 function ma_add_resources_back() {
-
+    new wp_enqueue_assets( 'ma_theme_image_uploader', 'js/imageUploader.js', 'theme', 'jquery', 'script' );
 }
 add_action( 'admin_enqueue_scripts', 'ma_add_resources_back' );
 
@@ -341,7 +341,144 @@ new ma_create_metabox(
 );
 
 
+/**
+* Custom post for Products
+*/
+
+add_action('init', 'ma_custom_product');
+function ma_custom_product(){
+    register_post_type('ma_custom_pro_sec', array(
+        'label' => __('Products', 'ma_ta'),
+        'singular_label' => __('Products', 'ma_ta'),
+        'public' => true,
+        'show_ui' => true, // UI in admin panel
+        'show_in_menu' => true, //Show in menu
+        'show_in_nav_menus' => true,
+        'menu_icon' => 'dashicons-cart',
+        'capability_type' => 'post',
+        'hierarchical' => false,
+        'rewrite' => array("slug" => "ma_custom_pro_sec"), // Permalinks format
+        'supports' => array('title', 'thumbnail')
+    )); 
+}
 
 
+/**************************
+*
+* Section 1 metabox. 
+*
+**************************/
+$meta_content_q8 = array(
+    'Section Title' => 'ma_ta_section_one_title', //Target id
+    'Section Content' => 'ma_ta_section_one_content', //Target id
+    'Section Image'   => 'ma_ta_section_one_image'
+);
+
+// Type of input field
+$meta_type_q8 = array(  
+    'Section Title'     => 'text',
+    'Section Content'   => 'tinymc',
+    'Section Image'     => 'imageUpload'
+);
+
+//if there is a select field add this 
+
+$meta_type_select_q8 = array(
+
+);
+
+//Create metabox
+new ma_create_metabox(
+            'ma_custom_pro_sec', //Post type
+            'ma_custom_pro_sec_slug', // Meta Slug
+            'Section 1', //Meta Title
+            'ma_ta', //ma Language slug
+            'normal', //Placement
+            'low', // Priority
+            'ma_ta_product_post_nonce_slug', //Nonce 1
+            'ma_ta_product_post_section_nonce_name', //nonce 2
+            $meta_content_q8, //Content
+            $meta_type_q8, //Meta type input and how many input fields
+            $meta_type_select_q8 //meta type select box. 
+);
+
+
+/**************************
+*
+* Section 2 metabox. 
+*
+**************************/
+$meta_content_q9 = array(
+    'Section 2 Title' => 'ma_ta_section_two_title', //Target id
+    'Section 2 Content' => 'ma_ta_section_two_content', //Target id
+    'Section 2 Image'   => 'ma_ta_section_two_image'
+);
+
+// Type of input field
+$meta_type_q9 = array(  
+    'Section 2 Title'     => 'text',
+    'Section 2 Content'   => 'tinymc',
+    'Section 2 Image'     => 'imageUpload'
+);
+
+//if there is a select field add this 
+
+$meta_type_select_q9 = array(
+
+);
+
+//Create metabox
+new ma_create_metabox(
+            'ma_custom_pro_sec', //Post type
+            'ma_custom_pro_sec_slug_two', // Meta Slug
+            'Section 2', //Meta Titles
+            'ma_ta', //ma Language slug
+            'normal', //Placement
+            'low', // Priority
+            'ma_ta_product_post_nonce_slug_two', //Nonce 1
+            'ma_ta_product_post_section_nonce_name_two', //nonce 2
+            $meta_content_q9, //Content
+            $meta_type_q9, //Meta type input and how many input fields
+            $meta_type_select_q9 //meta type select box. 
+);
+
+/**************************
+*
+* Section 2 metabox. 
+*
+**************************/
+$meta_content_q10 = array(
+    'Section 3 Title' => 'ma_ta_section_three_title', //Target id
+    'Section 3 Content' => 'ma_ta_section_three_content', //Target id
+    'Section 3 Image'   => 'ma_ta_section_three_image'
+);
+
+// Type of input field
+$meta_type_q10 = array(  
+    'Section 3 Title'     => 'text',
+    'Section 3 Content'   => 'tinymc',
+    'Section 3 Image'     => 'imageUpload'
+);
+
+//if there is a select field add this 
+
+$meta_type_select_q10 = array(
+
+);
+
+//Create metabox
+new ma_create_metabox(
+            'ma_custom_pro_sec', //Post type
+            'ma_custom_pro_sec_slug_three', // Meta Slug
+            'Section 2', //Meta Titles
+            'ma_ta', //ma Language slug
+            'normal', //Placement
+            'low', // Priority
+            'ma_ta_product_post_nonce_slug_three', //Nonce 1
+            'ma_ta_product_post_section_nonce_name_three', //nonce 2
+            $meta_content_q10, //Content
+            $meta_type_q10, //Meta type input and how many input fields
+            $meta_type_select_q10 //meta type select box. 
+);
 
 ?>
