@@ -25,15 +25,15 @@ get_header();
 		<div class="frontpage-product-single col-xs-12 col-sm-6">
 			<div class="frontpage-product-single-color"> 
 
-			<a class="frontpage-product-thumbnail-link" href="<?php echo site_url(); ?>/<?php echo get_theme_mod( 'costum_fp_section_btn_link_chlorella_1' ); ?>">
+			<a class="frontpage-product-thumbnail-link" href="<?php echo get_theme_mod( 'costum_fp_section_btn_link_chlorella_1' ); ?>">
 				<img src="<?php echo get_stylesheet_directory_uri().'/img/product_small_chlorella.jpg' ?>">
 			</a>
-			<a class="frontpage-product-logo-link" href="<?php echo site_url(); ?>/<?php echo get_theme_mod( 'costum_fp_section_btn_link_chlorella_1' ); ?>">
+			<a class="frontpage-product-logo-link" href="<?php echo get_theme_mod( 'costum_fp_section_btn_link_chlorella_1' ); ?>">
 				<img src="<?php echo get_stylesheet_directory_uri().'/img/logo_chlorella.png' ?>">
 			</a>
 			
 
-			<a class="frontpage-product-title-link" href="<?php echo site_url(); ?>/<?php echo get_theme_mod( 'costum_fp_section_btn_link_chlorella_1' ); ?>">
+			<a class="frontpage-product-title-link" href="<?php echo get_theme_mod( 'costum_fp_section_btn_link_chlorella_1' ); ?>">
 				<h2>
 					<?php echo get_theme_mod( 'costum_fp_section_heading_chlorella_1' ); ?>
 				</h2>
@@ -44,7 +44,7 @@ get_header();
 			<p>
 
 			<div class="frontpage-product-button-container">
-				<a class="frontpage-product-button" href="<?php echo site_url(); ?>/<?php echo get_theme_mod( 'costum_fp_section_btn_link_chlorella_1' ); ?>">
+				<a class="frontpage-product-button" href="<?php echo get_theme_mod( 'costum_fp_section_btn_link_chlorella_1' ); ?>">
 					<?php echo get_theme_mod( 'costum_fp_section_btn_chlorella_txt_1' ); ?>
 				</a>	
 				<a class="frontpage-product-button" href="<?php echo get_theme_mod( 'costum_fp_section_btn_link_chlorella_11' ); ?>">
@@ -57,14 +57,14 @@ get_header();
 		<div class="frontpage-product-single col-xs-12 col-sm-6">
 			<div class="frontpage-product-single-color"> 
 
-			<a class="frontpage-product-thumbnail-link" href="<?php echo site_url(); ?>/<?php echo get_theme_mod( 'costum_fp_section_btn_link_spirulina_1' ); ?>">
+			<a class="frontpage-product-thumbnail-link" href="<?php echo get_theme_mod( 'costum_fp_section_btn_link_spirulina_1' ); ?>">
 				<img src="<?php echo get_stylesheet_directory_uri().'/img/product_small_spirulina.jpg' ?>">
 			</a>
-			<a class="frontpage-product-logo-link" href="<?php echo site_url(); ?>/<?php echo get_theme_mod( 'costum_fp_section_btn_link_spirulina_1' ); ?>">
+			<a class="frontpage-product-logo-link" href="<?php echo get_theme_mod( 'costum_fp_section_btn_link_spirulina_1' ); ?>">
 				<img src="<?php echo get_stylesheet_directory_uri().'/img/logo_spirulina.png' ?>">
 			</a>
 
-			<a class="frontpage-product-title-link" href="<?php echo site_url(); ?>/<?php echo get_theme_mod( 'costum_fp_section_btn_link_spirulina_1' ); ?>">
+			<a class="frontpage-product-title-link" href="<?php echo get_theme_mod( 'costum_fp_section_btn_link_spirulina_1' ); ?>">
 				<h2>
 					<?php echo get_theme_mod( 'costum_fp_section_heading_spirulina_1' ); ?>
 				</h2>
@@ -75,7 +75,7 @@ get_header();
 			<p>
 
             <div class="frontpage-product-button-container">
-                <a class="frontpage-product-button" href="<?php echo site_url(); ?>/<?php echo get_theme_mod( 'costum_fp_section_btn_link_spirulina_1' ); ?>">
+                <a class="frontpage-product-button" href="<?php echo get_theme_mod( 'costum_fp_section_btn_link_spirulina_1' ); ?>">
                     <?php echo get_theme_mod( 'costum_fp_section_btn_spirulina_txt_1' ); ?>
                 </a>    
                 <a class="frontpage-product-button" href="<?php echo get_theme_mod( 'costum_fp_section_btn_link_spirulina_11' ); ?>">

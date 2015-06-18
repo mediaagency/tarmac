@@ -390,8 +390,7 @@ function add_fp_section_1 ( $wp_customize ) {
             'priority'    => 23,
             'section'  => 'costum_fp_sections_1',
             'settings' => 'costum_fp_section_btn_link_chlorella_1',
-            'type'    => 'select',
-            'choices' => get_pages_select()
+            'type'     => 'text',
         )
     );
 
@@ -473,8 +472,7 @@ function add_fp_section_1 ( $wp_customize ) {
             'priority'    => 33,
             'section'  => 'costum_fp_sections_1',
             'settings' => 'costum_fp_section_btn_link_spirulina_1',
-            'type'    => 'select',
-            'choices' => get_pages_select()
+            'type'     => 'text',
         )
     );
 
@@ -503,7 +501,6 @@ function add_fp_section_1 ( $wp_customize ) {
             'type'     => 'text',
         )
     );
-
 
 }
 add_action('customize_register', 'add_fp_section_1');

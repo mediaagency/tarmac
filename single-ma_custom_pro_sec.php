@@ -4,8 +4,9 @@
 
 get_header();
 ?>
-
+<div id="product-page-header">
 <?php get_template_part( 'template', 'page-header' ); ?> 
+</div>
 
 <div id="main">
     <div id="main-padding">
@@ -14,14 +15,9 @@ get_header();
 <div class="product-section product-top-section">
 
 	<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-		<p class="product-excerpt"> 
+		<span class="product-excerpt"> 
 			<?php echo get_post_meta( $post->ID, 'ma_ta_section_one_content', true ); ?>
-			<!--
-			Chlorella (pyreinodosa) - garantert beste kvalitet fra samme kilde som det dyreste merke du får i helskosthandelen, til under 1/3 av prisen.
-			<br>
-			vakuumpakket solenergi. Hel mat, 100% naturlig. Supertilskuddet som har en mer komplett sammensetning, og rikere innhold på de viktigste næringemnene enn noe annet matemne man kjenner. Renser, reparerer og gir deg energi i hverdagen. 3 gram hver dag tilsvarer 3-5 kilo grønt, avhengig av sammensetning.
-			-->
-		</p>
+		</span>
 	</div>		
 
 	<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
@@ -37,7 +33,7 @@ get_header();
 	<div class="col-xs-12 col-sm-12 col-md-push-6 col-md-6 col-lg-push-6 col-lg-6">
 		<h2><?php echo get_post_meta( $post->ID, 'ma_ta_section_two_title', true )?><!--Hva kan Chlorella gjøre?--></h2>
 
-
+	
 		<?php echo get_post_meta( $post->ID, 'ma_ta_section_two_content', true ); ?>
 
 

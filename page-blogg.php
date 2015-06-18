@@ -1,7 +1,11 @@
 <?php
+
+/*
+Template Name: Page - Blogg
+*/
+
 get_header();
 ?>
-
 <div id="main">
 <div id="main-padding">
 

@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /*
 Theme Name: Tarmac
 Theme URI: http://www.newvalley.co
@@ -143,7 +144,8 @@ small, .font_small {
 article {
   float: left;
   width: 100%;
-  min-height: 350px; }
+  min-height: 350px;
+  padding-bottom: 30px; }
   article img {
     float: left;
     display: block;
@@ -1153,16 +1155,33 @@ img.size-large,
   max-width: 280px;
   margin-top: 30px; }
 
+#product-page-header #page-header {
+  float: left;
+  width: 100%;
+  background-color: #F4F4F4;
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  background-size: cover;
+  height: 500px; }
+
 .product-top-section {
   float: left;
-  margin-top: 30px; }
+  margin-top: 30px;
+  font-size: 1.14em; }
+  .product-top-section h2 {
+    font-family: 'amaticbold';
+    font-size: 2.44em;
+    letter-spacing: 0.03em;
+    margin-top: 0px;
+    padding-top: 0px; }
 
 .product-excerpt {
-  font-size: 2.5em;
-  line-height: 1.4em;
-  letter-spacing: 0.03em;
-  font-family: 'amaticbold';
-  padding-top: 45px; }
+  float: left;
+  font-size: 1.18em;
+  line-height: 1.35em;
+  letter-spacing: 0.01em;
+  padding-top: 0px;
+  padding-bottom: 45px; }
 
 .product-image-top {
   float: none;
@@ -1356,21 +1375,28 @@ img.size-large,
   float: left;
   width: 100%; }
 
+.fb_iframe_widget  {
+  float: none;
+  display: block; }
+
 .fb-share-button {
   float: none;
   display: block;
   margin: auto;
   width: 270px;
-  background-color: #3b5998;
+  background-color: #2D8311;
   color: #f7f7f7;
   font-size: 1.3em;
   text-decoration: none;
   text-align: center;
-  padding: 10px 15px 10px 15px; }
+  padding: 10px 15px 20px 15px; }
 
 .fb-share-button:hover {
   text-decoration: none;
-  background-color: #000000;
+  background-color: #cccccc;
+  color: #ffffff; }
+
+.pluginShareButtonLink .uiIconText {
   color: #ffffff; }
 
 .fb-share-image-container {
@@ -1751,6 +1777,32 @@ img.size-large,
     line-height: 1em; }
   .sb-form-sign-up-container .wpcf7 .wpcf7-form p {
     margin-bottom: 3px; }
+
+.not-found-titel {
+  float: left;
+  width: 100%;
+  text-align: center;
+  font-family: 'amaticbold', sans-serif;
+  font-size: 8em;
+  color: #2D8311;
+  padding-bottom: 0.2em;
+  margin-bottom: 0em; }
+
+.not-found-button {
+  float: left;
+  width: 100%;
+  background-color: #2D8311;
+  border: none;
+  color: #ffffff;
+  padding: 20px 15px 20px 15px;
+  margin-top: 10px;
+  text-decoration: none;
+  cursor: pointer; }
+
+.not-found-button:hover {
+  text-decoration: none;
+  background-color: #000000;
+  color: #ffffff; }
 
 /****************************************
         LG -  Large devices 

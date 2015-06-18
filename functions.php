@@ -357,7 +357,7 @@ function ma_custom_product(){
         'menu_icon' => 'dashicons-cart',
         'capability_type' => 'post',
         'hierarchical' => false,
-        'rewrite' => array("slug" => "products"), // Permalinks format
+        'rewrite' => array("slug" => "produkter"), // Permalinks format
         'supports' => array('title', 'thumbnail')
     )); 
 
@@ -482,5 +482,13 @@ new ma_create_metabox(
             $meta_type_q10, //Meta type input and how many input fields
             $meta_type_select_q10 //meta type select box. 
 );
+
+
+/**
+ * Controll penel for icon/fav
+ * ----------------------------------------------------------------------------
+ */
+
+include('includes/fav-icons/fav-icons.php');
 
 ?>
