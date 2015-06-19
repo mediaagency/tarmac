@@ -39,50 +39,6 @@ function get_pages_select() {
 }
 
 
-/**
- * Costumize price-information from the Theme appearence panel. 
- * ----------------------------------------------------------------------------
- */
-
-function add_price_features ( $wp_customize ) {
-
-$wp_customize->add_section( 'custom_price_section' , array(
-    'title'       => __( 'Price', 'themeslug' ),
-    'priority'    => 30,
-    'description' => 'Adjust the product prices',
-) );
-
-
-
-$wp_customize->add_setting( 'price_spirulina' );
-
-$wp_customize->add_control(
-    'frontpage_feature_1', 
-    array(
-        'label'    => __( 'Pris Spirulina (kr)', 'themeslug' ),
-        'section'  => 'custom_price_section',
-        'settings' => 'price_spirulina',
-        'type'     => 'text',
-    )
-);
-
-
-
-$wp_customize->add_setting( 'price_chlorella' );
-
-$wp_customize->add_control(
-    'frontpage_feature_2', 
-    array(
-        'label'    => __( 'Price Chlorella (kr)', 'themeslug' ),
-        'section'  => 'custom_price_section',
-        'settings' => 'price_chlorella',
-        'type'     => 'text',
-    )
-);
-
-}
-
-add_action('customize_register', 'add_price_features');
 
 
 

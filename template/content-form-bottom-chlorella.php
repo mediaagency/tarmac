@@ -34,7 +34,7 @@
 							</span>
 							<span class="form-argument argument-3">
 								<?php echo get_theme_mod( 'theme_custom_form_selling_text3_1' ); ?>
-								<?php echo get_theme_mod( 'price_chlorella' ); ?>!
+								
 							</span>
 						</div>	  				
 					</div>
@@ -73,7 +73,7 @@
 							</span>
 							<span class="form-argument argument-3">
 								<?php echo get_theme_mod( 'theme_custom_form_selling_text3_2' ); ?>
-								<?php echo get_theme_mod( 'price_spirulina' ); ?>!
+								
 							</span>
 						</div>	  				
 					</div>
