@@ -8,6 +8,48 @@ get_header();
 ?>
 
 
+ <?php
+ 
+if( isset($_COOKIE['orderID'] ) ) {
+
+ $order_id = $_COOKIE['orderID'];
+ $campaignID = '19982'; // Enter your campaignID as provided by TradeTracker.
+ $productID = '29500'; // Enter your productID as provided by TradeTracker.
+ $transactionAmount = '1';
+ // *****************
+
+ $transactionID = htmlentities($order_id);
+ 
+ echo "<script type=\"text/javascript\">
+ var ttConversionOptions = ttConversionOptions || [];
+ ttConversionOptions.push({
+  type: 'sales', 
+  campaignID: '{$campaignID}', 
+  productID: '{$productID}', 
+  transactionID: '{$transactionID}', 
+  transactionAmount: '{$transactionAmount}', 
+  quantity: '1',
+  email: '', 
+  descrMerchant: '', 
+  descrAffiliate: '', 
+  currency: ''
+ });
+ </script>
+ <noscript>
+  <img src=\"//ts.tradetracker.net/?cid={$campaignID}&amp;pid={$productID}&amp;tid={$transactionID}&amp;tam={$transactionAmount}&amp;data=&amp;qty=1&amp;eml=&amp;descrMerchant=&amp;descrAffiliate=&amp;event=sales&amp;currency=\" alt=\"\" />
+ </noscript>
+ <script type=\"text/javascript\">
+  (function(ttConversionOptions) {
+   var campaignID = 'campaignID' in ttConversionOptions ? ttConversionOptions.campaignID : ('length' in ttConversionOptions && ttConversionOptions.length ? ttConversionOptions[0].campaignID : null);
+   var tt = document.createElement('script'); tt.type = 'text/javascript'; tt.async = true; tt.src = '//tm.tradetracker.net/conversion?s=' + encodeURIComponent(campaignID) + '&t=m';
+   var s = document.getElementsByTagName('script'); s = s[s.length - 1]; s.parentNode.insertBefore(tt, s);
+  })(ttConversionOptions);
+ </script>";
+}
+?>
+
+
+
 <?php $product_name = get_post_meta($post->ID, 'ma_product_name', true) ?>
 
 <div id="main">
