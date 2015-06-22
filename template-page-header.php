@@ -8,13 +8,13 @@
 
 		<h1><?php the_title(); ?></h1>
 		<!--Checks if the on/off button is on and display information accordingly.-->
-		<?php if( @get_post_meta( $post->ID, 'ma_ta_section_header_onoff', true ) == 'ON' ):  ?>
+		<?php if( esc_attr( @get_post_meta( $post->ID, 'ma_ta_section_header_onoff', true ) == 'ON' ) ):  ?>
 			<!--Gets the button text from the custom post field. -->
-			<?php echo @get_post_meta( $post->ID, 'ma_ta_section_header_btn_text', true ); ?>
+			<?php echo esc_attr( @get_post_meta( $post->ID, 'ma_ta_section_header_btn_text', true ) ); ?>
 			<!--Gets the button link from the custom post field. -->
-			<?php echo @get_post_meta( $post->ID, 'ma_ta_section_header_btn_link', true ); ?>
+			<?php echo esc_attr( @get_post_meta( $post->ID, 'ma_ta_section_header_btn_link', true ) ); ?>
 			<!--Gets the sub header text from the custom post field. -->
-			<?php echo @get_post_meta( $post->ID, 'ma_ta_section_header_sub', true ); ?>
+			<?php echo esc_attr( @get_post_meta( $post->ID, 'ma_ta_section_header_sub', true ) ); ?>
 		<?php endif; ?>
 	<?php endwhile;	endif; ?>
 
