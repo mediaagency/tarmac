@@ -91,9 +91,9 @@ if( isset($_COOKIE['orderID'] ) ) {
 			<?php $share_url = site_url() . '/produkter/'. strtolower($product_name) . '/'; ?>	
 			
 			
-			<a class="fb-share-button" href="<?php echo $share_url ?>" style="float: none; display: block; color:#ffffff;" 
+			<div class="fb-share-button" data-layout="button" style="float: none; display: block; color:#ffffff;" 
 			target="popup" onclick="window.open('https://www.facebook.com/sharer/sharer.php?u=<?php echo $share_url ?>','name','width=600,height=400')">
-			</a>
+			</div>
 
 
 

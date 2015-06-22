@@ -1398,7 +1398,7 @@ img.size-large,
   display: block;
   margin: auto;
   width: 270px;
-  background-color: #2D8311;
+  background-color: transparent;
   color: #f7f7f7;
   font-size: 1.3em;
   text-decoration: none;
@@ -1407,7 +1407,7 @@ img.size-large,
 
 .fb-share-button:hover {
   text-decoration: none;
-  background-color: #cccccc;
+  background-color: transparent;
   color: #ffffff; }
 
 .pluginShareButtonLink .uiIconText {
