@@ -762,8 +762,8 @@ img.size-full, img.size-large, .wp-post-image, .post-thumbnail img {
   font-size: 1.2em;
   line-height: 1em;
   padding: 0 100px 0 100px;
-  margin-top: -15px;
-  margin-bottom: 20px; }
+  margin-top: -20px;
+  margin-bottom: 25px; }
 
 /* line 832, C:/xampp/htdocs/tarmac/wp-content/themes/tarmac/style_general.scss */
 .hero-image-button-container {
@@ -1370,6 +1370,10 @@ img.size-full, img.size-large, .wp-post-image, .post-thumbnail img {
   padding-bottom: 45px; }
 
 /* line 1540, C:/xampp/htdocs/tarmac/wp-content/themes/tarmac/style_general.scss */
+#page-header .small_padding {
+  padding-top: 140px; }
+
+/* line 1544, C:/xampp/htdocs/tarmac/wp-content/themes/tarmac/style_general.scss */
 .product-image-top {
   float: none;
   display: block;
@@ -1378,23 +1382,23 @@ img.size-full, img.size-large, .wp-post-image, .post-thumbnail img {
   margin: auto;
   max-width: 410px; }
 
-/* line 1550, C:/xampp/htdocs/tarmac/wp-content/themes/tarmac/style_general.scss */
+/* line 1554, C:/xampp/htdocs/tarmac/wp-content/themes/tarmac/style_general.scss */
 .product-section {
   float: left;
   width: 100%;
   margin: 15px 0px 15px 0px; }
-  /* line 1555, C:/xampp/htdocs/tarmac/wp-content/themes/tarmac/style_general.scss */
+  /* line 1559, C:/xampp/htdocs/tarmac/wp-content/themes/tarmac/style_general.scss */
   .product-section h2 {
     font-family: 'amaticbold';
     font-size: 2.5em;
     letter-spacing: 0.03em; }
-  /* line 1561, C:/xampp/htdocs/tarmac/wp-content/themes/tarmac/style_general.scss */
+  /* line 1565, C:/xampp/htdocs/tarmac/wp-content/themes/tarmac/style_general.scss */
   .product-section h3 {
     font-family: 'amaticbold';
     font-size: 1.8em;
     letter-spacing: 0.03em; }
 
-/* line 1569, C:/xampp/htdocs/tarmac/wp-content/themes/tarmac/style_general.scss */
+/* line 1573, C:/xampp/htdocs/tarmac/wp-content/themes/tarmac/style_general.scss */
 .product-benefit-list {
   float: left;
   width: 100%;
@@ -1403,7 +1407,7 @@ img.size-full, img.size-large, .wp-post-image, .post-thumbnail img {
   font-size: 1.12em;
   line-height: 1.45em; }
 
-/* line 1579, C:/xampp/htdocs/tarmac/wp-content/themes/tarmac/style_general.scss */
+/* line 1583, C:/xampp/htdocs/tarmac/wp-content/themes/tarmac/style_general.scss */
 .product-bottom-section {
   float: left;
   margin-bottom: 60px; }
@@ -1412,7 +1416,7 @@ img.size-full, img.size-large, .wp-post-image, .post-thumbnail img {
  * Reprint - Basic 
  * ----------------------------------------------------------------------------
  */
-/* line 1594, C:/xampp/htdocs/tarmac/wp-content/themes/tarmac/style_general.scss */
+/* line 1598, C:/xampp/htdocs/tarmac/wp-content/themes/tarmac/style_general.scss */
 .reprint-section {
   float: left;
   width: 100%;
@@ -1421,56 +1425,56 @@ img.size-full, img.size-large, .wp-post-image, .post-thumbnail img {
   background-size: cover;
   border-bottom: 1px #cccccc dashed; }
 
-/* line 1604, C:/xampp/htdocs/tarmac/wp-content/themes/tarmac/style_general.scss */
+/* line 1608, C:/xampp/htdocs/tarmac/wp-content/themes/tarmac/style_general.scss */
 .reprint-section-padding {
   padding-top: 60px;
   padding-bottom: 60px; }
 
-/* line 1609, C:/xampp/htdocs/tarmac/wp-content/themes/tarmac/style_general.scss */
+/* line 1613, C:/xampp/htdocs/tarmac/wp-content/themes/tarmac/style_general.scss */
 .padding-top-small {
   padding-top: 50px; }
 
-/* line 1613, C:/xampp/htdocs/tarmac/wp-content/themes/tarmac/style_general.scss */
+/* line 1617, C:/xampp/htdocs/tarmac/wp-content/themes/tarmac/style_general.scss */
 .padding-top-medium {
   padding-top: 100px; }
 
-/* line 1617, C:/xampp/htdocs/tarmac/wp-content/themes/tarmac/style_general.scss */
+/* line 1621, C:/xampp/htdocs/tarmac/wp-content/themes/tarmac/style_general.scss */
 .padding-top-large {
   padding-top: 150px; }
 
-/* line 1621, C:/xampp/htdocs/tarmac/wp-content/themes/tarmac/style_general.scss */
+/* line 1625, C:/xampp/htdocs/tarmac/wp-content/themes/tarmac/style_general.scss */
 .padding-bottom-small {
   padding-bottom: 50px; }
 
-/* line 1625, C:/xampp/htdocs/tarmac/wp-content/themes/tarmac/style_general.scss */
+/* line 1629, C:/xampp/htdocs/tarmac/wp-content/themes/tarmac/style_general.scss */
 .padding-bottom-medium {
   padding-bottom: 100px; }
 
-/* line 1629, C:/xampp/htdocs/tarmac/wp-content/themes/tarmac/style_general.scss */
+/* line 1633, C:/xampp/htdocs/tarmac/wp-content/themes/tarmac/style_general.scss */
 .padding-bottom-large {
   padding-bottom: 150px; }
 
-/* line 1633, C:/xampp/htdocs/tarmac/wp-content/themes/tarmac/style_general.scss */
+/* line 1637, C:/xampp/htdocs/tarmac/wp-content/themes/tarmac/style_general.scss */
 .reprint-fluid-container {
   float: left;
   width: 100%;
   padding-right: 15px;
   padding-left: 15px; }
 
-/* line 1640, C:/xampp/htdocs/tarmac/wp-content/themes/tarmac/style_general.scss */
+/* line 1644, C:/xampp/htdocs/tarmac/wp-content/themes/tarmac/style_general.scss */
 .reprint-row {
   float: left;
   width: 100%;
   padding-right: 15px;
   padding-left: 15px; }
 
-/* line 1647, C:/xampp/htdocs/tarmac/wp-content/themes/tarmac/style_general.scss */
+/* line 1651, C:/xampp/htdocs/tarmac/wp-content/themes/tarmac/style_general.scss */
 .reprint-section-header {
   float: left;
   width: 100%;
   padding: 0px 15px 60px 15px; }
 
-/* line 1653, C:/xampp/htdocs/tarmac/wp-content/themes/tarmac/style_general.scss */
+/* line 1657, C:/xampp/htdocs/tarmac/wp-content/themes/tarmac/style_general.scss */
 .reprint-section-heading {
   float: left;
   width: 100%;
@@ -1479,37 +1483,37 @@ img.size-full, img.size-large, .wp-post-image, .post-thumbnail img {
   font-size: 3.441em;
   letter-spacing: 0.04em; }
 
-/* line 1664, C:/xampp/htdocs/tarmac/wp-content/themes/tarmac/style_general.scss */
+/* line 1668, C:/xampp/htdocs/tarmac/wp-content/themes/tarmac/style_general.scss */
 .reprint-section-description {
   float: left;
   width: 100%;
   text-align: center;
   font-family: 'robotolight'; }
 
-/* line 1673, C:/xampp/htdocs/tarmac/wp-content/themes/tarmac/style_general.scss */
+/* line 1677, C:/xampp/htdocs/tarmac/wp-content/themes/tarmac/style_general.scss */
 .reprint-icon-list {
   margin: 0px;
   list-style: none;
   padding-bottom: 15px; }
 
-/* line 1679, C:/xampp/htdocs/tarmac/wp-content/themes/tarmac/style_general.scss */
+/* line 1683, C:/xampp/htdocs/tarmac/wp-content/themes/tarmac/style_general.scss */
 .reprint-icon-list-visual {
   float: left;
   width: 36px;
   margin-right: 10px; }
 
-/* line 1685, C:/xampp/htdocs/tarmac/wp-content/themes/tarmac/style_general.scss */
+/* line 1689, C:/xampp/htdocs/tarmac/wp-content/themes/tarmac/style_general.scss */
 .reprint-big-icon {
   font-size: 30px;
   line-height: 30px;
   text-align: center; }
 
-/* line 1691, C:/xampp/htdocs/tarmac/wp-content/themes/tarmac/style_general.scss */
+/* line 1695, C:/xampp/htdocs/tarmac/wp-content/themes/tarmac/style_general.scss */
 .reprint-icon-list-content {
   float: none;
   overflow: hidden; }
 
-/* line 1696, C:/xampp/htdocs/tarmac/wp-content/themes/tarmac/style_general.scss */
+/* line 1700, C:/xampp/htdocs/tarmac/wp-content/themes/tarmac/style_general.scss */
 .reprint-icon-list-header {
   margin-top: 0px;
   padding-top: 0px; }
@@ -1518,23 +1522,23 @@ img.size-full, img.size-large, .wp-post-image, .post-thumbnail img {
  * Success Page   
  * ----------------------------------------------------------------------------
  */
-/* line 1707, C:/xampp/htdocs/tarmac/wp-content/themes/tarmac/style_general.scss */
+/* line 1711, C:/xampp/htdocs/tarmac/wp-content/themes/tarmac/style_general.scss */
 .success-top-padding {
   float: left;
   width: 100%;
   height: 90px; }
 
-/* line 1713, C:/xampp/htdocs/tarmac/wp-content/themes/tarmac/style_general.scss */
+/* line 1717, C:/xampp/htdocs/tarmac/wp-content/themes/tarmac/style_general.scss */
 .success-image-section {
   float: left;
   width: 100%; }
 
-/* line 1718, C:/xampp/htdocs/tarmac/wp-content/themes/tarmac/style_general.scss */
+/* line 1722, C:/xampp/htdocs/tarmac/wp-content/themes/tarmac/style_general.scss */
 .success-image-container {
   width: 150px;
   margin: auto;
   float: none; }
-  /* line 1723, C:/xampp/htdocs/tarmac/wp-content/themes/tarmac/style_general.scss */
+  /* line 1727, C:/xampp/htdocs/tarmac/wp-content/themes/tarmac/style_general.scss */
   .success-image-container img {
     float: left;
     display: block;
@@ -1542,7 +1546,7 @@ img.size-full, img.size-large, .wp-post-image, .post-thumbnail img {
     max-width: 100%;
     height: auto; }
 
-/* line 1733, C:/xampp/htdocs/tarmac/wp-content/themes/tarmac/style_general.scss */
+/* line 1737, C:/xampp/htdocs/tarmac/wp-content/themes/tarmac/style_general.scss */
 .success-text-section {
   float: left;
   width: 100%;
@@ -1550,7 +1554,7 @@ img.size-full, img.size-large, .wp-post-image, .post-thumbnail img {
   margin: 15px 0px 0px 0px;
   padding-bottom: 70px;
   border-bottom: 1px #cccccc dashed; }
-  /* line 1741, C:/xampp/htdocs/tarmac/wp-content/themes/tarmac/style_general.scss */
+  /* line 1745, C:/xampp/htdocs/tarmac/wp-content/themes/tarmac/style_general.scss */
   .success-text-section h1 {
     float: left;
     width: 100%;
@@ -1561,25 +1565,25 @@ img.size-full, img.size-large, .wp-post-image, .post-thumbnail img {
     color: #000000;
     font-family: 'amaticbold', sans-serif; }
 
-/* line 1754, C:/xampp/htdocs/tarmac/wp-content/themes/tarmac/style_general.scss */
+/* line 1758, C:/xampp/htdocs/tarmac/wp-content/themes/tarmac/style_general.scss */
 .success-list {
   float: left;
   width: 100%;
   margin: 0px;
   padding: 0px;
   list-style: none; }
-  /* line 1761, C:/xampp/htdocs/tarmac/wp-content/themes/tarmac/style_general.scss */
+  /* line 1765, C:/xampp/htdocs/tarmac/wp-content/themes/tarmac/style_general.scss */
   .success-list li {
     text-align: center;
     font-size: 1.2em;
     padding-bottom: 10px; }
 
-/* line 1774, C:/xampp/htdocs/tarmac/wp-content/themes/tarmac/style_general.scss */
+/* line 1778, C:/xampp/htdocs/tarmac/wp-content/themes/tarmac/style_general.scss */
 .success-facbook {
   float: left;
   width: 100%;
   padding: 70px 0px 70px 0px; }
-  /* line 1779, C:/xampp/htdocs/tarmac/wp-content/themes/tarmac/style_general.scss */
+  /* line 1783, C:/xampp/htdocs/tarmac/wp-content/themes/tarmac/style_general.scss */
   .success-facbook h1 {
     float: left;
     width: 100%;
@@ -1591,17 +1595,17 @@ img.size-full, img.size-large, .wp-post-image, .post-thumbnail img {
     color: #000000;
     font-family: 'amaticbold', sans-serif; }
 
-/* line 1793, C:/xampp/htdocs/tarmac/wp-content/themes/tarmac/style_general.scss */
+/* line 1797, C:/xampp/htdocs/tarmac/wp-content/themes/tarmac/style_general.scss */
 .fb-share-button-container {
   float: left;
   width: 100%; }
 
-/* line 1798, C:/xampp/htdocs/tarmac/wp-content/themes/tarmac/style_general.scss */
+/* line 1802, C:/xampp/htdocs/tarmac/wp-content/themes/tarmac/style_general.scss */
 .fb_iframe_widget  {
   float: none;
   display: block; }
 
-/* line 1803, C:/xampp/htdocs/tarmac/wp-content/themes/tarmac/style_general.scss */
+/* line 1807, C:/xampp/htdocs/tarmac/wp-content/themes/tarmac/style_general.scss */
 .fb-share-button {
   float: none;
   display: block;
@@ -1614,22 +1618,22 @@ img.size-full, img.size-large, .wp-post-image, .post-thumbnail img {
   text-align: center;
   padding: 10px 15px 20px 15px; }
 
-/* line 1816, C:/xampp/htdocs/tarmac/wp-content/themes/tarmac/style_general.scss */
+/* line 1820, C:/xampp/htdocs/tarmac/wp-content/themes/tarmac/style_general.scss */
 .fb-share-button:hover {
   text-decoration: none;
   background-color: #cccccc;
   color: #ffffff; }
 
-/* line 1822, C:/xampp/htdocs/tarmac/wp-content/themes/tarmac/style_general.scss */
+/* line 1826, C:/xampp/htdocs/tarmac/wp-content/themes/tarmac/style_general.scss */
 .pluginShareButtonLink .uiIconText {
   color: #ffffff; }
 
-/* line 1826, C:/xampp/htdocs/tarmac/wp-content/themes/tarmac/style_general.scss */
+/* line 1830, C:/xampp/htdocs/tarmac/wp-content/themes/tarmac/style_general.scss */
 .fb-share-image-container {
   float: left;
   width: 100%;
   margin: 45px 0px 45px 0px; }
-  /* line 1831, C:/xampp/htdocs/tarmac/wp-content/themes/tarmac/style_general.scss */
+  /* line 1835, C:/xampp/htdocs/tarmac/wp-content/themes/tarmac/style_general.scss */
   .fb-share-image-container img {
     float: none;
     display: block;
@@ -1637,12 +1641,12 @@ img.size-full, img.size-large, .wp-post-image, .post-thumbnail img {
     height: auto;
     margin: auto; }
 
-/* line 1841, C:/xampp/htdocs/tarmac/wp-content/themes/tarmac/style_general.scss */
+/* line 1845, C:/xampp/htdocs/tarmac/wp-content/themes/tarmac/style_general.scss */
 .success-related-container {
   float: left;
   width: 100%;
   padding: 70px 0px 70px 0px; }
-  /* line 1847, C:/xampp/htdocs/tarmac/wp-content/themes/tarmac/style_general.scss */
+  /* line 1851, C:/xampp/htdocs/tarmac/wp-content/themes/tarmac/style_general.scss */
   .success-related-container h2 {
     float: left;
     width: 100%;
@@ -1658,7 +1662,7 @@ img.size-full, img.size-large, .wp-post-image, .post-thumbnail img {
  * Frontpage - Form section 
  * ----------------------------------------------------------------------------
  */
-/* line 1867, C:/xampp/htdocs/tarmac/wp-content/themes/tarmac/style_general.scss */
+/* line 1871, C:/xampp/htdocs/tarmac/wp-content/themes/tarmac/style_general.scss */
 .disclaimer-container {
   float: left;
   width: 100%;
@@ -1667,96 +1671,96 @@ img.size-full, img.size-large, .wp-post-image, .post-thumbnail img {
   font-size: 0.9em;
   color: #9a9a9a;
   padding: 0px 30px 0px 30px; }
-  /* line 1876, C:/xampp/htdocs/tarmac/wp-content/themes/tarmac/style_general.scss */
+  /* line 1880, C:/xampp/htdocs/tarmac/wp-content/themes/tarmac/style_general.scss */
   .disclaimer-container a {
     color: #2D8311; }
 
-/* line 1882, C:/xampp/htdocs/tarmac/wp-content/themes/tarmac/style_general.scss */
+/* line 1886, C:/xampp/htdocs/tarmac/wp-content/themes/tarmac/style_general.scss */
 .form-argument {
   float: left;
   width: 100%; }
 
-/* line 1890, C:/xampp/htdocs/tarmac/wp-content/themes/tarmac/style_general.scss */
+/* line 1894, C:/xampp/htdocs/tarmac/wp-content/themes/tarmac/style_general.scss */
 .fp-form-section {
   float: left;
   width: 100%;
   background-color: #F4F4F4; }
 
-/* line 1896, C:/xampp/htdocs/tarmac/wp-content/themes/tarmac/style_general.scss */
+/* line 1900, C:/xampp/htdocs/tarmac/wp-content/themes/tarmac/style_general.scss */
 .fp-form-header {
   float: left;
   width: 100%;
   background-color: #cccccc; }
-  /* line 1901, C:/xampp/htdocs/tarmac/wp-content/themes/tarmac/style_general.scss */
+  /* line 1905, C:/xampp/htdocs/tarmac/wp-content/themes/tarmac/style_general.scss */
   .fp-form-header ul {
     float: left;
     width: 100%;
     margin: 0px;
     padding: 0px;
     list-style: none; }
-  /* line 1909, C:/xampp/htdocs/tarmac/wp-content/themes/tarmac/style_general.scss */
+  /* line 1913, C:/xampp/htdocs/tarmac/wp-content/themes/tarmac/style_general.scss */
   .fp-form-header li {
     float: left;
     width: 50%; }
-  /* line 1914, C:/xampp/htdocs/tarmac/wp-content/themes/tarmac/style_general.scss */
+  /* line 1918, C:/xampp/htdocs/tarmac/wp-content/themes/tarmac/style_general.scss */
   .fp-form-header a {
     float: left;
     width: 100%;
     display: block;
     text-align: center; }
-  /* line 1921, C:/xampp/htdocs/tarmac/wp-content/themes/tarmac/style_general.scss */
+  /* line 1925, C:/xampp/htdocs/tarmac/wp-content/themes/tarmac/style_general.scss */
   .fp-form-header img {
     display: block;
     height: 50px;
     width: auto;
     margin: 15px auto 15px auto; }
-  /* line 1929, C:/xampp/htdocs/tarmac/wp-content/themes/tarmac/style_general.scss */
+  /* line 1933, C:/xampp/htdocs/tarmac/wp-content/themes/tarmac/style_general.scss */
   .fp-form-header .tab {
     opacity: 0.5; }
-  /* line 1933, C:/xampp/htdocs/tarmac/wp-content/themes/tarmac/style_general.scss */
+  /* line 1937, C:/xampp/htdocs/tarmac/wp-content/themes/tarmac/style_general.scss */
   .fp-form-header .active {
     opacity: 1;
     background-color: #000000; }
 
-/* line 1940, C:/xampp/htdocs/tarmac/wp-content/themes/tarmac/style_general.scss */
+/* line 1944, C:/xampp/htdocs/tarmac/wp-content/themes/tarmac/style_general.scss */
 .fp-form-tabs-container {
   float: left;
   width: 100%;
   height: 100%;
   background-color: #F4F4F4; }
 
-/* line 1947, C:/xampp/htdocs/tarmac/wp-content/themes/tarmac/style_general.scss */
+/* line 1951, C:/xampp/htdocs/tarmac/wp-content/themes/tarmac/style_general.scss */
 .fp-form-container-left {
   float: left;
   width: 50%; }
 
-/* line 1952, C:/xampp/htdocs/tarmac/wp-content/themes/tarmac/style_general.scss */
+/* line 1956, C:/xampp/htdocs/tarmac/wp-content/themes/tarmac/style_general.scss */
 .fp-form-container-right {
   float: right;
   width: 50%; }
 
-/* line 1957, C:/xampp/htdocs/tarmac/wp-content/themes/tarmac/style_general.scss */
+/* line 1961, C:/xampp/htdocs/tarmac/wp-content/themes/tarmac/style_general.scss */
 .form-min-height {
   min-height: 620px; }
 
-/* line 1961, C:/xampp/htdocs/tarmac/wp-content/themes/tarmac/style_general.scss */
+/* line 1965, C:/xampp/htdocs/tarmac/wp-content/themes/tarmac/style_general.scss */
 .fp-form-tab-content {
   float: left;
   width: 100%; }
 
-/* line 1966, C:/xampp/htdocs/tarmac/wp-content/themes/tarmac/style_general.scss */
+/* line 1970, C:/xampp/htdocs/tarmac/wp-content/themes/tarmac/style_general.scss */
 .fp-form-sign-up-container {
   background-color: #F4F4F4;
   padding: 30px; }
 
-/* line 1971, C:/xampp/htdocs/tarmac/wp-content/themes/tarmac/style_general.scss */
+/* line 1975, C:/xampp/htdocs/tarmac/wp-content/themes/tarmac/style_general.scss */
 .fp-form-product {
   float: left;
   width: 100%;
   height: 100%;
   background-position: center bottom; }
 
-/* line 1978, C:/xampp/htdocs/tarmac/wp-content/themes/tarmac/style_general.scss */
+/* line 1982, C:/xampp/htdocs/tarmac/wp-content/themes/tarmac/style_general.scss */
 .fp-form-product-text {
   width: 100%;
   font-size: 1.6em;
@@ -1765,72 +1769,72 @@ img.size-full, img.size-large, .wp-post-image, .post-thumbnail img {
   padding: 60px 120px 60px 120px;
   color: #ffffff; }
 
-/* line 1987, C:/xampp/htdocs/tarmac/wp-content/themes/tarmac/style_general.scss */
+/* line 1991, C:/xampp/htdocs/tarmac/wp-content/themes/tarmac/style_general.scss */
 .fp-form-sign-up-container h4 {
   padding: 0px 0px 15px 0px;
   margin: 0px;
   line-height: 1em;
   font-size: 1.4em; }
 
-/* line 1994, C:/xampp/htdocs/tarmac/wp-content/themes/tarmac/style_general.scss */
+/* line 1998, C:/xampp/htdocs/tarmac/wp-content/themes/tarmac/style_general.scss */
 .fp-form-sign-up-container .wpcf7 .wpcf7-form {
   float: left;
   width: 100%;
   padding-bottom: 30px; }
-  /* line 1999, C:/xampp/htdocs/tarmac/wp-content/themes/tarmac/style_general.scss */
+  /* line 2003, C:/xampp/htdocs/tarmac/wp-content/themes/tarmac/style_general.scss */
   .fp-form-sign-up-container .wpcf7 .wpcf7-form .wpcf7-submit {
     background-color: #2D8311;
     border: none;
     color: #ffffff;
     padding: 10px 15px 10px 15px;
     margin-top: 10px; }
-  /* line 2007, C:/xampp/htdocs/tarmac/wp-content/themes/tarmac/style_general.scss */
+  /* line 2011, C:/xampp/htdocs/tarmac/wp-content/themes/tarmac/style_general.scss */
   .fp-form-sign-up-container .wpcf7 .wpcf7-form .wpcf7-not-valid-tip {
     float: left;
     font-size: 0.8em; }
-  /* line 2012, C:/xampp/htdocs/tarmac/wp-content/themes/tarmac/style_general.scss */
+  /* line 2016, C:/xampp/htdocs/tarmac/wp-content/themes/tarmac/style_general.scss */
   .fp-form-sign-up-container .wpcf7 .wpcf7-form .wpcf7-submit:hover {
     background-color: #000000;
     color: #ffffff; }
-  /* line 2017, C:/xampp/htdocs/tarmac/wp-content/themes/tarmac/style_general.scss */
+  /* line 2021, C:/xampp/htdocs/tarmac/wp-content/themes/tarmac/style_general.scss */
   .fp-form-sign-up-container .wpcf7 .wpcf7-form .wpcf7-response-output {
     float: left;
     width: 100%;
     padding: 10px;
     margin: 10px 0px 0px 0px;
     font-size: 0.9em; }
-  /* line 2026, C:/xampp/htdocs/tarmac/wp-content/themes/tarmac/style_general.scss */
+  /* line 2030, C:/xampp/htdocs/tarmac/wp-content/themes/tarmac/style_general.scss */
   .fp-form-sign-up-container .wpcf7 .wpcf7-form .wpcf7-validation-errors, .fp-form-sign-up-container .wpcf7 .wpcf7-form .wpcf7-display-none, .fp-form-sign-up-container .wpcf7 .wpcf7-form .wpcf7-response-output {
     display: none !important; }
-  /* line 2030, C:/xampp/htdocs/tarmac/wp-content/themes/tarmac/style_general.scss */
+  /* line 2034, C:/xampp/htdocs/tarmac/wp-content/themes/tarmac/style_general.scss */
   .fp-form-sign-up-container .wpcf7 .wpcf7-form .wpcf7-not-valid-tip {
     font-size: 0.8em; }
-  /* line 2034, C:/xampp/htdocs/tarmac/wp-content/themes/tarmac/style_general.scss */
+  /* line 2038, C:/xampp/htdocs/tarmac/wp-content/themes/tarmac/style_general.scss */
   .fp-form-sign-up-container .wpcf7 .wpcf7-form .form-row {
     float: left;
     width: 100%;
     padding-bottom: 10px; }
-  /* line 2040, C:/xampp/htdocs/tarmac/wp-content/themes/tarmac/style_general.scss */
+  /* line 2044, C:/xampp/htdocs/tarmac/wp-content/themes/tarmac/style_general.scss */
   .fp-form-sign-up-container .wpcf7 .wpcf7-form .form-half-row {
     float: left;
     width: 48%; }
-  /* line 2045, C:/xampp/htdocs/tarmac/wp-content/themes/tarmac/style_general.scss */
+  /* line 2049, C:/xampp/htdocs/tarmac/wp-content/themes/tarmac/style_general.scss */
   .fp-form-sign-up-container .wpcf7 .wpcf7-form .form-devider-row {
     float: left;
     width: 4%; }
-  /* line 2050, C:/xampp/htdocs/tarmac/wp-content/themes/tarmac/style_general.scss */
+  /* line 2054, C:/xampp/htdocs/tarmac/wp-content/themes/tarmac/style_general.scss */
   .fp-form-sign-up-container .wpcf7 .wpcf7-form .form-legal-text {
     float: left;
     width: 100%;
     font-size: 0.8em; }
-    /* line 2055, C:/xampp/htdocs/tarmac/wp-content/themes/tarmac/style_general.scss */
+    /* line 2059, C:/xampp/htdocs/tarmac/wp-content/themes/tarmac/style_general.scss */
     .fp-form-sign-up-container .wpcf7 .wpcf7-form .form-legal-text a {
       display: inline-block;
       color: #75886f; }
-    /* line 2059, C:/xampp/htdocs/tarmac/wp-content/themes/tarmac/style_general.scss */
+    /* line 2063, C:/xampp/htdocs/tarmac/wp-content/themes/tarmac/style_general.scss */
     .fp-form-sign-up-container .wpcf7 .wpcf7-form .form-legal-text a:hover {
       color: #000000; }
-  /* line 2065, C:/xampp/htdocs/tarmac/wp-content/themes/tarmac/style_general.scss */
+  /* line 2069, C:/xampp/htdocs/tarmac/wp-content/themes/tarmac/style_general.scss */
   .fp-form-sign-up-container .wpcf7 .wpcf7-form input {
     float: left;
     width: 100%;
@@ -1838,7 +1842,7 @@ img.size-full, img.size-large, .wp-post-image, .post-thumbnail img {
     color: #000000;
     padding: 4px;
     line-height: 1em; }
-  /* line 2074, C:/xampp/htdocs/tarmac/wp-content/themes/tarmac/style_general.scss */
+  /* line 2078, C:/xampp/htdocs/tarmac/wp-content/themes/tarmac/style_general.scss */
   .fp-form-sign-up-container .wpcf7 .wpcf7-form p {
     margin-bottom: 3px; }
 
@@ -1846,7 +1850,7 @@ img.size-full, img.size-large, .wp-post-image, .post-thumbnail img {
  * Frontpage - Form section 
  * ----------------------------------------------------------------------------
  */
-/* line 2085, C:/xampp/htdocs/tarmac/wp-content/themes/tarmac/style_general.scss */
+/* line 2089, C:/xampp/htdocs/tarmac/wp-content/themes/tarmac/style_general.scss */
 #page-header {
   float: left;
   width: 100%;
@@ -1855,7 +1859,7 @@ img.size-full, img.size-large, .wp-post-image, .post-thumbnail img {
   background-position: center top;
   background-size: cover;
   height: 500px; }
-  /* line 2094, C:/xampp/htdocs/tarmac/wp-content/themes/tarmac/style_general.scss */
+  /* line 2098, C:/xampp/htdocs/tarmac/wp-content/themes/tarmac/style_general.scss */
   #page-header h1 {
     float: left;
     width: 100%;
@@ -1869,58 +1873,58 @@ img.size-full, img.size-large, .wp-post-image, .post-thumbnail img {
  * Plugin / Shortcodes - Accordions
  * ----------------------------------------------------------------------------
  */
-/* line 2112, C:/xampp/htdocs/tarmac/wp-content/themes/tarmac/style_general.scss */
+/* line 2116, C:/xampp/htdocs/tarmac/wp-content/themes/tarmac/style_general.scss */
 .accordions-container {
   float: left;
   width: 100%;
   margin: 0px;
   padding: 0px;
   color: black; }
-  /* line 2119, C:/xampp/htdocs/tarmac/wp-content/themes/tarmac/style_general.scss */
+  /* line 2123, C:/xampp/htdocs/tarmac/wp-content/themes/tarmac/style_general.scss */
   .accordions-container .responsive-accordion-head {
     font-family: 'amaticregular';
     font-size: 38px; }
-  /* line 2124, C:/xampp/htdocs/tarmac/wp-content/themes/tarmac/style_general.scss */
+  /* line 2128, C:/xampp/htdocs/tarmac/wp-content/themes/tarmac/style_general.scss */
   .accordions-container .responsive-accordion-default.responsive-accordion li .responsive-accordion-panel {
     padding: 0px 15px 0px 15px; }
-  /* line 2128, C:/xampp/htdocs/tarmac/wp-content/themes/tarmac/style_general.scss */
+  /* line 2132, C:/xampp/htdocs/tarmac/wp-content/themes/tarmac/style_general.scss */
   .accordions-container .responsive-accordion li .responsive-accordion-head.active {
     font-weight: normal; }
-  /* line 2134, C:/xampp/htdocs/tarmac/wp-content/themes/tarmac/style_general.scss */
+  /* line 2138, C:/xampp/htdocs/tarmac/wp-content/themes/tarmac/style_general.scss */
   .accordions-container .responsive-accordion img {
     float: left;
     display: block;
     max-width: 100%;
     height: auto; }
-  /* line 2141, C:/xampp/htdocs/tarmac/wp-content/themes/tarmac/style_general.scss */
+  /* line 2145, C:/xampp/htdocs/tarmac/wp-content/themes/tarmac/style_general.scss */
   .accordions-container table {
     float: left;
     width: 100%;
     margin-bottom: 30px; }
-  /* line 2147, C:/xampp/htdocs/tarmac/wp-content/themes/tarmac/style_general.scss */
+  /* line 2151, C:/xampp/htdocs/tarmac/wp-content/themes/tarmac/style_general.scss */
   .accordions-container table, .accordions-container th, .accordions-container td {
     border: none;
     border-collapse: collapse;
     line-height: 1em; }
-  /* line 2152, C:/xampp/htdocs/tarmac/wp-content/themes/tarmac/style_general.scss */
+  /* line 2156, C:/xampp/htdocs/tarmac/wp-content/themes/tarmac/style_general.scss */
   .accordions-container th, .accordions-container td {
     text-align: tr-left;
     padding: 10px 10px 10px 10px; }
-  /* line 2158, C:/xampp/htdocs/tarmac/wp-content/themes/tarmac/style_general.scss */
+  /* line 2162, C:/xampp/htdocs/tarmac/wp-content/themes/tarmac/style_general.scss */
   .accordions-container .tr-heading {
     background-color: #ffffff;
     border-bottom: solid 1px #cccccc;
     margin-bottom: 10px; }
-  /* line 2164, C:/xampp/htdocs/tarmac/wp-content/themes/tarmac/style_general.scss */
+  /* line 2168, C:/xampp/htdocs/tarmac/wp-content/themes/tarmac/style_general.scss */
   .accordions-container .tr-light {
     background-color: #ffffff; }
-  /* line 2169, C:/xampp/htdocs/tarmac/wp-content/themes/tarmac/style_general.scss */
+  /* line 2173, C:/xampp/htdocs/tarmac/wp-content/themes/tarmac/style_general.scss */
   .accordions-container .tr-dark {
     background-color: #f8f8f8; }
-  /* line 2173, C:/xampp/htdocs/tarmac/wp-content/themes/tarmac/style_general.scss */
+  /* line 2177, C:/xampp/htdocs/tarmac/wp-content/themes/tarmac/style_general.scss */
   .accordions-container .tr-left {
     text-align: left; }
-  /* line 2177, C:/xampp/htdocs/tarmac/wp-content/themes/tarmac/style_general.scss */
+  /* line 2181, C:/xampp/htdocs/tarmac/wp-content/themes/tarmac/style_general.scss */
   .accordions-container .tr-right {
     text-align: right; }
 
@@ -1928,75 +1932,75 @@ img.size-full, img.size-large, .wp-post-image, .post-thumbnail img {
  *  SIDEBAR FORM 
  * ----------------------------------------------------------------------------
  */
-/* line 2189, C:/xampp/htdocs/tarmac/wp-content/themes/tarmac/style_general.scss */
+/* line 2193, C:/xampp/htdocs/tarmac/wp-content/themes/tarmac/style_general.scss */
 .sb-form-section {
   float: left;
   width: 100%; }
 
-/* line 2194, C:/xampp/htdocs/tarmac/wp-content/themes/tarmac/style_general.scss */
+/* line 2198, C:/xampp/htdocs/tarmac/wp-content/themes/tarmac/style_general.scss */
 .sb-form-tab-content {
   float: left;
   width: 100%; }
 
-/* line 2200, C:/xampp/htdocs/tarmac/wp-content/themes/tarmac/style_general.scss */
+/* line 2204, C:/xampp/htdocs/tarmac/wp-content/themes/tarmac/style_general.scss */
 .sb-form-tabs-container {
   float: left;
   width: 100%; }
 
-/* line 2205, C:/xampp/htdocs/tarmac/wp-content/themes/tarmac/style_general.scss */
+/* line 2209, C:/xampp/htdocs/tarmac/wp-content/themes/tarmac/style_general.scss */
 .sb-form-sign-up-container {
   float: left;
   width: 100%;
   padding: 15px;
   background-color: #F4F4F4; }
 
-/* line 2212, C:/xampp/htdocs/tarmac/wp-content/themes/tarmac/style_general.scss */
+/* line 2216, C:/xampp/htdocs/tarmac/wp-content/themes/tarmac/style_general.scss */
 .sb-form-sign-up-container {
   float: left;
   width: 100%; }
 
-/* line 2217, C:/xampp/htdocs/tarmac/wp-content/themes/tarmac/style_general.scss */
+/* line 2221, C:/xampp/htdocs/tarmac/wp-content/themes/tarmac/style_general.scss */
 .sb-form-header {
   float: left;
   width: 100%;
   background-color: #cccccc; }
-  /* line 2222, C:/xampp/htdocs/tarmac/wp-content/themes/tarmac/style_general.scss */
+  /* line 2226, C:/xampp/htdocs/tarmac/wp-content/themes/tarmac/style_general.scss */
   .sb-form-header ul {
     float: left;
     width: 100%;
     margin: 0px;
     padding: 0px;
     list-style: none; }
-  /* line 2230, C:/xampp/htdocs/tarmac/wp-content/themes/tarmac/style_general.scss */
+  /* line 2234, C:/xampp/htdocs/tarmac/wp-content/themes/tarmac/style_general.scss */
   .sb-form-header li {
     float: left;
     width: 50%; }
-  /* line 2235, C:/xampp/htdocs/tarmac/wp-content/themes/tarmac/style_general.scss */
+  /* line 2239, C:/xampp/htdocs/tarmac/wp-content/themes/tarmac/style_general.scss */
   .sb-form-header a {
     float: left;
     width: 100%;
     display: block;
     text-align: center; }
-  /* line 2242, C:/xampp/htdocs/tarmac/wp-content/themes/tarmac/style_general.scss */
+  /* line 2246, C:/xampp/htdocs/tarmac/wp-content/themes/tarmac/style_general.scss */
   .sb-form-header img {
     display: block;
     height: 30px;
     width: auto;
     margin: 15px auto 15px auto; }
-  /* line 2250, C:/xampp/htdocs/tarmac/wp-content/themes/tarmac/style_general.scss */
+  /* line 2254, C:/xampp/htdocs/tarmac/wp-content/themes/tarmac/style_general.scss */
   .sb-form-header .tab {
     opacity: 0.5; }
-  /* line 2254, C:/xampp/htdocs/tarmac/wp-content/themes/tarmac/style_general.scss */
+  /* line 2258, C:/xampp/htdocs/tarmac/wp-content/themes/tarmac/style_general.scss */
   .sb-form-header .active {
     opacity: 1;
     background-color: #000000; }
 
-/* line 2261, C:/xampp/htdocs/tarmac/wp-content/themes/tarmac/style_general.scss */
+/* line 2265, C:/xampp/htdocs/tarmac/wp-content/themes/tarmac/style_general.scss */
 .sb-form-container-top {
   float: left;
   width: 100%; }
 
-/* line 2266, C:/xampp/htdocs/tarmac/wp-content/themes/tarmac/style_general.scss */
+/* line 2270, C:/xampp/htdocs/tarmac/wp-content/themes/tarmac/style_general.scss */
 .sb-form-product {
   float: left;
   width: 100%;
@@ -2005,76 +2009,76 @@ img.size-full, img.size-large, .wp-post-image, .post-thumbnail img {
   background-position: center top;
   background-size: cover; }
 
-/* line 2277, C:/xampp/htdocs/tarmac/wp-content/themes/tarmac/style_general.scss */
+/* line 2281, C:/xampp/htdocs/tarmac/wp-content/themes/tarmac/style_general.scss */
 .sb-form-product-text {
   float: left;
   width: 100%;
   padding: 15px;
   color: #ffffff; }
 
-/* line 2284, C:/xampp/htdocs/tarmac/wp-content/themes/tarmac/style_general.scss */
+/* line 2288, C:/xampp/htdocs/tarmac/wp-content/themes/tarmac/style_general.scss */
 .sb-form-container-bottom {
   float: left;
   width: 100%;
   padding-bottom: 10px; }
 
-/* line 2293, C:/xampp/htdocs/tarmac/wp-content/themes/tarmac/style_general.scss */
+/* line 2297, C:/xampp/htdocs/tarmac/wp-content/themes/tarmac/style_general.scss */
 .sb-form-sign-up-container .wpcf7 .wpcf7-form {
   float: left;
   width: 100%;
   padding-bottom: 30px;
   border: none; }
-  /* line 2299, C:/xampp/htdocs/tarmac/wp-content/themes/tarmac/style_general.scss */
+  /* line 2303, C:/xampp/htdocs/tarmac/wp-content/themes/tarmac/style_general.scss */
   .sb-form-sign-up-container .wpcf7 .wpcf7-form .wpcf7-submit {
     background-color: #2D8311;
     border: none;
     color: #ffffff;
     padding: 10px 15px 10px 15px;
     margin-top: 10px; }
-  /* line 2307, C:/xampp/htdocs/tarmac/wp-content/themes/tarmac/style_general.scss */
+  /* line 2311, C:/xampp/htdocs/tarmac/wp-content/themes/tarmac/style_general.scss */
   .sb-form-sign-up-container .wpcf7 .wpcf7-form .wpcf7-submit:hover {
     background-color: #000000;
     color: #ffffff; }
-  /* line 2312, C:/xampp/htdocs/tarmac/wp-content/themes/tarmac/style_general.scss */
+  /* line 2316, C:/xampp/htdocs/tarmac/wp-content/themes/tarmac/style_general.scss */
   .sb-form-sign-up-container .wpcf7 .wpcf7-form .wpcf7-response-output {
     float: left;
     width: 100%;
     padding: 10px;
     margin: 10px 0px 0px 0px;
     font-size: 0.9em; }
-  /* line 2321, C:/xampp/htdocs/tarmac/wp-content/themes/tarmac/style_general.scss */
+  /* line 2325, C:/xampp/htdocs/tarmac/wp-content/themes/tarmac/style_general.scss */
   .sb-form-sign-up-container .wpcf7 .wpcf7-form .wpcf7-validation-errors, .sb-form-sign-up-container .wpcf7 .wpcf7-form .wpcf7-display-none, .sb-form-sign-up-container .wpcf7 .wpcf7-form .wpcf7-response-output {
     display: none !important; }
-  /* line 2325, C:/xampp/htdocs/tarmac/wp-content/themes/tarmac/style_general.scss */
+  /* line 2329, C:/xampp/htdocs/tarmac/wp-content/themes/tarmac/style_general.scss */
   .sb-form-sign-up-container .wpcf7 .wpcf7-form .wpcf7-not-valid-tip {
     float: left;
     font-size: 0.8em; }
-  /* line 2330, C:/xampp/htdocs/tarmac/wp-content/themes/tarmac/style_general.scss */
+  /* line 2334, C:/xampp/htdocs/tarmac/wp-content/themes/tarmac/style_general.scss */
   .sb-form-sign-up-container .wpcf7 .wpcf7-form .form-row {
     float: left;
     width: 100%;
     padding-bottom: 10px; }
-  /* line 2336, C:/xampp/htdocs/tarmac/wp-content/themes/tarmac/style_general.scss */
+  /* line 2340, C:/xampp/htdocs/tarmac/wp-content/themes/tarmac/style_general.scss */
   .sb-form-sign-up-container .wpcf7 .wpcf7-form .form-half-row {
     float: left;
     width: 48%; }
-  /* line 2341, C:/xampp/htdocs/tarmac/wp-content/themes/tarmac/style_general.scss */
+  /* line 2345, C:/xampp/htdocs/tarmac/wp-content/themes/tarmac/style_general.scss */
   .sb-form-sign-up-container .wpcf7 .wpcf7-form .form-devider-row {
     float: left;
     width: 4%; }
-  /* line 2346, C:/xampp/htdocs/tarmac/wp-content/themes/tarmac/style_general.scss */
+  /* line 2350, C:/xampp/htdocs/tarmac/wp-content/themes/tarmac/style_general.scss */
   .sb-form-sign-up-container .wpcf7 .wpcf7-form .form-legal-text {
     float: left;
     width: 100%;
     font-size: 0.8em; }
-    /* line 2351, C:/xampp/htdocs/tarmac/wp-content/themes/tarmac/style_general.scss */
+    /* line 2355, C:/xampp/htdocs/tarmac/wp-content/themes/tarmac/style_general.scss */
     .sb-form-sign-up-container .wpcf7 .wpcf7-form .form-legal-text a {
       display: inline-block;
       color: #75886f; }
-    /* line 2355, C:/xampp/htdocs/tarmac/wp-content/themes/tarmac/style_general.scss */
+    /* line 2359, C:/xampp/htdocs/tarmac/wp-content/themes/tarmac/style_general.scss */
     .sb-form-sign-up-container .wpcf7 .wpcf7-form .form-legal-text a:hover {
       color: #000000; }
-  /* line 2361, C:/xampp/htdocs/tarmac/wp-content/themes/tarmac/style_general.scss */
+  /* line 2365, C:/xampp/htdocs/tarmac/wp-content/themes/tarmac/style_general.scss */
   .sb-form-sign-up-container .wpcf7 .wpcf7-form input {
     float: left;
     width: 100%;
@@ -2082,11 +2086,11 @@ img.size-full, img.size-large, .wp-post-image, .post-thumbnail img {
     color: #000000;
     padding: 4px;
     line-height: 1em; }
-  /* line 2370, C:/xampp/htdocs/tarmac/wp-content/themes/tarmac/style_general.scss */
+  /* line 2374, C:/xampp/htdocs/tarmac/wp-content/themes/tarmac/style_general.scss */
   .sb-form-sign-up-container .wpcf7 .wpcf7-form p {
     margin-bottom: 3px; }
 
-/* line 2376, C:/xampp/htdocs/tarmac/wp-content/themes/tarmac/style_general.scss */
+/* line 2380, C:/xampp/htdocs/tarmac/wp-content/themes/tarmac/style_general.scss */
 .not-found-titel {
   float: left;
   width: 100%;
@@ -2097,7 +2101,7 @@ img.size-full, img.size-large, .wp-post-image, .post-thumbnail img {
   padding-bottom: 0.2em;
   margin-bottom: 0em; }
 
-/* line 2387, C:/xampp/htdocs/tarmac/wp-content/themes/tarmac/style_general.scss */
+/* line 2391, C:/xampp/htdocs/tarmac/wp-content/themes/tarmac/style_general.scss */
 .not-found-button {
   float: left;
   width: 100%;
@@ -2109,7 +2113,7 @@ img.size-full, img.size-large, .wp-post-image, .post-thumbnail img {
   text-decoration: none;
   cursor: pointer; }
 
-/* line 2399, C:/xampp/htdocs/tarmac/wp-content/themes/tarmac/style_general.scss */
+/* line 2403, C:/xampp/htdocs/tarmac/wp-content/themes/tarmac/style_general.scss */
 .not-found-button:hover {
   text-decoration: none;
   background-color: #000000;
