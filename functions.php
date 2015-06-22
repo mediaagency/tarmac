@@ -373,7 +373,8 @@ $meta_content_qheader = array(
     'Buy button' => 'ma_ta_section_header_onoff', //Target id
     'Button Text' => 'ma_ta_section_header_btn_text', //Target id
     'Button link' => 'ma_ta_section_header_btn_link', //Target id
-    'Sub header'   => 'ma_ta_section_header_sub'
+    'Sub header'   => 'ma_ta_section_header_sub',
+    'Link Product' => 'ma_product_name'
 );
 
 // Type of input field
@@ -381,7 +382,8 @@ $meta_type_qheader = array(
     'Buy button'     => 'radioOn',
     'Button Text'    => 'text',
     'Button link'    => 'text',
-    'Sub header'     => 'text'
+    'Sub header'     => 'text',  
+    'Link Product'   => 'text'
 );
 
 //if there is a select field add this 

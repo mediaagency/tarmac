@@ -12,18 +12,17 @@
 
 function pickSidebarForm($product) {
 
-	if ($product == 'spirulina') {
+	if ($product == 'spirulina' ) {
 		get_template_part( 'template/content', 'form-side-spirulina' );
 	}
 
-	elseif ($product == 'chlorella') {
+	elseif ($product == 'chlorella' ) {
 		get_template_part( 'template/content', 'form-side-chlorella' );
 	}
 
 	elseif ($product == 'blank') {
 		// do nothing
 	}
-
 	else {
 
 		$random = rand(0,1);

@@ -9,14 +9,16 @@
 		<h1><?php the_title(); ?></h1>
 		<!--Checks if the on/off button is on and display information accordingly.-->
 		<?php if( esc_attr( @get_post_meta( $post->ID, 'ma_ta_section_header_onoff', true ) == 'ON' ) ):  ?>
-			<!--Gets the button text from the custom post field. -->
-			<?php echo esc_attr( @get_post_meta( $post->ID, 'ma_ta_section_header_btn_text', true ) ); ?>
-			<!--Gets the button link from the custom post field. -->
-			<?php echo esc_attr( @get_post_meta( $post->ID, 'ma_ta_section_header_btn_link', true ) ); ?>
-			<!--Gets the sub header text from the custom post field. -->
-			<?php echo esc_attr( @get_post_meta( $post->ID, 'ma_ta_section_header_sub', true ) ); ?>
+			<div class="hero-image-sub-heading">
+				<?php echo esc_attr( @get_post_meta( $post->ID, 'ma_ta_section_header_sub', true ) ); ?>
+			</div>
+			
+			<div class="hero-image-button-container">
+				<a href="<?php echo esc_attr( @get_post_meta( $post->ID, 'ma_ta_section_header_btn_link', true ) ); ?>" class="hero-image-button">
+					<?php echo esc_attr( @get_post_meta( $post->ID, 'ma_ta_section_header_btn_text', true ) ); ?>
+				</a>
+			</div>
 		<?php endif; ?>
 	<?php endwhile;	endif; ?>
-
 </div>
 
