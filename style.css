@@ -667,8 +667,8 @@ img.size-large,
   font-size: 1.2em;
   line-height: 1em;
   padding: 0 100px 0 100px;
-  margin-top: -15px;
-  margin-bottom: 20px; }
+  margin-top: -20px;
+  margin-bottom: 25px; }
 
 .hero-image-button-container {
   float: left;
@@ -1193,6 +1193,9 @@ img.size-large,
   letter-spacing: 0.01em;
   padding-top: 0px;
   padding-bottom: 45px; }
+
+#page-header .small_padding {
+  padding-top: 140px; }
 
 .product-image-top {
   float: none;
