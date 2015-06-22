@@ -364,6 +364,47 @@ function ma_custom_product(){
     flush_rewrite_rules();
 }
 
+/***************************
+*
+* Header secrtion info. 
+*
+****************************/
+$meta_content_qheader = array(
+    'Buy button' => 'ma_ta_section_header_onoff', //Target id
+    'Button Text' => 'ma_ta_section_header_btn_text', //Target id
+    'Sub header'   => 'ma_ta_section_header_sub'
+);
+
+// Type of input field
+$meta_type_qheader = array(  
+    'Buy button'     => 'radioOn',
+    'Button Text'   => 'text',
+    'Sub header'     => 'text'
+);
+
+//if there is a select field add this 
+
+$meta_type_select_qheader = array(
+    'Buy button' => array( 
+        'value1' => 'ON',
+        'value2' => 'OFF'
+    )
+);
+
+//Create metabox
+new ma_create_metabox(
+            'ma_custom_pro_sec', //Post type
+            'ma_custom_pro_sec_slug_header', // Meta Slug
+            'Header Section', //Meta Titles
+            'ma_ta', //ma Language slug
+            'normal', //Placement
+            'low', // Priority
+            'ma_ta_product_post_nonce_slug_header', //Nonce 1
+            'ma_ta_product_post_section_nonce_name_header', //nonce 2
+            $meta_content_qheader, //Content
+            $meta_type_qheader, //Meta type input and how many input fields
+            $meta_type_select_qheader //meta type select box. 
+);
 
 /**************************
 *
@@ -472,7 +513,7 @@ $meta_type_select_q10 = array(
 new ma_create_metabox(
             'ma_custom_pro_sec', //Post type
             'ma_custom_pro_sec_slug_three', // Meta Slug
-            'Section 2', //Meta Titles
+            'Section 3', //Meta Titles
             'ma_ta', //ma Language slug
             'normal', //Placement
             'low', // Priority
