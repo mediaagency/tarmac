@@ -51,12 +51,19 @@ if( isset($_COOKIE['orderID'] ) ) {
 
 
 <?php $product_name = get_post_meta($post->ID, 'ma_product_name', true) ?>
+<?php
+	if( strtolower($product_name) == 'spirulina' ) {
+		$price = 248;
+	} else if( strtolower( $product_name ) == 'chlorella' ) {
+		$price = 368;
+	}
+?>
 
 <script type="text/javascript">
 	var google_tag_params = {
-	ecomm_prodid: 'REPLACE_WITH_VALUE',
-	ecomm_pagetype: 'REPLACE_WITH_VALUE',
-	ecomm_totalvalue: 'REPLACE_WITH_VALUE',
+	ecomm_prodid: '<?php echo $product_name; ?>',
+	ecomm_pagetype: 'orderSucess',
+	ecomm_totalvalue: '<?php echo $price; ?>',
 	};
 </script>
 <script type="text/javascript">
