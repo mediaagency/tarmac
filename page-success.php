@@ -52,6 +52,28 @@ if( isset($_COOKIE['orderID'] ) ) {
 
 <?php $product_name = get_post_meta($post->ID, 'ma_product_name', true) ?>
 
+<script type="text/javascript">
+	var google_tag_params = {
+	ecomm_prodid: 'REPLACE_WITH_VALUE',
+	ecomm_pagetype: 'REPLACE_WITH_VALUE',
+	ecomm_totalvalue: 'REPLACE_WITH_VALUE',
+	};
+</script>
+<script type="text/javascript">
+	/* <![CDATA[ */
+	var google_conversion_id = 949051441;
+	var google_custom_params = window.google_tag_params;
+	var google_remarketing_only = true;
+	/* ]]> */
+</script>
+<script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js">
+</script>
+<noscript>
+<div style="display:inline;">
+<img height="1" width="1" style="border-style:none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/949051441/?value=0&amp;guid=ON&amp;script=0"/>
+</div>
+</noscript>
+
 <div id="main">
     <div id="main-padding">
 
