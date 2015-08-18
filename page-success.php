@@ -8,6 +8,16 @@ get_header();
 ?>
 
 
+
+<?php $product_name = get_post_meta($post->ID, 'ma_product_name', true) ?>
+<?php
+	if( strtolower($product_name) == 'spirulina' ) {
+		$price = 248;
+	} else if( strtolower( $product_name ) == 'chlorella' ) {
+		$price = 368;
+	}
+?>
+
  <?php
  
 if( isset($_COOKIE['orderID'] ) ) {
@@ -15,7 +25,7 @@ if( isset($_COOKIE['orderID'] ) ) {
  $order_id = $_COOKIE['orderID'];
  $campaignID = '19982'; // Enter your campaignID as provided by TradeTracker.
  $productID = '29500'; // Enter your productID as provided by TradeTracker.
- $transactionAmount = '1';
+ $transactionAmount = $price;
  // *****************
 
  $transactionID = htmlentities($order_id);
@@ -48,36 +58,25 @@ if( isset($_COOKIE['orderID'] ) ) {
 }
 ?>
 
-
-
-<?php $product_name = get_post_meta($post->ID, 'ma_product_name', true) ?>
-<?php
-	if( strtolower($product_name) == 'spirulina' ) {
-		$price = 248;
-	} else if( strtolower( $product_name ) == 'chlorella' ) {
-		$price = 368;
+<!-- Google Code for Superliv nettbutikk Conversion Page -->
+<script type="text/javascript">
+/* <![CDATA[ */
+var google_conversion_id = 949051441;
+var google_conversion_language = "en";
+var google_conversion_format = "3";
+var google_conversion_color = "ffffff";
+var google_conversion_label = "HoHYCOX6kl8QscDFxAM";
+var google_remarketing_only = false;
+if (<?php echo $price ?>) {
+		var google_conversion_value = <? echo $price ?>
 	}
-?>
-
-<script type="text/javascript">
-	var google_tag_params = {
-	ecomm_prodid: '<?php echo $product_name; ?>',
-	ecomm_pagetype: 'orderSucess',
-	ecomm_totalvalue: '<?php echo $price; ?>',
-	};
-</script>
-<script type="text/javascript">
-	/* <![CDATA[ */
-	var google_conversion_id = 949051441;
-	var google_custom_params = window.google_tag_params;
-	var google_remarketing_only = true;
-	/* ]]> */
+/* ]]> */
 </script>
 <script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js">
 </script>
 <noscript>
 <div style="display:inline;">
-<img height="1" width="1" style="border-style:none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/949051441/?value=0&amp;guid=ON&amp;script=0"/>
+<img height="1" width="1" style="border-style:none;" alt="" src="//www.googleadservices.com/pagead/conversion/949051441/?value=<?php echo $price ?>&amp;label=HoHYCOX6kl8QscDFxAM&amp;guid=ON&amp;script=0"/>
 </div>
 </noscript>
 
