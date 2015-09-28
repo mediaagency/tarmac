@@ -31,7 +31,6 @@
     <meta name="viewport" content="width=device-width initial-scale=1.0 maximum-scale=1.0 user-scalable=0"/>
     <title><?php wp_title( '|', true, 'right' );?></title>
 
-
     <?php favicon_and_touch_icons(); ?>
 
     <?php wp_head(); ?>
@@ -53,6 +52,26 @@
 }(document, 'script', 'facebook-jssdk'));</script>
 <!-- Facebook End  -->    
 
+
+<!-- Google-kode for remarketing-taggen -->
+<!--------------------------------------------------
+Remarketing-tagger kan ikke knyttes til personlig identifiserende informasjon eller legges inn på sider som er relatert til sensitive kategorier. Du finner mer informasjon og flere instruksjoner for hvordan du konfigurerer taggen, på: http://google.com/ads/remarketingsetup
+--------------------------------------------------->
+
+<script type="text/javascript">
+/* <![CDATA[ */
+var google_conversion_id = 949051441;
+var google_custom_params = window.google_tag_params;
+var google_remarketing_only = true;
+/* ]]> */
+</script>
+<script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js">
+</script>
+<noscript>
+<div style="display:inline;">
+<img height="1" width="1" style="border-style:none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/949051441/?value=0&amp;guid=ON&amp;script=0"/>
+</div>
+</noscript>
 
     <div id="page" class="hfeed site" data-role="page">
 
