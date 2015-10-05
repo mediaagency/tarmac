@@ -67,26 +67,24 @@ src="https://www.facebook.com/tr?id=951538451586779&ev=PageView&noscript=1"
 /></noscript>
 <!-- End Facebook Pixel Code -->
 
-  
-
-
 <!-- Google-kode for remarketing-taggen -->
 <!--Remarketing-tagger kan ikke knyttes til personlig identifiserende informasjon eller legges inn på sider som er relatert til sensitive kategorier. Du finner mer informasjon og flere instruksjoner for hvordan du konfigurerer taggen, på: http://google.com/ads/remarketingsetup-->
-
-<script type="text/javascript">
-/* <![CDATA[ */
-var google_conversion_id = 949051441;
-var google_custom_params = window.google_tag_params;
-var google_remarketing_only = true;
-/* ]]> */
-</script>
-<script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js">
-</script>
-<noscript>
-<div style="display:inline;">
-<img height="1" width="1" style="border-style:none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/949051441/?value=0&amp;guid=ON&amp;script=0"/>
-</div>
-</noscript>
+<div style="display:none">
+    <script type="text/javascript">
+    /* <![CDATA[ */
+    var google_conversion_id = 949051441;
+    var google_custom_params = window.google_tag_params;
+    var google_remarketing_only = true;
+    /* ]]> */
+    </script>
+    <script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js">
+    </script>
+    <noscript>
+    <div style="display:inline;">
+    <img height="1" width="1" style="border-style:none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/949051441/?value=0&amp;guid=ON&amp;script=0"/>
+    </div>
+    </noscript>
+</div> <!-- .style="display:none -->
 
     <div id="page" class="hfeed site" data-role="page">
 
