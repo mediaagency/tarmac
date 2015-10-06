@@ -58,6 +58,20 @@ if( isset($_COOKIE['orderID'] ) ) {
 }
 ?>
 
+<!--ADd ecommerce tracking-->
+<script>
+	ga('require', 'ecommerce');
+	ga('ecommerce:addTransaction', {
+	  'id': '<?php echo $_COOKIE["orderID"]; ?>',                     // Transaction ID. Required.
+	  'affiliation': 'Superliv',   // Affiliation or store name.
+	  'revenue': '<?php echo $price ?>',               // Grand Total.
+	  'shipping': '0',                  // Shipping.
+	  'tax': '0'                     // Tax.
+	});
+</script>
+<!--End ecommerce-->
+
+
 <!-- Facebook Conversion Code for Registreringer - Superliv 1 -->
 <script>(function() {
 var _fbq = window._fbq || (window._fbq = []);
